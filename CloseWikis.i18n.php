@@ -179,6 +179,40 @@ $messages['arz'] = array(
 	'right-closewikis' => 'إغلاق الويكيات',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'closewikis-desc' => 'Вики фермала вики-сайттарҙы ябыу мөмкинлеге бирә',
+	'closewikis-page' => 'Вики проектты ябыу',
+	'closewikis-page-close' => 'Вики проектты ябырға',
+	'closewikis-page-close-wiki' => 'Вики:',
+	'closewikis-page-close-dreason' => 'Сәбәп (күренә торған):',
+	'closewikis-page-close-reason' => 'Сәбәп (журнал яҙмаһы өсөн):',
+	'closewikis-page-close-submit' => 'Ябырға',
+	'closewikis-page-close-success' => 'Вики уңышлы ябылды',
+	'closewikis-page-reopen' => 'Викины яңынан асырға',
+	'closewikis-page-reopen-wiki' => 'Вики:',
+	'closewikis-page-reopen-reason' => 'Сәбәп:',
+	'closewikis-page-reopen-submit' => 'Яңынан асырға',
+	'closewikis-page-reopen-success' => 'Вики уңышлы асылды',
+	'closewikis-page-err-nowiki' => 'Дөрөҫ вики күрһәтелмәгән',
+	'closewikis-page-err-closed' => 'Вики ябылған инде',
+	'closewikis-page-err-opened' => 'Вики ябыҡ түгел',
+	'closewikis-list' => 'Ябылған викилар исемлеге',
+	'closewikis-list-intro' => 'Был исемлектә стюардтар тарафынан ябылған викилар күрһәтелгән.',
+	'closewikis-list-header-wiki' => 'Вики',
+	'closewikis-list-header-by' => 'Ябыусы',
+	'closewikis-list-header-timestamp' => 'Ябыу ваҡыты',
+	'closewikis-list-header-dispreason' => 'Күрһәтелгән сәбәп',
+	'closewikis-log' => 'Вики ябыу яҙмалары журналы',
+	'closewikis-log-header' => 'Был — бөтә стюардтар тарафынан вики ябыуҙыр һәм яңынан асыуҙар яҙмалары журналы',
+	'closewikis-log-close' => '$2 викиһын япҡан',
+	'closewikis-log-reopen' => '$2 викиһын яңынан асҡан',
+	'right-editclosedwikis' => 'Ябыҡ викиларҙы үҙгәртергә',
+	'right-closewikis' => 'Ябыҡ викилар',
+);
+
 /** Bavarian (Boarisch)
  * @author Mucalexx
  */
