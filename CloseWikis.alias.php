@@ -50,7 +50,7 @@ $specialPageAliases['eo'] = array(
 
 /** Spanish (Español) */
 $specialPageAliases['es'] = array(
-	'CloseWiki' => array( 'Cerrar_wikis', 'CerrarWikis' ),
+	'CloseWiki' => array( 'CerrarWiki', 'Cerrar_wiki' ),
 );
 
 /** Basque (Euskara) */
@@ -61,6 +61,11 @@ $specialPageAliases['eu'] = array(
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'CloseWiki' => array( 'بستن_ویکی' ),
+);
+
+/** Finnish (Suomi) */
+$specialPageAliases['fi'] = array(
+	'CloseWiki' => array( 'Sulje_wiki' ),
 );
 
 /** Galician (Galego) */
