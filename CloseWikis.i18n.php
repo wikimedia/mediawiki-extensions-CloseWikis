@@ -682,6 +682,15 @@ $messages['eu'] = array(
 	'right-closewikis' => 'Wikiak itxi',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'closewikis-page-close-wiki' => 'ویکی:',
+	'closewikis-page-reopen-wiki' => 'ویکی:',
+	'closewikis-list-header-wiki' => 'ویکی',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
