@@ -1132,6 +1132,7 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author 青子守歌
  */
 $messages['ja'] = array(
 	'closewikis-desc' => 'ウィキファーム内のウィキサイトを閉鎖できるようにする',
@@ -1144,7 +1145,7 @@ $messages['ja'] = array(
 	'closewikis-page-close-success' => 'ウィキの閉鎖に成功しました',
 	'closewikis-page-reopen' => 'ウィキを再開する',
 	'closewikis-page-reopen-wiki' => 'ウィキ:',
-	'closewikis-page-reopen-reason' => '理由:',
+	'closewikis-page-reopen-reason' => '理由：',
 	'closewikis-page-reopen-submit' => '再開',
 	'closewikis-page-reopen-success' => 'ウィキの再開に成功しました',
 	'closewikis-page-err-nowiki' => '無効なウィキが指定されました',
