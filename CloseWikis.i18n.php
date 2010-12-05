@@ -1313,6 +1313,16 @@ $messages['li'] = array(
 	'right-closewikis' => "Gesjlaote wiki's",
 );
 
+/** Latgalian (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'closewikis-page-close-wiki' => 'Viki:',
+	'closewikis-page-reopen-wiki' => 'Viki:',
+	'closewikis-page-reopen-reason' => 'Īmesle:',
+	'closewikis-list-header-wiki' => 'Viki',
+);
+
 /** Latvian (Latviešu)
  * @author Xil
  */
