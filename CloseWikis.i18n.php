@@ -2329,11 +2329,38 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
  * @author PhiLiP
  */
 $messages['zh-hans'] = array(
+	'closewikis-desc' => '允许关闭在维基农场的维基网站',
+	'closewikis-page' => '关闭维基',
+	'closewikis-page-close' => '关闭维基',
+	'closewikis-page-close-wiki' => '维基：',
+	'closewikis-page-close-dreason' => '原因（显示）：',
+	'closewikis-page-close-reason' => '原因（登录）：',
 	'closewikis-page-close-submit' => '关闭',
+	'closewikis-page-close-success' => '维基成功关闭',
+	'closewikis-page-reopen' => '重新打开维基',
+	'closewikis-page-reopen-wiki' => '维基：',
 	'closewikis-page-reopen-reason' => '原因：',
+	'closewikis-page-reopen-submit' => '重新打开',
+	'closewikis-page-reopen-success' => '维基成功打开',
+	'closewikis-page-err-nowiki' => '指定的维基无效',
+	'closewikis-page-err-closed' => '维基已经关闭',
+	'closewikis-page-err-opened' => '维基并不关闭',
+	'closewikis-list' => '封闭的维基列表',
+	'closewikis-list-intro' => '该列表包含管家封闭的维基。',
+	'closewikis-list-header-wiki' => '维基',
+	'closewikis-list-header-by' => '关闭由',
+	'closewikis-list-header-timestamp' => '关闭在',
+	'closewikis-list-header-dispreason' => '显示的原因',
+	'closewikis-log' => '维基关闭日志',
+	'closewikis-log-header' => '这里是管家所有维基封锁和所做的重开的日志',
+	'closewikis-log-close' => '封闭$2',
+	'closewikis-log-reopen' => '重新开$2',
+	'right-editclosedwikis' => '更改关闭维基',
+	'right-closewikis' => '关闭维基',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
