@@ -2365,8 +2365,11 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Liangent
+ * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'closewikis-page-close-reason' => '理由（登入）：',
+	'closewikis-page-close-submit' => '關閉',
 	'closewikis-page-reopen-reason' => '原因：',
 );
 
