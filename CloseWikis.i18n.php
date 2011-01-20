@@ -1245,6 +1245,13 @@ $messages['ksh'] = array(
 	'right-closewikis' => 'Wikis zomaache',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'closewikis-page-reopen-reason' => 'Sedem:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
