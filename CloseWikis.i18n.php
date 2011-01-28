@@ -1951,19 +1951,20 @@ $messages['sl'] = array(
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'closewikis-desc' => 'Омогућава затварање Вики-сајтова у Вики-фармама',
 	'closewikis-page' => 'Затвори Вики',
 	'closewikis-page-close' => 'Затвори Вики',
-	'closewikis-page-close-wiki' => 'Вики:',
+	'closewikis-page-close-wiki' => 'Викија:',
 	'closewikis-page-close-dreason' => 'Разлог (приказан):',
 	'closewikis-page-close-reason' => 'Разлог (забележен):',
 	'closewikis-page-close-submit' => 'Затвори',
 	'closewikis-page-close-success' => 'Вики је успешно затворен',
 	'closewikis-page-reopen' => 'Отвори Вики поново',
-	'closewikis-page-reopen-wiki' => 'Вики:',
+	'closewikis-page-reopen-wiki' => 'Викија:',
 	'closewikis-page-reopen-reason' => 'Разлог:',
 	'closewikis-page-reopen-submit' => 'Отвори поново',
 	'closewikis-page-reopen-success' => 'Вики је успешно поново отворен',
