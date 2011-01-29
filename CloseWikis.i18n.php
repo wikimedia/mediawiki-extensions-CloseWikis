@@ -1956,8 +1956,8 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'closewikis-desc' => 'Омогућава затварање Вики-сајтова у Вики-фармама',
-	'closewikis-page' => 'Затвори Вики',
-	'closewikis-page-close' => 'Затвори Вики',
+	'closewikis-page' => 'Затвори викију',
+	'closewikis-page-close' => 'Затвори викију',
 	'closewikis-page-close-wiki' => 'Викија:',
 	'closewikis-page-close-dreason' => 'Разлог (приказан):',
 	'closewikis-page-close-reason' => 'Разлог (забележен):',
@@ -1982,7 +1982,7 @@ $messages['sr-ec'] = array(
 	'closewikis-log-close' => 'затворен $2',
 	'closewikis-log-reopen' => 'поново отворен $2',
 	'right-editclosedwikis' => 'Измени затворене Викије',
-	'right-closewikis' => 'Затвори Викије',
+	'right-closewikis' => 'затварање викија',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
