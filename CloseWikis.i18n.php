@@ -1766,6 +1766,7 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (Română)
+ * @author Danutz
  * @author KlaudiuMihaila
  * @author Stelistcristi
  */
@@ -1774,7 +1775,7 @@ $messages['ro'] = array(
 	'closewikis-page-close' => 'Închide wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
 	'closewikis-page-close-dreason' => 'Motiv (afișat):',
-	'closewikis-page-close-submit' => 'Închide',
+	'closewikis-page-close-submit' => 'Închidere',
 	'closewikis-page-close-success' => 'Wiki închis cu succes',
 	'closewikis-page-reopen' => 'Redeschide wiki',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
