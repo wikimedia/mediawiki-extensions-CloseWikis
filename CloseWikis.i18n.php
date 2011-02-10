@@ -1168,6 +1168,7 @@ $messages['ja'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
+ * @author គីមស៊្រុន
  */
 $messages['km'] = array(
 	'closewikis-page' => 'បិទវិគី',
@@ -1182,14 +1183,18 @@ $messages['km'] = array(
 	'closewikis-page-reopen-reason' => 'មូលហេតុ៖',
 	'closewikis-page-reopen-submit' => 'បើកឡើងវិញ',
 	'closewikis-page-reopen-success' => 'វិគី​បាន​បើកឡើងវិញ​ដោយជោគជ័យ',
+	'closewikis-page-err-nowiki' => 'វិគីដែលបានផ្ដល់អោយគ្មានសុពលភាព',
 	'closewikis-page-err-closed' => 'វិគី​ត្រូវ​បាន​បិទ​រួចរាល់ហើយ',
 	'closewikis-page-err-opened' => 'វិគី​មិនត្រូវ​បាន​បិទ​ទេ',
 	'closewikis-list' => 'បាន​បិទ​បញ្ជី​វិគី',
 	'closewikis-list-header-wiki' => 'វិគី',
 	'closewikis-list-header-by' => 'បានបិទដោយ',
 	'closewikis-list-header-timestamp' => 'បានបិទនៅ',
+	'closewikis-list-header-dispreason' => 'មូលហេតុបង្ហាញ',
+	'closewikis-log' => 'កំណត់ហេតុស្ដីពីការបិទវិគីនានា',
 	'closewikis-log-close' => 'បានបិទ$2',
 	'closewikis-log-reopen' => 'បាន​បើកឡើងវិញ $2',
+	'right-editclosedwikis' => 'កែប្រែវិគីដែលបានបិទ',
 	'right-closewikis' => 'បិទវិគី',
 );
 
