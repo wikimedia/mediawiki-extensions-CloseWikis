@@ -1463,6 +1463,14 @@ $messages['myv'] = array(
 	'closewikis-list-header-by' => 'Пекстыцязо',
 );
 
+/** Nahuatl (Nāhuatl)
+ * @author Teòtlalili
+ */
+$messages['nah'] = array(
+	'closewikis-page-reopen-reason' => 'Tlèka:',
+	'closewikis-list-header-wiki' => 'Wiki',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
