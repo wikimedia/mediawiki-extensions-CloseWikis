@@ -23,7 +23,7 @@ if( !defined( 'MEDIAWIKI' ) )
 
 class SpecialCloseWiki extends SpecialPage {
 	public function __construct() {
-		wfLoadExtensionMessages( 'CloseWikis' );
+		
 		parent::__construct( 'CloseWiki', 'closewikis' );
 	}
 
