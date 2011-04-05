@@ -886,6 +886,13 @@ $messages['gsw'] = array(
 	'right-closewikis' => 'Wiki zuemache',
 );
 
+/** Manx (Gaelg)
+ * @author Shimmin Beg
+ */
+$messages['gv'] = array(
+	'closewikis-page-reopen-reason' => 'Fa:',
+);
+
 /** Hausa (هَوُسَ) */
 $messages['ha'] = array(
 	'closewikis-page-reopen-reason' => 'Dalili:',
