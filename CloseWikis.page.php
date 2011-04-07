@@ -41,16 +41,18 @@ class SpecialCloseWiki extends SpecialPage {
 		}
 
 		$this->closeForm();
-		if( CloseWikis::getList() )
+		if( CloseWikis::getList() ) {
 			$this->reopenForm();
+		}
 	}
 
 	protected function buildSelect( $list, $name, $default = '' ) {
 		sort( $list );
 		$select = new XmlSelect( $name );
 		$select->setDefault( $default );
-		foreach( $list as $wiki )
+		foreach( $list as $wiki ) {
 			$select->addOption( $wiki );
+		}
 		return $select->getHTML();
 	}
 
@@ -85,8 +87,9 @@ class SpecialCloseWiki extends SpecialPage {
 		$defaultDisplayReason = $statusOK ? '' : $wgRequest->getVal( 'wpcDisplayReason' );
 		$defaultReason = $statusOK ? '' : $wgRequest->getVal( 'wpcReason' );
 		// For some reason Xml::textarea( 'blabla', null ) produces an unclosed tag
-		if( !$defaultDisplayReason )
+		if( !$defaultDisplayReason ) {
 			$defaultDisplayReason = '';
+		}
 
 		$wgOut->addHTML( "<fieldset><legend>{$legend}</legend>" );
 		if( $status ) {
@@ -99,7 +102,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
 		$form['closewikis-page-close-reason'] = Xml::input( 'wpcReason', false, $defaultReason );
 		$wgOut->addHTML( Xml::buildForm( $form, 'closewikis-page-close-submit' ) );
-		$wgOut->addHTML( Xml::hidden( 'wpcEdittoken', $wgUser->editToken() ) );
+		$wgOut->addHTML( Html::hidden( 'wpcEdittoken', $wgUser->editToken() ) );
 		$wgOut->addHTML( "</form></fieldset>" );
 	}
 
@@ -142,9 +145,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
 		$wgOut->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );
-		$wgOut->addHTML( Xml::hidden( 'wprEdittoken', $wgUser->editToken() ) );
+		$wgOut->addHTML( Html::hidden( 'wprEdittoken', $wgUser->editToken() ) );
 		$wgOut->addHTML( "</form></fieldset>" );
 	}
-
-
 }

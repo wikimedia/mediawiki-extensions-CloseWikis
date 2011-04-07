@@ -107,8 +107,9 @@ class CloseWikis {
 
 	/** Returns list of closed wikis in form of string array. Cached in CloseWikis::$cachedList */
 	static function getList() {
-		if( self::$cachedList )
+		if( self::$cachedList ) {
 			return self::$cachedList;
+		}
 		$list = array();
 		$dbr = self::getMasterDB();	// Used only on writes
 		$result = $dbr->select( 'closedwikis', 'cw_wiki', false, __METHOD__ );
@@ -131,15 +132,19 @@ class CloseWikis {
 		global $wgMemc;
 		$memcKey = "closedwikis:{$wiki}";
 		$cached = $wgMemc->get( $memcKey );
-		if( is_object( $cached ) )
+		if( is_object( $cached ) ) {
 			return $cached;
+		}
 		$dbr = self::getSlaveDB();
 		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', array( 'cw_wiki' => $wiki ), __METHOD__ ) );
 		$wgMemc->set( $memcKey, $result );
 		return $result;
 	}
 
-	/** Closes a wiki */
+	/** Closes a wiki
+	 *
+	 * @param $by User
+	 */
 	static function close( $wiki, $dispreason, $by ) {
 		global $wgMemc;
 		$dbw = CloseWikis::getMasterDB();
@@ -181,15 +186,26 @@ class CloseWikis {
 }
 
 class CloseWikisHooks {
+	/**
+	 * @static
+	 * @param $title
+	 * @param $user User
+	 * @param $action
+	 * @param $result
+	 * @return bool
+	 */
 	static function userCan( &$title, &$user, $action, &$result ) {
 		static $closed = null;
 		global $wgLang;
-		if( $action == 'read' )
+		if( $action == 'read' ) {
 			return true;
-		if( is_null( $closed ) )
+		}
+
+		if( is_null( $closed ) ) {
 			$closed = CloseWikis::getClosedRow( wfWikiID() );
+		}
+
 		if( $closed->isClosed() && !$user->isAllowed( 'editclosedwikis' ) ) {
-			
 			$reason = $closed->getReason();
 			$ts = $closed->getTimestamp();	
 			$by = $closed->getBy();

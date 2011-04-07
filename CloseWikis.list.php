@@ -23,7 +23,6 @@ if( !defined( 'MEDIAWIKI' ) )
 
 class SpecialListClosedWikis extends SpecialPage {
 	public function __construct() {
-		
 		parent::__construct( 'ListClosedWikis' );
 	}
 
@@ -32,7 +31,7 @@ class SpecialListClosedWikis extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgUser, $wgOut, $wgLang;
+		global $wgOut, $wgLang;
 
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'closewikis-list-intro' );
