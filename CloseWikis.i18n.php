@@ -397,6 +397,7 @@ $messages['bs'] = array(
 
 /** Catalan (Català)
  * @author Paucabot
+ * @author SMP
  */
 $messages['ca'] = array(
 	'closewikis-desc' => 'Permet tancar llocs wiki en granges de wikis',
@@ -425,8 +426,8 @@ $messages['ca'] = array(
 	'closewikis-log-header' => 'Aquí teniu un registre de tots els tancaments i reobertures de wikis fetes pels stewards',
 	'closewikis-log-close' => 'tancat $2',
 	'closewikis-log-reopen' => 'reobert $2',
-	'right-editclosedwikis' => 'Edita els wikis tancats',
-	'right-closewikis' => 'Tanca wikis',
+	'right-editclosedwikis' => 'Editar en wikis tancats',
+	'right-closewikis' => 'Tancar wikis',
 );
 
 /** Chechen (Нохчийн) */
