@@ -100,6 +100,7 @@ $messages['an'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'closewikis-desc' => 'يسمح بغلق مواقع الويكي في مزارع الويكي',
@@ -108,7 +109,7 @@ $messages['ar'] = array(
 	'closewikis-page-close-wiki' => 'الويكي:',
 	'closewikis-page-close-dreason' => 'السبب (المعروض):',
 	'closewikis-page-close-reason' => 'السبب (المسجل):',
-	'closewikis-page-close-submit' => 'إغلاق',
+	'closewikis-page-close-submit' => 'أغلق',
 	'closewikis-page-close-success' => 'الويكي تم إغلاقه بنجاح',
 	'closewikis-page-reopen' => 'إعادة فتح الويكي',
 	'closewikis-page-reopen-wiki' => 'الويكي:',
