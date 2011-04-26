@@ -326,6 +326,40 @@ $messages['bg'] = array(
 	'right-closewikis' => 'Затваряне на уикита',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'closewikis-desc' => 'উইকি ফার্মে উইকি সাইট বন্ধ করার সুযোগ দিন',
+	'closewikis-page' => 'উইকি বন্ধ করুন',
+	'closewikis-page-close' => 'উইকি বন্ধ করুন',
+	'closewikis-page-close-wiki' => 'উইকি:',
+	'closewikis-page-close-dreason' => 'কারণ (প্রদর্শিত):',
+	'closewikis-page-close-reason' => 'কারণ (লগড):',
+	'closewikis-page-close-submit' => 'বন্ধ করা হোক',
+	'closewikis-page-close-success' => 'উইকি সফলভাবে বন্ধ করা হয়েছে',
+	'closewikis-page-reopen' => 'উইকি নতুন করে চালু করুন',
+	'closewikis-page-reopen-wiki' => 'উইকি:',
+	'closewikis-page-reopen-reason' => 'কারণ:',
+	'closewikis-page-reopen-submit' => 'নতুন করে চালু করুন',
+	'closewikis-page-reopen-success' => 'উইকি সফলভাবে পুনরায় চালু করা হয়েছে',
+	'closewikis-page-err-nowiki' => 'অপ্রযোজ্য উইকি নির্বাচন করা হয়েছে',
+	'closewikis-page-err-closed' => 'উইকি ইতিমধ্যেই বন্ধ রয়েছে',
+	'closewikis-page-err-opened' => 'উইকি বন্ধ নয়',
+	'closewikis-list' => 'বন্ধ হওয়া উইকির তালিকা',
+	'closewikis-list-intro' => 'এই তালিকাটিতে এমন সব উইকি রয়েছে যেগুলো স্টুয়ার্ডদের দ্বারা বন্ধ করা হয়েছে।',
+	'closewikis-list-header-wiki' => 'উইকি:',
+	'closewikis-list-header-by' => 'বন্ধ করেছেন',
+	'closewikis-list-header-timestamp' => 'বন্ধ হয়েছে',
+	'closewikis-list-header-dispreason' => 'প্রদর্শনযোগ্য কারণ',
+	'closewikis-log' => 'উইকি বন্ধের লগ',
+	'closewikis-log-header' => 'এটি হচ্ছে স্টুয়ার্ড কর্তৃক বন্ধ ও পুনরায় চালু করা সকল উইকির লগ',
+	'closewikis-log-close' => 'বন্ধ $2',
+	'closewikis-log-reopen' => 'পুনরায় চালু $2',
+	'right-editclosedwikis' => 'সম্পাদনা বন্ধ এমন উইকি',
+	'right-closewikis' => 'উইকি বন্ধ করুন',
+);
+
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
