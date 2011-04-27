@@ -580,19 +580,30 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Crazymadlover
+ * @author Glavkos
  * @author Omnipaedista
  */
 $messages['el'] = array(
+	'closewikis-desc' => 'Επιτρέπει να κλείσει wiki ιστοσελίδες  σε wiki φάρμες',
 	'closewikis-page' => 'Κλείσιμο του βίκι',
 	'closewikis-page-close' => 'Κλείσιμο του βίκι',
 	'closewikis-page-close-wiki' => 'Βίκι:',
+	'closewikis-page-close-dreason' => 'Λόγος (εμφανίζεται):',
 	'closewikis-page-close-submit' => 'Κλείσιμο',
+	'closewikis-page-close-success' => 'Το Wiki έκλεισε επιτυχώς',
 	'closewikis-page-reopen' => 'Ξανάνοιγμα του βίκι',
 	'closewikis-page-reopen-wiki' => 'Βίκι:',
 	'closewikis-page-reopen-reason' => 'Αιτία:',
 	'closewikis-page-reopen-submit' => 'Ξανάνοιγμα',
+	'closewikis-page-reopen-success' => 'Το Wiki ξανάνοιξε επιτυχώς',
+	'closewikis-page-err-nowiki' => 'Καθορίστηκε μη έγκυρο wiki',
+	'closewikis-page-err-closed' => 'Το Wiki έχει ήδη κλείσει',
 	'closewikis-page-err-opened' => 'Το βίκι δεν είναι κλειστό',
+	'closewikis-list' => 'Λίστα κλειστών  wikis',
+	'closewikis-list-intro' => 'Αυτή η λίστα περιέχει τα wikis που έκλεισαν από επιτρόπους',
 	'closewikis-list-header-wiki' => 'Βίκι',
+	'closewikis-list-header-by' => 'Κλειστό από',
+	'closewikis-list-header-timestamp' => 'Έκλεισε στις',
 	'closewikis-list-header-dispreason' => 'Προβαλλόμενη αιτία',
 	'closewikis-log' => 'Ημερολόγιο κλεισίματος βίκι',
 	'closewikis-log-close' => 'έκλεισε $2',
