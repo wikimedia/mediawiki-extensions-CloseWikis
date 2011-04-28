@@ -180,6 +180,14 @@ $messages['arz'] = array(
 	'right-closewikis' => 'إغلاق الويكيات',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'closewikis-page-reopen-wiki' => 'Viki:',
+	'closewikis-list-header-wiki' => 'Viki',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
