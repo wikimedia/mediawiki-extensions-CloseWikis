@@ -185,6 +185,7 @@ $messages['arz'] = array(
  */
 $messages['az'] = array(
 	'closewikis-page-reopen-wiki' => 'Viki:',
+	'closewikis-page-reopen-reason' => 'Səbəb:',
 	'closewikis-list-header-wiki' => 'Viki',
 );
 
