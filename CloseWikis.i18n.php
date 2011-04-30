@@ -626,6 +626,7 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'closewikis-desc' => 'Permesas fermi vikiojn en vikiaroj',
 	'closewikis-page' => 'Fermi vikion',
 	'closewikis-page-close' => 'Fermi vikion',
 	'closewikis-page-close-wiki' => 'Vikio:',
@@ -642,6 +643,7 @@ $messages['eo'] = array(
 	'closewikis-page-err-closed' => 'Vikio estas jam fermita',
 	'closewikis-page-err-opened' => 'Vikio ne estas fermita',
 	'closewikis-list' => 'Listo de fermaj vikioj',
+	'closewikis-list-intro' => 'Ĉi tiu listo enhavas vikiojn kiu estis fermita de stivardoj.',
 	'closewikis-list-header-wiki' => 'Vikio',
 	'closewikis-list-header-by' => 'Fermis de',
 	'closewikis-list-header-timestamp' => 'Fermis je',
