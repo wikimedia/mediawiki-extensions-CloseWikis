@@ -1879,7 +1879,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'closewikis-page' => "Achiude 'a uicchi",
+	'closewikis-page-close' => "Achiude 'a uicchi",
+	'closewikis-page-close-wiki' => 'Uicchi:',
+	'closewikis-page-close-submit' => 'Achiude',
 	'closewikis-page-reopen-wiki' => 'Uicchi:',
+	'closewikis-page-reopen-reason' => 'Mutive:',
 );
 
 /** Russian (Русский)
