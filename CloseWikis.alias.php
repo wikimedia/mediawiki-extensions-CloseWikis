@@ -70,7 +70,7 @@ $specialPageAliases['fi'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'CloseWiki' => array( 'Pechar o wiki' ),
+	'CloseWiki' => array( 'Pechar_o_wiki' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -91,6 +91,16 @@ $specialPageAliases['hr'] = array(
 /** Upper Sorbian (Hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'CloseWiki' => array( 'Wiki_začinić' ),
+);
+
+/** 湘语 (湘语) */
+$specialPageAliases['hsn'] = array(
+	'CloseWiki' => array( '关闭维基' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'CloseWiki' => array( 'FèmenWiki' ),
 );
 
 /** Hungarian (Magyar) */
@@ -230,7 +240,7 @@ $specialPageAliases['vep'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $specialPageAliases['zh-hans'] = array(
-	'CloseWiki' => array( '关闭wiki' ),
+	'CloseWiki' => array( '关闭维基' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
