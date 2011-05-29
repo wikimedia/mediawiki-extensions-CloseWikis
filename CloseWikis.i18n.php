@@ -1509,6 +1509,30 @@ $messages['mn'] = array(
 	'closewikis-page-reopen-reason' => 'Шалтгаан:',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'closewikis-page' => 'Tutup wiki',
+	'closewikis-page-close' => 'Tutup Wiki',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-dreason' => 'Sebab (dipaparkan):',
+	'closewikis-page-close-reason' => 'Sebab (dilog):',
+	'closewikis-page-close-submit' => 'Tutup',
+	'closewikis-page-close-success' => 'Wiki berjaya ditutup',
+	'closewikis-page-reopen' => 'Buka semula wiki',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Sebab:',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Ditutup oleh',
+	'closewikis-list-header-timestamp' => 'Ditutup pada',
+	'closewikis-list-header-dispreason' => 'Sebab yang dipaparkan',
+	'closewikis-log' => 'Log penutupan wiki',
+	'closewikis-log-header' => 'Berikut ialah senarai semua penutupan dan pembukaan semula wiki yang dilakukan oleh steward',
+	'closewikis-log-close' => 'menutup $2',
+	'closewikis-log-reopen' => 'membuka semula $2',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
