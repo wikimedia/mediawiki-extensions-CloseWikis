@@ -1319,7 +1319,12 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'closewikis-page-close-submit' => 'Bigre',
+	'closewikis-page-reopen' => 'Wîkîyê dîsa veke',
 	'closewikis-page-reopen-reason' => 'Sedem:',
+	'closewikis-page-reopen-submit' => 'Dîsa veke',
+	'right-editclosedwikis' => "Wîkî'yên hatin girtin biguherîne",
+	'right-closewikis' => "Wîkî'yan bigre",
 );
 
 /** Luxembourgish (Lëtzebuergesch)
