@@ -1395,6 +1395,31 @@ $messages['li'] = array(
 	'right-closewikis' => "Gesjlaote wiki's",
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'closewikis-desc' => 'Leidžia uždaryti wiki svetaines wiki farms',
+	'closewikis-page' => 'Uždaryti Wiki',
+	'closewikis-page-close' => 'Uždaryti Wiki',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-dreason' => 'Priežastis (rodomas):',
+	'closewikis-page-close-submit' => 'Uždaryti',
+	'closewikis-page-close-success' => 'Wiki sėkmingai uždaryta',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Priežastis:',
+	'closewikis-page-err-closed' => 'Wiki jau uždaryta',
+	'closewikis-page-err-opened' => 'Wiki neuždaryta',
+	'closewikis-list' => 'Uždarytu wiki sąrašas',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Uždarytas',
+	'closewikis-list-header-timestamp' => 'Uždarytas',
+	'closewikis-list-header-dispreason' => 'Rodoma priežastis',
+	'closewikis-log-close' => 'uždaryta $2',
+	'right-editclosedwikis' => 'Redaguoti uždarytas wiki',
+	'right-closewikis' => 'Uždaryti wiki',
+);
+
 /** Latgalian (Latgaļu)
  * @author Dark Eagle
  */
