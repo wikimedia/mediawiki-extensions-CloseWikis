@@ -1543,6 +1543,7 @@ $messages['mn'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'closewikis-desc' => 'Membolehkan penutupan tapak wiki di ladang wiki',
 	'closewikis-page' => 'Tutup wiki',
 	'closewikis-page-close' => 'Tutup Wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -1553,6 +1554,13 @@ $messages['ms'] = array(
 	'closewikis-page-reopen' => 'Buka semula wiki',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Sebab:',
+	'closewikis-page-reopen-submit' => 'Buka semula',
+	'closewikis-page-reopen-success' => 'Wiki berjaya dibuka semula',
+	'closewikis-page-err-nowiki' => 'Wiki yang dinyatakan tidak sah',
+	'closewikis-page-err-closed' => 'Wiki sudah pun ditutup',
+	'closewikis-page-err-opened' => 'Wiki belum ditutup',
+	'closewikis-list' => 'Senarai wiki ditutup',
+	'closewikis-list-intro' => 'Senarai ini mengandungi wiki-wiki yang ditutup oleh para steward',
 	'closewikis-list-header-wiki' => 'Wiki',
 	'closewikis-list-header-by' => 'Ditutup oleh',
 	'closewikis-list-header-timestamp' => 'Ditutup pada',
@@ -1561,6 +1569,8 @@ $messages['ms'] = array(
 	'closewikis-log-header' => 'Berikut ialah senarai semua penutupan dan pembukaan semula wiki yang dilakukan oleh steward',
 	'closewikis-log-close' => 'menutup $2',
 	'closewikis-log-reopen' => 'membuka semula $2',
+	'right-editclosedwikis' => 'Menyunting wiki yang ditutup',
+	'right-closewikis' => 'Menutup wiki',
 );
 
 /** Maltese (Malti)
