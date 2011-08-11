@@ -2367,6 +2367,7 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author Dim Grits
  * @author Prima klasy4na
  * @author Тест
  */
@@ -2375,6 +2376,7 @@ $messages['uk'] = array(
 	'closewikis-page-close-dreason' => 'Причина (для показу):',
 	'closewikis-page-close-reason' => 'Причина (для запису в журнал):',
 	'closewikis-page-close-submit' => 'Закрити',
+	'closewikis-page-close-success' => 'Wiki успішно закрито',
 	'closewikis-page-reopen-wiki' => 'Вікі:',
 	'closewikis-page-reopen-reason' => 'Причина:',
 	'closewikis-list-header-wiki' => 'Вікі',
