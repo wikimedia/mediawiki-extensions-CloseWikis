@@ -1738,6 +1738,14 @@ $messages['oc'] = array(
 	'right-closewikis' => 'Wikis clauses',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'closewikis-page-close-submit' => 'ବନ୍ଦ କରନ୍ତୁ',
+	'closewikis-page-reopen-reason' => 'କାରଣ:',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
