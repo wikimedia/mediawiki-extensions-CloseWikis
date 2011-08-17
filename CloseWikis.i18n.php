@@ -2008,7 +2008,7 @@ $messages['rue'] = array(
 	'closewikis-list-header-wiki' => 'Вікі',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
