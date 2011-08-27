@@ -336,6 +336,7 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Bellayet
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -345,7 +346,7 @@ $messages['bn'] = array(
 	'closewikis-page-close-wiki' => 'উইকি:',
 	'closewikis-page-close-dreason' => 'কারণ (প্রদর্শিত):',
 	'closewikis-page-close-reason' => 'কারণ (লগড):',
-	'closewikis-page-close-submit' => 'বন্ধ করা হোক',
+	'closewikis-page-close-submit' => 'বন্ধ',
 	'closewikis-page-close-success' => 'উইকি সফলভাবে বন্ধ করা হয়েছে',
 	'closewikis-page-reopen' => 'উইকি নতুন করে চালু করুন',
 	'closewikis-page-reopen-wiki' => 'উইকি:',
