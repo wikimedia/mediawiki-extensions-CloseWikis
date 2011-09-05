@@ -182,11 +182,17 @@ $messages['arz'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Vago
  */
 $messages['az'] = array(
+	'closewikis-page-close-wiki' => 'Viki:',
 	'closewikis-page-reopen-wiki' => 'Viki:',
 	'closewikis-page-reopen-reason' => 'Səbəb:',
+	'closewikis-page-reopen-submit' => 'Açmaq',
 	'closewikis-list-header-wiki' => 'Viki',
+	'closewikis-list-header-by' => 'Bağlayan',
+	'closewikis-list-header-timestamp' => 'Bağlanıb',
+	'right-editclosedwikis' => 'Bağlanmış vikiləri redaktə',
 );
 
 /** Bashkir (Башҡортса)
