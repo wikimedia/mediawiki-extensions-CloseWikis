@@ -665,6 +665,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author BicScope
+ * @author Fitoschido
  */
 $messages['es'] = array(
 	'closewikis-desc' => 'Permitir cerrar sitios wiki en granjas wiki',
@@ -677,7 +678,7 @@ $messages['es'] = array(
 	'closewikis-page-close-success' => 'La wiki ha sido cerrada satisfactoriamente',
 	'closewikis-page-reopen' => 'Reabrir  wiki',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
-	'closewikis-page-reopen-reason' => 'Razón:',
+	'closewikis-page-reopen-reason' => 'Motivo:',
 	'closewikis-page-reopen-submit' => 'Reabrir',
 	'closewikis-page-reopen-success' => 'La wiki ha sido reabierta satisfactoriamente',
 	'closewikis-page-err-nowiki' => 'Ha entrado un nombre wiki inválido',
