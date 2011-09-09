@@ -1748,9 +1748,10 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
-	'closewikis-page-close-submit' => 'ବନ୍ଦ କରନ୍ତୁ',
+	'closewikis-page-close-submit' => 'ବନ୍ଦ କରିବେ',
 	'closewikis-page-reopen-reason' => 'କାରଣ:',
 );
 
@@ -1965,6 +1966,8 @@ $messages['roa-tara'] = array(
 	'closewikis-page-close-submit' => 'Achiude',
 	'closewikis-page-reopen-wiki' => 'Uicchi:',
 	'closewikis-page-reopen-reason' => 'Mutive:',
+	'closewikis-list-header-wiki' => 'Uicchi',
+	'closewikis-list-header-by' => 'Achiuse da',
 );
 
 /** Russian (Русский)
