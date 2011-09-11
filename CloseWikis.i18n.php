@@ -2009,13 +2009,24 @@ $messages['ru'] = array(
  * @author Gazeb
  */
 $messages['rue'] = array(
+	'closewikis-desc' => 'Доволює заперти єднотливы вікі на вікіфармах',
 	'closewikis-page' => 'Запертя вікі',
 	'closewikis-page-close' => 'Заперти вікі',
 	'closewikis-page-close-wiki' => 'Вікі:',
 	'closewikis-page-close-dreason' => 'Причіна (про зображіня):',
+	'closewikis-page-close-reason' => 'Причіна (лоґованя):',
+	'closewikis-page-close-submit' => 'Заперти',
+	'closewikis-page-close-success' => 'Вікі успішно заперта',
+	'closewikis-page-reopen' => 'Знову одкрыти вікі',
 	'closewikis-page-reopen-wiki' => 'Вікі:',
 	'closewikis-page-reopen-reason' => 'Причіна:',
 	'closewikis-page-reopen-submit' => 'Знову отворити',
+	'closewikis-page-reopen-success' => 'Вікі успішно отворена',
+	'closewikis-page-err-nowiki' => 'Хыбне становлїня вікі',
+	'closewikis-page-err-closed' => 'Вікі уж заперта',
+	'closewikis-page-err-opened' => 'Вікі незаперта',
+	'closewikis-list' => 'Список запертых вікі',
+	'closewikis-list-intro' => 'Тот список обсягує вікі заперты стювардами',
 	'closewikis-list-header-wiki' => 'Вікі',
 );
 
