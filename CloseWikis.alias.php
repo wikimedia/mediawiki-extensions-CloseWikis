@@ -213,6 +213,11 @@ $specialPageAliases['sk'] = array(
 	'CloseWiki' => array( 'ZatvoriťWiki' ),
 );
 
+/** Swedish (Svenska) */
+$specialPageAliases['sv'] = array(
+	'CloseWiki' => array( 'Stäng_wiki' ),
+);
+
 /** Swahili (Kiswahili) */
 $specialPageAliases['sw'] = array(
 	'CloseWiki' => array( 'FungaWiki' ),
@@ -240,7 +245,7 @@ $specialPageAliases['vep'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $specialPageAliases['zh-hans'] = array(
-	'CloseWiki' => array( '关闭维基' ),
+	'CloseWiki' => array( '关闭Wiki' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
