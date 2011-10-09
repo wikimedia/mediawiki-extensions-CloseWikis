@@ -59,7 +59,7 @@ $messages['qqq'] = array(
 	'closewikis-page-reopen-wiki' => '{{Identical|Wiki}}',
 	'closewikis-page-reopen-reason' => '{{Identical|Reason}}',
 	'closewikis-list-header-wiki' => '{{Identical|Wiki}}',
-	'right-editclosedwikis' => '{{doc-right}}',
+	'right-editclosedwikis' => '{{doc-right|editclosedwikis}}',
 	'right-closewikis' => '{{doc-right|closewikis}}',
 );
 
@@ -2128,12 +2128,13 @@ $messages['sl'] = array(
 	'right-closewikis' => 'Zapiranje wikijev',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'closewikis-desc' => 'Омогућава затварање Вики-сајтова у Вики-фармама',
+	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Затвори викију',
 	'closewikis-page-close' => 'Затвори викију',
 	'closewikis-page-close-wiki' => 'Викија:',
