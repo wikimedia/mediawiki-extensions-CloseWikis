@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * Copyright (C) 2008 Victor Vasiliev <vasilvv@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -207,7 +207,7 @@ class CloseWikisHooks {
 
 		if( $closed->isClosed() && !$user->isAllowed( 'editclosedwikis' ) ) {
 			$reason = $closed->getReason();
-			$ts = $closed->getTimestamp();	
+			$ts = $closed->getTimestamp();
 			$by = $closed->getBy();
 			$result[] =	array( 'closewikis-closed', $reason, $by,
 				$wgLang->timeanddate( $ts ), $wgLang->time( $ts ), $wgLang->date( $ts ) );
