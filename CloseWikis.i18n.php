@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * Internationalization for CloseWikis extension.
  */
 
