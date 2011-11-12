@@ -2402,18 +2402,38 @@ $messages['tr'] = array(
 /** Ukrainian (Українська)
  * @author Dim Grits
  * @author Prima klasy4na
+ * @author Sodmy
  * @author Тест
  */
 $messages['uk'] = array(
+	'closewikis-desc' => 'Дозволяє закрити вікі сайти у вікі фермі',
+	'closewikis-page' => 'Закрити Вікі',
+	'closewikis-page-close' => 'Закрити Вікі',
 	'closewikis-page-close-wiki' => 'Вікі:',
 	'closewikis-page-close-dreason' => 'Причина (для показу):',
 	'closewikis-page-close-reason' => 'Причина (для запису в журнал):',
 	'closewikis-page-close-submit' => 'Закрити',
 	'closewikis-page-close-success' => 'Wiki успішно закрито',
+	'closewikis-page-reopen' => 'Перевідкрити Вікі',
 	'closewikis-page-reopen-wiki' => 'Вікі:',
 	'closewikis-page-reopen-reason' => 'Причина:',
+	'closewikis-page-reopen-submit' => 'Повторно відкрити',
+	'closewikis-page-reopen-success' => 'Вікі успішно відновлено',
+	'closewikis-page-err-nowiki' => 'Вказано неприпустиму Вікі',
+	'closewikis-page-err-closed' => 'Вікі вже закрита',
+	'closewikis-page-err-opened' => 'Вікі не закрита',
+	'closewikis-list' => 'Список закритих Вікі',
+	'closewikis-list-intro' => 'Цей список містить Вікі, які були закриті стюардами.',
 	'closewikis-list-header-wiki' => 'Вікі',
+	'closewikis-list-header-by' => 'Закрито',
+	'closewikis-list-header-timestamp' => 'Закрито по',
+	'closewikis-list-header-dispreason' => 'Відображена причина',
 	'closewikis-log' => 'Журнал закриття вікі',
+	'closewikis-log-header' => 'Ось журнал всіх закритих та відновдених Вікі, що зроблені стюардами',
+	'closewikis-log-close' => 'закрито $2',
+	'closewikis-log-reopen' => 'відновлено $2',
+	'right-editclosedwikis' => 'Редагування закритих Вікі',
+	'right-closewikis' => 'Закриті Вікі',
 );
 
 /** Urdu (اردو) */
