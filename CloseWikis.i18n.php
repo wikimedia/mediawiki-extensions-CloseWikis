@@ -1761,8 +1761,11 @@ $messages['or'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'closewikis-page-close-wiki' => 'Wiki:',
 	'closewikis-page-close-submit' => 'Zumache',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Grund:',
+	'closewikis-list-header-wiki' => 'Wiki',
 );
 
 /** Polish (Polski)
