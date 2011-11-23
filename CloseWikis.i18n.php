@@ -1323,7 +1323,7 @@ $messages['ksh'] = array(
 	'right-closewikis' => 'Wikis zomaache',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -2169,7 +2169,7 @@ $messages['sr-ec'] = array(
 	'right-closewikis' => 'затварање викија',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
