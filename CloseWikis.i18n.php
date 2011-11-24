@@ -54,6 +54,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'closewikis-desc' => '{{desc}}',
+	'closewikis-closed' => '{{optional}}',
 	'closewikis-page-close-wiki' => '{{Identical|Wiki}}',
 	'closewikis-page-close-submit' => '{{Identical|Close}}',
 	'closewikis-page-reopen-wiki' => '{{Identical|Wiki}}',
