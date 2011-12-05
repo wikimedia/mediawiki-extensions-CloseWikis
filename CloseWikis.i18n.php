@@ -1643,7 +1643,7 @@ $messages['nl'] = array(
 	'closewikis-log-close' => 'heeft $2 gesloten',
 	'closewikis-log-reopen' => 'heeft $2 heropend',
 	'right-editclosedwikis' => 'Gesloten wikis bewerken',
-	'right-closewikis' => "Gesloten wiki's",
+	'right-closewikis' => "Wiki's sluiten",
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
