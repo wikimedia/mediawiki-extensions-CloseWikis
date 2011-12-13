@@ -26,7 +26,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'CloseWikis',
 	'author'         => 'Victor Vasiliev',
 	'descriptionmsg' => 'closewikis-desc',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:CloseWikis',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:CloseWikis',
 );
 
 $dir = dirname( __FILE__ );
