@@ -2172,11 +2172,13 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Rancher
  */
 $messages['sr-el'] = array(
 	'closewikis-desc' => 'Omogućava zatvaranje Viki-sajtova u Viki-farmama',
-	'closewikis-page' => 'Zatvori Viki',
-	'closewikis-page-close' => 'Zatvori Viki',
+	'closewikis-closed' => '$1',
+	'closewikis-page' => 'Zatvori vikiju',
+	'closewikis-page-close' => 'Zatvori vikiju',
 	'closewikis-page-close-wiki' => 'Viki:',
 	'closewikis-page-close-dreason' => 'Razlog (prikazan):',
 	'closewikis-page-close-reason' => 'Razlog (zabeležen):',
@@ -2201,7 +2203,7 @@ $messages['sr-el'] = array(
 	'closewikis-log-close' => 'zatvoren $2',
 	'closewikis-log-reopen' => 'ponovo otvoren $2',
 	'right-editclosedwikis' => 'Izmeni zatvorene Vikije',
-	'right-closewikis' => 'Zatvori Vikije',
+	'right-closewikis' => 'zatvaranje vikija',
 );
 
 /** Seeltersk (Seeltersk)
@@ -2583,8 +2585,33 @@ $messages['zh-hans'] = array(
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'closewikis-desc' => '允許關閉在維基農場的維基網站',
+	'closewikis-page' => '關閉維基',
+	'closewikis-page-close' => '關閉維基',
+	'closewikis-page-close-wiki' => '維基：',
+	'closewikis-page-close-dreason' => '原因（顯示）：',
 	'closewikis-page-close-reason' => '理由（登入）：',
 	'closewikis-page-close-submit' => '關閉',
+	'closewikis-page-close-success' => '維基成功關閉',
+	'closewikis-page-reopen' => '重新打開維基',
+	'closewikis-page-reopen-wiki' => '維基：',
 	'closewikis-page-reopen-reason' => '原因：',
+	'closewikis-page-reopen-submit' => '重新打開',
+	'closewikis-page-reopen-success' => '維基成功打開',
+	'closewikis-page-err-nowiki' => '指定的維基無效',
+	'closewikis-page-err-closed' => '維基已經關閉',
+	'closewikis-page-err-opened' => '維基並不關閉',
+	'closewikis-list' => '封閉的維基列表',
+	'closewikis-list-intro' => '該列表包含管家封閉的維基。',
+	'closewikis-list-header-wiki' => '維基',
+	'closewikis-list-header-by' => '關閉由',
+	'closewikis-list-header-timestamp' => '關閉在',
+	'closewikis-list-header-dispreason' => '顯示的原因',
+	'closewikis-log' => '維基關閉日誌',
+	'closewikis-log-header' => '這裡是管家所有維基封鎖和所做的重開的日誌',
+	'closewikis-log-close' => '封閉$2',
+	'closewikis-log-reopen' => '重新開$2',
+	'right-editclosedwikis' => '更改關閉維基',
+	'right-closewikis' => '關閉維基',
 );
 
