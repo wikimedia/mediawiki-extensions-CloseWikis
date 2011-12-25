@@ -1419,6 +1419,7 @@ $messages['lt'] = array(
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Priežastis:',
 	'closewikis-page-reopen-submit' => 'Atidaryti iš naujo',
+	'closewikis-page-reopen-success' => 'Wiki sėkmingai iš naujo atidaryta',
 	'closewikis-page-err-closed' => 'Wiki jau uždaryta',
 	'closewikis-page-err-opened' => 'Wiki neuždaryta',
 	'closewikis-list' => 'Uždarytu wiki sąrašas',
@@ -1427,6 +1428,7 @@ $messages['lt'] = array(
 	'closewikis-list-header-timestamp' => 'Uždarytas',
 	'closewikis-list-header-dispreason' => 'Rodoma priežastis',
 	'closewikis-log-close' => 'uždaryta $2',
+	'closewikis-log-reopen' => 'iš naujo atidaryta $2',
 	'right-editclosedwikis' => 'Redaguoti uždarytas wiki',
 	'right-closewikis' => 'Uždaryti wiki',
 );
@@ -1611,6 +1613,41 @@ $messages['nah'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'closewikis-desc' => 'Tillater stenging av wikier i wikisamlinger',
+	'closewikis-page' => 'Steng wiki',
+	'closewikis-page-close' => 'Steng wiki',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-dreason' => 'Årsak (vises):',
+	'closewikis-page-close-reason' => 'Årsak (logges):',
+	'closewikis-page-close-submit' => 'Lukk',
+	'closewikis-page-close-success' => 'Wiki stengt',
+	'closewikis-page-reopen' => 'Åpne wiki',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Årsak:',
+	'closewikis-page-reopen-submit' => 'Åpne',
+	'closewikis-page-reopen-success' => 'Wiki åpnet',
+	'closewikis-page-err-nowiki' => 'Ugyldig wiki oppgitt',
+	'closewikis-page-err-closed' => 'Wikien er allerede stengt',
+	'closewikis-page-err-opened' => 'Wikien er ikke stengt',
+	'closewikis-list' => 'Liste over stengte wikier',
+	'closewikis-list-intro' => 'Denne listen inneholder wikier som har blitt stengt av forvaltere.',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Stengt av',
+	'closewikis-list-header-timestamp' => 'Stengt den',
+	'closewikis-list-header-dispreason' => 'Vist årsak',
+	'closewikis-log' => 'Logg for stenging av wikier',
+	'closewikis-log-header' => 'Her er en logg over alle wikistenginger og -åpninger gjort av forvaltere',
+	'closewikis-log-close' => 'stengte $2',
+	'closewikis-log-reopen' => 'åpnet $2',
+	'right-editclosedwikis' => 'Redigere stengte wikier',
+	'right-closewikis' => 'Steng wikier',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -1678,41 +1715,6 @@ $messages['nn'] = array(
 	'closewikis-log-reopen' => 'opna att $2',
 	'right-editclosedwikis' => 'Endra stengte wikiar',
 	'right-closewikis' => 'Steng wikiar',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'closewikis-desc' => 'Tillater stenging av wikier i wikisamlinger',
-	'closewikis-page' => 'Steng wiki',
-	'closewikis-page-close' => 'Steng wiki',
-	'closewikis-page-close-wiki' => 'Wiki:',
-	'closewikis-page-close-dreason' => 'Årsak (vises):',
-	'closewikis-page-close-reason' => 'Årsak (logges):',
-	'closewikis-page-close-submit' => 'Lukk',
-	'closewikis-page-close-success' => 'Wiki stengt',
-	'closewikis-page-reopen' => 'Åpne wiki',
-	'closewikis-page-reopen-wiki' => 'Wiki:',
-	'closewikis-page-reopen-reason' => 'Årsak:',
-	'closewikis-page-reopen-submit' => 'Åpne',
-	'closewikis-page-reopen-success' => 'Wiki åpnet',
-	'closewikis-page-err-nowiki' => 'Ugyldig wiki oppgitt',
-	'closewikis-page-err-closed' => 'Wikien er allerede stengt',
-	'closewikis-page-err-opened' => 'Wikien er ikke stengt',
-	'closewikis-list' => 'Liste over stengte wikier',
-	'closewikis-list-intro' => 'Denne listen inneholder wikier som har blitt stengt av forvaltere.',
-	'closewikis-list-header-wiki' => 'Wiki',
-	'closewikis-list-header-by' => 'Stengt av',
-	'closewikis-list-header-timestamp' => 'Stengt den',
-	'closewikis-list-header-dispreason' => 'Vist årsak',
-	'closewikis-log' => 'Logg for stenging av wikier',
-	'closewikis-log-header' => 'Her er en logg over alle wikistenginger og -åpninger gjort av forvaltere',
-	'closewikis-log-close' => 'stengte $2',
-	'closewikis-log-reopen' => 'åpnet $2',
-	'right-editclosedwikis' => 'Redigere stengte wikier',
-	'right-closewikis' => 'Steng wikier',
 );
 
 /** Occitan (Occitan)
