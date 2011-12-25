@@ -1684,7 +1684,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'closewikis-desc' => 'Tillater stenging av wikier i wikisamlinger',
 	'closewikis-page' => 'Steng wiki',
 	'closewikis-page-close' => 'Steng wiki',
