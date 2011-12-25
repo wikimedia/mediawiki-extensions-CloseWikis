@@ -168,6 +168,11 @@ $specialPageAliases['myv'] = array(
 	'CloseWiki' => array( 'ПекстамсВики' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'CloseWiki' => array( 'Steng_wiki' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'CloseWiki' => array( 'Wiki_sluten' ),
@@ -180,11 +185,6 @@ $specialPageAliases['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
-	'CloseWiki' => array( 'Steng_wiki' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
 
@@ -203,7 +203,7 @@ $specialPageAliases['ro'] = array(
 	'CloseWiki' => array( 'Închide_Wiki' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'CloseWiki' => array( 'वृविकि' ),
 );
@@ -238,7 +238,7 @@ $specialPageAliases['tr'] = array(
 	'CloseWiki' => array( 'VikiKapat' ),
 );
 
-/** Veps (Vepsan kel') */
+/** Veps (Vepsän kel') */
 $specialPageAliases['vep'] = array(
 	'CloseWiki' => array( 'SaubataWiki' ),
 );
@@ -252,8 +252,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'CloseWiki' => array( '關閉Wiki' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
