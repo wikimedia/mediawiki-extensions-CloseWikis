@@ -1752,12 +1752,32 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
  * @author Odisha1
  * @author Psubhashish
  */
 $messages['or'] = array(
+	'closewikis-page' => 'ଉଇକି ବନ୍ଦ କରିବେ',
+	'closewikis-page-close' => 'ଉଇକି ବନ୍ଦ କରିବେ',
+	'closewikis-page-close-wiki' => 'ଉଇକି :',
+	'closewikis-page-close-dreason' => 'କାରଣ (ଦର୍ଶାଯାଇଛି):',
+	'closewikis-page-close-reason' => 'କାରଣ (ଜଣାଇଦିଆଯାଇଛି):',
 	'closewikis-page-close-submit' => 'ବନ୍ଦ କରିବେ',
+	'closewikis-page-close-success' => 'ଉଇକି ସଫଳ ଭାବେ ବନ୍ଦ କରିଦିଆଯାଇଛି',
+	'closewikis-page-reopen' => "ଉଇକି ଆଉଥରେ ଖୋଲନ୍ତୁ'",
+	'closewikis-page-reopen-wiki' => 'ଉଇକି :',
 	'closewikis-page-reopen-reason' => 'କାରଣ:',
+	'closewikis-page-reopen-submit' => 'ପୁନଃଖୋଲିବା',
+	'closewikis-page-reopen-success' => 'ଉଇକି ସଫଳ ଭାବେ ଖୋଲା ପୁନଃଖୋଲାଯାଇଛି',
+	'closewikis-page-err-nowiki' => 'ଅବୈଧ ଉଇକି ଦର୍ଶଯାଇଛି',
+	'closewikis-page-err-closed' => 'ଉଇକି ଆଗରୁ ବନ୍ଦ ହେଇସାରିଛି',
+	'closewikis-page-err-opened' => 'ଉଇକି ବନ୍ଦ ହୋଇନି',
+	'closewikis-list' => 'ବନ୍ଦ ହୋଇଥିବା ଉଇକିମାନଙ୍କ ତାଲିକା',
+	'closewikis-list-intro' => 'ଏହି ତାଲିକାରେ ଷ୍ଟିଉଆର୍ଡଙ୍କ ଦ୍ଵାରା ବନ୍ଦ କରାଯାଇଥିବା ଉଇକିମାନଙ୍କର ତାଲିକା ଅଛି',
+	'closewikis-list-header-wiki' => 'ଉଇକି',
+	'closewikis-list-header-by' => 'ଙ୍କଦ୍ଵାରା ବନ୍ଦକରାଯାଇଛି',
+	'closewikis-list-header-timestamp' => 'ଦିନ ବନ୍ଦକରାଯାଇଛି',
+	'closewikis-list-header-dispreason' => 'ଦର୍ଶାଯାଇଥିବା କାରଣ',
 );
 
 /** Deitsch (Deitsch)
