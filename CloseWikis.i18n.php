@@ -1920,9 +1920,10 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Jaideraf
  */
 $messages['pt-br'] = array(
-	'closewikis-desc' => 'Permite fechar uma wiki em sites com múltiplos wikis',
+	'closewikis-desc' => 'Permite fechar um wiki em sites com múltiplos wikis',
 	'closewikis-page' => 'Fechar wiki',
 	'closewikis-page-close' => 'Fechar wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -1935,7 +1936,7 @@ $messages['pt-br'] = array(
 	'closewikis-page-reopen-reason' => 'Motivo:',
 	'closewikis-page-reopen-submit' => 'Reabrir',
 	'closewikis-page-reopen-success' => 'Wiki reaberta com sucesso',
-	'closewikis-page-err-nowiki' => 'A wiki especificada é inválida',
+	'closewikis-page-err-nowiki' => 'O wiki especificado é inválido',
 	'closewikis-page-err-closed' => 'Wiki já está fechada',
 	'closewikis-page-err-opened' => 'Esta wiki não está fechada',
 	'closewikis-list' => 'Lista de wikis fechados',
