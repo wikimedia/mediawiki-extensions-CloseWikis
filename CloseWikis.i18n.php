@@ -1206,18 +1206,19 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'closewikis-desc' => 'ウィキファーム内のウィキサイトを閉鎖できるようにする',
-	'closewikis-page' => 'ウィキを閉鎖する',
-	'closewikis-page-close' => 'ウィキを閉鎖する',
+	'closewikis-page' => 'ウィキを閉鎖',
+	'closewikis-page-close' => 'ウィキを閉鎖',
 	'closewikis-page-close-wiki' => 'ウィキ:',
 	'closewikis-page-close-dreason' => '理由 (表示用):',
 	'closewikis-page-close-reason' => '理由 (記録用):',
 	'closewikis-page-close-submit' => '閉鎖',
 	'closewikis-page-close-success' => 'ウィキの閉鎖に成功しました',
-	'closewikis-page-reopen' => 'ウィキを再開する',
+	'closewikis-page-reopen' => 'ウィキを再開',
 	'closewikis-page-reopen-wiki' => 'ウィキ:',
 	'closewikis-page-reopen-reason' => '理由：',
 	'closewikis-page-reopen-submit' => '再開',
@@ -1235,7 +1236,7 @@ $messages['ja'] = array(
 	'closewikis-log-header' => 'これはスチュワードによるすべてのウィキの閉鎖および再開の記録です',
 	'closewikis-log-close' => '$2 を閉鎖',
 	'closewikis-log-reopen' => '$2 を再開',
-	'right-editclosedwikis' => '閉鎖されたウィキを編集する',
+	'right-editclosedwikis' => '閉鎖されたウィキを編集',
 	'right-closewikis' => 'ウィキを閉鎖する',
 );
 
