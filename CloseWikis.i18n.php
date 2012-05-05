@@ -1237,7 +1237,7 @@ $messages['ja'] = array(
 	'closewikis-log-close' => '$2 を閉鎖',
 	'closewikis-log-reopen' => '$2 を再開',
 	'right-editclosedwikis' => '閉鎖されたウィキを編集',
-	'right-closewikis' => 'ウィキを閉鎖する',
+	'right-closewikis' => 'ウィキを閉鎖',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1922,35 +1922,36 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
  * @author Jaideraf
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'closewikis-desc' => 'Permite fechar um wiki em sites com múltiplos wikis',
 	'closewikis-page' => 'Fechar wiki',
 	'closewikis-page-close' => 'Fechar wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
-	'closewikis-page-close-dreason' => 'Razão (exibida):',
-	'closewikis-page-close-reason' => 'Razão (registrada):',
+	'closewikis-page-close-dreason' => 'Motivo (exibido):',
+	'closewikis-page-close-reason' => 'Motivo (registrado):',
 	'closewikis-page-close-submit' => 'Fechar',
-	'closewikis-page-close-success' => 'Wiki foi fechada com sucesso',
+	'closewikis-page-close-success' => 'Wiki fechado com êxito',
 	'closewikis-page-reopen' => 'Reabrir wiki',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Motivo:',
 	'closewikis-page-reopen-submit' => 'Reabrir',
-	'closewikis-page-reopen-success' => 'Wiki reaberta com sucesso',
+	'closewikis-page-reopen-success' => 'Wiki reaberto com êxito',
 	'closewikis-page-err-nowiki' => 'O wiki especificado é inválido',
-	'closewikis-page-err-closed' => 'Wiki já está fechada',
-	'closewikis-page-err-opened' => 'Esta wiki não está fechada',
+	'closewikis-page-err-closed' => 'Wiki já fechado',
+	'closewikis-page-err-opened' => 'Este wiki não está fechado',
 	'closewikis-list' => 'Lista de wikis fechados',
 	'closewikis-list-intro' => 'Esta lista contém wikis que foram fechados por stewards.',
 	'closewikis-list-header-wiki' => 'Wiki',
 	'closewikis-list-header-by' => 'Fechado por',
 	'closewikis-list-header-timestamp' => 'Fechada em',
-	'closewikis-list-header-dispreason' => 'Razão apresentada',
-	'closewikis-log' => 'Registro de Wikis fechadas',
-	'closewikis-log-header' => 'Aqui está um registro de todas as wikis que foram fechadas ou reabertas por stewards',
-	'closewikis-log-close' => 'fechada $2',
-	'closewikis-log-reopen' => 'reaberta $2',
-	'right-editclosedwikis' => 'Editar wikis fechadas',
+	'closewikis-list-header-dispreason' => 'Motivo apresentado',
+	'closewikis-log' => 'Registro de encerramento de wikis',
+	'closewikis-log-header' => 'Segue abaixo registro de todos os fechamentos e reaberturas de wikis feitos por stewards',
+	'closewikis-log-close' => 'fechou $2',
+	'closewikis-log-reopen' => 'reabriu $2',
+	'right-editclosedwikis' => 'Editar wikis fechados',
 	'right-closewikis' => 'Fechar wikis',
 );
 
