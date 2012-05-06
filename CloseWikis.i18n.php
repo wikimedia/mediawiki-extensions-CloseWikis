@@ -1920,9 +1920,9 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Eduardo.mps
  * @author Jaideraf
- * @author 555
  */
 $messages['pt-br'] = array(
 	'closewikis-desc' => 'Permite fechar um wiki em sites com múltiplos wikis',
