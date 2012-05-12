@@ -1686,6 +1686,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'closewikis-desc' => 'Tillèt stenging av wikiar i wikisamlingar',
@@ -2472,7 +2473,7 @@ $messages['ur'] = array(
 	'closewikis-page-reopen-reason' => 'وجہ:',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
