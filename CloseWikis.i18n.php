@@ -527,7 +527,7 @@ $messages['cs'] = array(
 	'right-closewikis' => 'Zavírání wiki',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Sarrus
  */
 $messages['da'] = array(
