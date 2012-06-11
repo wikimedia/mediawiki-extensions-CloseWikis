@@ -28,12 +28,12 @@ $specialPageAliases['bjn'] = array(
 	'CloseWiki' => array( 'Tukup_wiki' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'CloseWiki' => array( 'SerriñWiki' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'CloseWiki' => array( 'ZatvoriWiki' ),
 );
@@ -58,12 +58,12 @@ $specialPageAliases['eo'] = array(
 	'CloseWiki' => array( 'Fermi_vikion' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'CloseWiki' => array( 'CerrarWiki', 'Cerrar_wiki' ),
 );
 
-/** Basque (Euskara) */
+/** Basque (euskara) */
 $specialPageAliases['eu'] = array(
 	'CloseWiki' => array( 'WikiaItxi' ),
 );
@@ -73,7 +73,7 @@ $specialPageAliases['fa'] = array(
 	'CloseWiki' => array( 'بستن_ویکی' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'CloseWiki' => array( 'Sulje_wiki' ),
 );
@@ -93,7 +93,7 @@ $specialPageAliases['gu'] = array(
 	'CloseWiki' => array( 'બંધવિકિ' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'CloseWiki' => array( 'Zatvori_wiki' ),
 );
@@ -113,12 +113,12 @@ $specialPageAliases['ht'] = array(
 	'CloseWiki' => array( 'FèmenWiki' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'CloseWiki' => array( 'Wiki_bezárása' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'CloseWiki' => array( 'Clauder_wiki' ),
 );
@@ -138,12 +138,17 @@ $specialPageAliases['km'] = array(
 	'CloseWiki' => array( 'បិទវិគី' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'CloseWiki' => array( '위키닫기' ),
+);
+
 /** Colognian (Ripoarisch) */
 $specialPageAliases['ksh'] = array(
 	'CloseWiki' => array( 'Wiki_deeschmaacher' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'CloseWiki' => array( 'DegeaWiki' ),
 );
@@ -158,7 +163,7 @@ $specialPageAliases['lb'] = array(
 	'CloseWiki' => array( 'Wiki_zoumaachen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CloseWiki' => array( 'ЗатвореноВики' ),
 );
@@ -183,7 +188,7 @@ $specialPageAliases['myv'] = array(
 	'CloseWiki' => array( 'ПекстамсВики' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
@@ -198,12 +203,12 @@ $specialPageAliases['nl'] = array(
 	'CloseWiki' => array( 'WikiSluiten' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'CloseWiki' => array( 'Zamknij_wiki' ),
 );
@@ -213,12 +218,12 @@ $specialPageAliases['ps'] = array(
 	'CloseWiki' => array( 'ويکي_تړل' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'CloseWiki' => array( 'Închide_Wiki' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $specialPageAliases['ru'] = array(
 	'CloseWiki' => array( 'Закрытие_вики' ),
 );
@@ -228,12 +233,12 @@ $specialPageAliases['sa'] = array(
 	'CloseWiki' => array( 'वृविकि' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'CloseWiki' => array( 'ZatvoriťWiki' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'CloseWiki' => array( 'Stäng_wiki' ),
 );
@@ -258,6 +263,11 @@ $specialPageAliases['tr'] = array(
 	'CloseWiki' => array( 'VikiKapat' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'CloseWiki' => array( 'Закриті_Вікі' ),
+);
+
 /** Veps (Vepsän kel’) */
 $specialPageAliases['vep'] = array(
 	'CloseWiki' => array( 'SaubataWiki' ),
@@ -268,12 +278,12 @@ $specialPageAliases['vi'] = array(
 	'CloseWiki' => array( 'Đóng_cửa', 'Đóng_cửa_wiki' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'CloseWiki' => array( '关闭Wiki' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'CloseWiki' => array( '關閉Wiki' ),
 );
