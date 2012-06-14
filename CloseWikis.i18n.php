@@ -181,7 +181,7 @@ $messages['arz'] = array(
 	'right-closewikis' => 'إغلاق الويكيات',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  */
@@ -264,7 +264,7 @@ $messages['bar'] = array(
 	'right-closewikis' => 'Wikis schliassen',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Тест
  */
 $messages['be'] = array(
@@ -307,7 +307,7 @@ $messages['be-tarask'] = array(
 	'right-closewikis' => 'закрыцьцё вікі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author Borislav
  * @author DCLXVI
  */
@@ -377,7 +377,7 @@ $messages['bn'] = array(
 	'right-closewikis' => 'উইকি বন্ধ করুন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -413,7 +413,7 @@ $messages['br'] = array(
 	'right-closewikis' => 'Serriñ ar wikioù',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -447,7 +447,7 @@ $messages['bs'] = array(
 	'right-closewikis' => 'Zatvaranje wikija',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  * @author SMP
  */
@@ -487,12 +487,12 @@ $messages['ce'] = array(
 	'closewikis-page-reopen-reason' => 'Бахьан:',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'closewikis-page-reopen-reason' => 'هۆکار:',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Li-sung
  */
@@ -697,7 +697,7 @@ $messages['eo'] = array(
 	'right-closewikis' => 'Fermi vikiojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author BicScope
  * @author Fitoschido
  */
@@ -732,7 +732,7 @@ $messages['es'] = array(
 	'right-closewikis' => 'Cerrar wikis',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author KalmerE.
  * @author Pikne
@@ -764,7 +764,7 @@ $messages['et'] = array(
 	'right-closewikis' => 'Sulgeda vikisid',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -791,7 +791,7 @@ $messages['fa'] = array(
 	'closewikis-list-header-wiki' => 'ویکی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Silvonen
@@ -826,7 +826,7 @@ $messages['fi'] = array(
 	'right-closewikis' => 'Sulkea wikejä',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author Zetud
@@ -862,7 +862,7 @@ $messages['fr'] = array(
 	'right-closewikis' => 'Clôturer les wikis',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -1067,7 +1067,7 @@ $messages['hsb'] = array(
 	'right-closewikis' => 'Wikije začinić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -1101,7 +1101,7 @@ $messages['hu'] = array(
 	'right-closewikis' => 'wikik bezárása',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author Malafaya
  * @author McDutchie
  */
@@ -1200,7 +1200,7 @@ $messages['io'] = array(
 	'closewikis-log-reopen' => 'ri-apertis $2',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  * @author Pietrodn
  */
@@ -1438,7 +1438,7 @@ $messages['li'] = array(
 	'right-closewikis' => "Gesjlaote wiki's",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -1467,7 +1467,7 @@ $messages['lt'] = array(
 	'right-closewikis' => 'Uždaryti wiki',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -1477,7 +1477,7 @@ $messages['ltg'] = array(
 	'closewikis-list-header-wiki' => 'Viki',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Xil
  */
 $messages['lv'] = array(
@@ -1511,7 +1511,7 @@ $messages['lv'] = array(
 	'right-closewikis' => 'Slēgt wiki',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1579,7 +1579,7 @@ $messages['ml'] = array(
 	'right-closewikis' => 'വിക്കികൾ അടയ്ക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1717,7 +1717,7 @@ $messages['nl'] = array(
 	'right-closewikis' => "Wiki's sluiten",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1752,7 +1752,7 @@ $messages['nn'] = array(
 	'right-closewikis' => 'Steng wikiar',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1826,7 +1826,7 @@ $messages['pdc'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Jwitos
  * @author Maikking
  * @author Sp5uhe
@@ -1917,7 +1917,7 @@ $messages['ps'] = array(
 	'right-closewikis' => 'ويکي تړل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Sir Lestaty de Lioncourt
@@ -1953,7 +1953,7 @@ $messages['pt'] = array(
 	'right-closewikis' => 'Fechar wikis',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Eduardo.mps
  * @author Jaideraf
@@ -1989,7 +1989,7 @@ $messages['pt-br'] = array(
 	'right-closewikis' => 'Fechar wikis',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Danutz
  * @author KlaudiuMihaila
  * @author Stelistcristi
@@ -2021,7 +2021,7 @@ $messages['ro'] = array(
 	'right-closewikis' => 'Închide wiki-urile',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -2035,7 +2035,7 @@ $messages['roa-tara'] = array(
 	'closewikis-list-header-by' => 'Achiuse da',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -2095,7 +2095,7 @@ $messages['rue'] = array(
 	'closewikis-list-header-wiki' => 'Вікі',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -2113,7 +2113,7 @@ $messages['sah'] = array(
 	'closewikis-log-close' => 'сабыллыбыт $2',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -2124,7 +2124,7 @@ $messages['scn'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -2159,7 +2159,7 @@ $messages['sk'] = array(
 	'right-closewikis' => 'Zatvárať wiki',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -2193,7 +2193,7 @@ $messages['sl'] = array(
 	'right-closewikis' => 'Zapiranje wikijev',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2229,7 +2229,7 @@ $messages['sr-ec'] = array(
 	'right-closewikis' => 'затварање викија',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  */
@@ -2307,7 +2307,7 @@ $messages['su'] = array(
 	'closewikis-page-reopen-reason' => 'Alesan:',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author M.M.S.
  * @author Najami
@@ -2386,7 +2386,7 @@ $messages['te'] = array(
 	'right-closewikis' => 'వికీలను మూసివేయండి',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -2464,7 +2464,7 @@ $messages['tr'] = array(
 	'right-closewikis' => 'Vikileri kapat',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Dim Grits
  * @author Prima klasy4na
  * @author Sodmy
@@ -2604,7 +2604,7 @@ $messages['yi'] = array(
 	'closewikis-list-header-wiki' => 'וויקי:',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author PhiLiP
  */
@@ -2639,7 +2639,7 @@ $messages['zh-hans'] = array(
 	'right-closewikis' => '关闭维基',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  */
