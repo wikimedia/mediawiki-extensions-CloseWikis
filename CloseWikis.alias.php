@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'CloseWiki' => array( 'قفل_الويكى' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'CloseWiki' => array( 'ৱিকি_বন্ধ_কৰক' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'CloseWiki' => array( 'Tukup_wiki' ),
@@ -48,7 +53,7 @@ $specialPageAliases['diq'] = array(
 	'CloseWiki' => array( 'WikiRacne' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'CloseWiki' => array( 'Wiki_zacyniś' ),
 );
@@ -78,7 +83,7 @@ $specialPageAliases['fi'] = array(
 	'CloseWiki' => array( 'Sulje_wiki' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'CloseWiki' => array( 'Pechar_o_wiki' ),
 );
@@ -98,7 +103,7 @@ $specialPageAliases['hr'] = array(
 	'CloseWiki' => array( 'Zatvori_wiki' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'CloseWiki' => array( 'Wiki_začinić' ),
 );
