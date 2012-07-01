@@ -223,6 +223,11 @@ $specialPageAliases['ps'] = array(
 	'CloseWiki' => array( 'ويکي_تړل' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'CloseWiki' => array( 'Fechar_wiki' ),
+);
+
 /** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'CloseWiki' => array( 'Închide_Wiki' ),

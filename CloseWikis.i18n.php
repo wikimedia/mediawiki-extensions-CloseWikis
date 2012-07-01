@@ -92,7 +92,7 @@ $messages['af'] = array(
 	'closewikis-log-reopen' => 'het $2 heropen',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -272,7 +272,7 @@ $messages['be'] = array(
 	'closewikis-page-reopen-reason' => 'Прычына:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -594,7 +594,7 @@ $messages['de'] = array(
 	'right-closewikis' => 'Wikis schließen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -906,7 +906,7 @@ $messages['ga'] = array(
 	'closewikis-log-close' => 'dúnta $2',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1033,7 +1033,7 @@ $messages['he'] = array(
 	'right-closewikis' => 'סגירת אתרי ויקי',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2070,7 +2070,7 @@ $messages['ru'] = array(
 	'right-closewikis' => 'Закрытие вики',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
