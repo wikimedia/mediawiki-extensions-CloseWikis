@@ -265,7 +265,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'CloseWiki' => array( 'Isara ang wiki' ),
+	'CloseWiki' => array( 'Isara_ang_wiki' ),
 );
 
 /** Turkish (Türkçe) */
