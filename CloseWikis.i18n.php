@@ -196,7 +196,7 @@ $messages['az'] = array(
 	'right-editclosedwikis' => 'Bağlanmış vikiləri redaktə',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -482,7 +482,7 @@ $messages['ca'] = array(
 	'right-closewikis' => 'Tancar wikis',
 );
 
-/** Chechen (Нохчийн) */
+/** Chechen (нохчийн) */
 $messages['ce'] = array(
 	'closewikis-page-reopen-reason' => 'Бахьан:',
 );
@@ -1627,7 +1627,7 @@ $messages['mt'] = array(
 	'closewikis-page-close-submit' => 'Agħlaq',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1647,8 +1647,7 @@ $messages['nah'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2506,7 +2505,7 @@ $messages['ur'] = array(
 	'closewikis-page-reopen-reason' => 'وجہ:',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(

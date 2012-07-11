@@ -188,7 +188,7 @@ $specialPageAliases['mt'] = array(
 	'CloseWiki' => array( 'AgħlaqWiki' ),
 );
 
-/** Erzya (Эрзянь) */
+/** Erzya (эрзянь) */
 $specialPageAliases['myv'] = array(
 	'CloseWiki' => array( 'ПекстамсВики' ),
 );
@@ -278,7 +278,7 @@ $specialPageAliases['uk'] = array(
 	'CloseWiki' => array( 'Закриті_Вікі' ),
 );
 
-/** Veps (Vepsän kel’) */
+/** Veps (vepsän kel’) */
 $specialPageAliases['vep'] = array(
 	'CloseWiki' => array( 'SaubataWiki' ),
 );
