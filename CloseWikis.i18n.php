@@ -594,6 +594,30 @@ $messages['de'] = array(
 	'right-closewikis' => 'Wikis schließen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'closewikis-page' => 'Wiki racnê',
+	'closewikis-page-close' => 'Wiki racnê',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-submit' => 'Racnê',
+	'closewikis-page-close-success' => 'Wiki racneyê',
+	'closewikis-page-reopen' => 'Wikiyer fına ake',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Sebeb:',
+	'closewikis-page-reopen-submit' => 'Fına Ake',
+	'closewikis-page-reopen-success' => 'Wiki fına abiyê',
+	'closewikis-page-err-opened' => 'Wiki racnayi niya',
+	'closewikis-list' => 'Listey wikiyan dê racneyan',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Racnayen',
+	'closewikis-list-header-timestamp' => 'Racnayışê cı',
+	'closewikis-log-close' => '$2 wiki racnê',
+	'closewikis-log-reopen' => '$2 viki fına akerdı',
+	'right-closewikis' => 'Wikiyan racnê',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
