@@ -2423,6 +2423,7 @@ $messages['tet'] = array(
  */
 $messages['tl'] = array(
 	'closewikis-desc' => 'Nagpapahintulot na maisara ang mga sityo ng wiking nasa loob ng mga linangan ng wiki',
+	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Isara ang wiki',
 	'closewikis-page-close' => 'Isara ang wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
