@@ -811,8 +811,12 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'closewikis-page-close-wiki' => 'ویکی:',
+	'closewikis-page-close-submit' => 'بستن',
 	'closewikis-page-reopen-wiki' => 'ویکی:',
+	'closewikis-page-reopen-reason' => 'دلیل:',
 	'closewikis-list-header-wiki' => 'ویکی',
+	'right-editclosedwikis' => 'ویرایش ویکی‌های بسته شده',
+	'right-closewikis' => 'بستن ویکی‌ها',
 );
 
 /** Finnish (suomi)
@@ -1295,6 +1299,23 @@ $messages['ja'] = array(
 	'closewikis-log-reopen' => '$2 を再開',
 	'right-editclosedwikis' => '閉鎖されたウィキを編集',
 	'right-closewikis' => 'ウィキを閉鎖',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'closewikis-page' => 'ვიკის დახურვა',
+	'closewikis-page-close' => 'ვიკის დახურვა',
+	'closewikis-page-close-wiki' => 'ვიკი:',
+	'closewikis-page-close-submit' => 'დახურვა',
+	'closewikis-page-close-success' => 'ვიკი წარმატებით დაიხურა',
+	'closewikis-page-reopen' => 'ვიკის გახსნა',
+	'closewikis-page-reopen-wiki' => 'ვიკი:',
+	'closewikis-page-reopen-reason' => 'მიზეზი:',
+	'closewikis-page-reopen-submit' => 'გახსნა',
+	'closewikis-page-reopen-success' => 'ვიკი წარმატებით გაიხსნა',
+	'closewikis-list-header-wiki' => 'ვიკი',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -2145,6 +2166,17 @@ $messages['scn'] = array(
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Mutivu:',
 	'closewikis-list-header-wiki' => 'Wiki',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'closewikis-page-close-wiki' => 'විකිය:',
+	'closewikis-page-close-submit' => 'වසන්න',
+	'closewikis-page-reopen-wiki' => 'විකිය:',
+	'closewikis-page-reopen-reason' => 'හේතුව:',
+	'closewikis-list-header-wiki' => 'විකිය',
 );
 
 /** Slovak (slovenčina)
