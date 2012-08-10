@@ -528,9 +528,11 @@ $messages['cs'] = array(
 );
 
 /** Danish (dansk)
+ * @author Hylle
  * @author Sarrus
  */
 $messages['da'] = array(
+	'closewikis-desc' => "Tillader lukning af wiki'er i wikisamlinger",
 	'closewikis-page' => 'Luk wiki',
 	'closewikis-page-close' => 'Luk wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
