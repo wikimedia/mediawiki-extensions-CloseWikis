@@ -2201,11 +2201,16 @@ $messages['scn'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'closewikis-page' => 'විකිය වසන්න',
+	'closewikis-page-close' => 'විකිය වසන්න',
 	'closewikis-page-close-wiki' => 'විකිය:',
 	'closewikis-page-close-submit' => 'වසන්න',
 	'closewikis-page-reopen-wiki' => 'විකිය:',
 	'closewikis-page-reopen-reason' => 'හේතුව:',
 	'closewikis-list-header-wiki' => 'විකිය',
+	'closewikis-list-header-by' => 'වසන ලද්දේ',
+	'closewikis-list-header-timestamp' => 'වසන ලද්දේ',
+	'right-closewikis' => 'විකි වසන්න',
 );
 
 /** Slovak (slovenčina)
@@ -2428,16 +2433,28 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'closewikis-page' => 'விக்கியை மூடு',
+	'closewikis-page-close' => 'விக்கியை மூடு',
 	'closewikis-page-close-wiki' => 'விக்கி:',
 	'closewikis-page-close-dreason' => 'காரணம் (காட்டப்பட்டுள்ளது):',
 	'closewikis-page-close-submit' => 'மூடுக',
+	'closewikis-page-close-success' => 'விக்கி வெற்றிகரமாக மூடப்பட்டது',
+	'closewikis-page-reopen' => 'விக்கியை மறுபடியும் திற',
 	'closewikis-page-reopen-wiki' => 'விக்கி:',
 	'closewikis-page-reopen-reason' => 'காரணம்:',
 	'closewikis-page-reopen-submit' => 'திரும்பத் திறக்கவும்',
+	'closewikis-page-reopen-success' => 'விக்கி வெற்றிகரமாக மறுதிறப்பு செய்யப்பட்டது',
+	'closewikis-page-err-closed' => 'விக்கி ஏற்கனவே மூடப்பட்டுள்ளது.',
+	'closewikis-page-err-opened' => 'விக்கி மூடப்படவில்லை.',
+	'closewikis-list' => 'மூடப்பட்ட விக்கிகளின் பட்டியல்',
 	'closewikis-list-header-wiki' => 'விக்கி',
+	'closewikis-list-header-by' => 'மூடியவர்',
+	'closewikis-list-header-timestamp' => 'மூடப்பட்ட நாள்',
+	'closewikis-list-header-dispreason' => 'காட்டப்பட்ட காரணம்',
 );
 
 /** Telugu (తెలుగు)
