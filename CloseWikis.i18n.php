@@ -2102,8 +2102,11 @@ $messages['roa-tara'] = array(
 	'closewikis-page-close' => "Achiude 'a uicchi",
 	'closewikis-page-close-wiki' => 'Uicchi:',
 	'closewikis-page-close-submit' => 'Achiude',
+	'closewikis-page-reopen' => "Riapre 'a uicchi",
 	'closewikis-page-reopen-wiki' => 'Uicchi:',
 	'closewikis-page-reopen-reason' => 'Mutive:',
+	'closewikis-page-reopen-submit' => 'Riapre',
+	'closewikis-page-err-opened' => "Uicchi non g'è achiuse",
 	'closewikis-list-header-wiki' => 'Uicchi',
 	'closewikis-list-header-by' => 'Achiuse da',
 );
