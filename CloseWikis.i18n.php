@@ -927,9 +927,12 @@ $messages['frp'] = array(
 
 /** Irish (Gaeilge)
  * @author Alison
+ * @author පසිඳු කාවින්ද
  */
 $messages['ga'] = array(
 	'closewikis-page-close-wiki' => 'Vicí:',
+	'closewikis-page-close-submit' => 'Dún',
+	'closewikis-page-reopen-reason' => 'Fáth:',
 	'closewikis-list-header-wiki' => 'Vicí',
 	'closewikis-list-header-by' => 'Dúnadh le',
 	'closewikis-list-header-timestamp' => 'Dúnadh ar',
