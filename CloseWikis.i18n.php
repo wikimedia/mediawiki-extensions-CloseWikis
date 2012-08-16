@@ -2709,9 +2709,11 @@ $messages['wuu'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'closewikis-page-close-wiki' => 'וויקי:',
+	'closewikis-page-close-submit' => 'שליסן',
 	'closewikis-page-reopen-wiki' => 'וויקי:',
 	'closewikis-page-reopen-reason' => 'אורזאַך:',
 	'closewikis-list-header-wiki' => 'וויקי:',
