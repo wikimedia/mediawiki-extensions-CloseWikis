@@ -564,24 +564,25 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author ChrisiPK
+ * @author Kghbln
  */
 $messages['de'] = array(
 	'closewikis-desc' => 'Ermöglicht das Schließen einzelner Wikis in einer Wikifarm',
-	'closewikis-page' => 'Wiki schließen.',
+	'closewikis-page' => 'Wiki schließen',
 	'closewikis-page-close' => 'Wiki schließen',
 	'closewikis-page-close-wiki' => 'Wiki:',
-	'closewikis-page-close-dreason' => 'Angezeigter Grund:',
+	'closewikis-page-close-dreason' => 'Grund, der angezeigt wird:',
 	'closewikis-page-close-reason' => 'Grund, der ins Logbuch eingetragen wird:',
 	'closewikis-page-close-submit' => 'Schließen',
-	'closewikis-page-close-success' => 'Wiki erfolgreich geschlossen.',
+	'closewikis-page-close-success' => 'Das Wiki wurde erfolgreich geschlossen.',
 	'closewikis-page-reopen' => 'Wiki wieder öffnen',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Grund:',
 	'closewikis-page-reopen-submit' => 'Wieder öffnen',
-	'closewikis-page-reopen-success' => 'Wiki erfolgreich wieder geöffnet',
-	'closewikis-page-err-nowiki' => 'Ungültiges Wiki angegeben',
-	'closewikis-page-err-closed' => 'Wiki ist bereits geschlossen',
-	'closewikis-page-err-opened' => 'Wiki ist nicht geschlossen',
+	'closewikis-page-reopen-success' => 'Das Wiki wurde erfolgreich wieder geöffnet.',
+	'closewikis-page-err-nowiki' => 'Es wurde ein ungültiges Wiki angegeben.',
+	'closewikis-page-err-closed' => 'Das Wiki ist bereits geschlossen.',
+	'closewikis-page-err-opened' => 'Das Wiki ist nicht geschlossen.',
 	'closewikis-list' => 'Liste geschlossener Wikis',
 	'closewikis-list-intro' => 'Diese Liste enthält Wikis, die von Stewards geschlossen wurden.',
 	'closewikis-list-header-wiki' => 'Wiki',
