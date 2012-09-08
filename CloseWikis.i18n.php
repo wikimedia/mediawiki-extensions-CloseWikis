@@ -2543,6 +2543,13 @@ $messages['tl'] = array(
 	'right-closewikis' => 'Isara ang mga wiki',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Erdemaslancan
+ */
+$messages['tly'] = array(
+	'closewikis-page-reopen-reason' => 'Сәбәб:',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
