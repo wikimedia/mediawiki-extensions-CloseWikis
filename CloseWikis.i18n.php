@@ -49,17 +49,32 @@ $messages['en'] = array(
  * @author Darth Kule
  * @author EugeneZelenko
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'closewikis-desc' => '{{desc}}',
 	'closewikis-closed' => '{{optional}}',
+	'closewikis-page' => 'Used as description.',
+	'closewikis-page-close' => 'Used as legend of fieldset.',
 	'closewikis-page-close-wiki' => '{{Identical|Wiki}}',
-	'closewikis-page-close-submit' => '{{Identical|Close}}',
+	'closewikis-page-close-submit' => 'Label of submit button.
+{{Identical|Close}}',
 	'closewikis-page-reopen-wiki' => '{{Identical|Wiki}}',
 	'closewikis-page-reopen-reason' => '{{Identical|Reason}}',
-	'closewikis-list-header-wiki' => '{{Identical|Wiki}}',
+	'closewikis-page-reopen-submit' => 'Label of submit button.',
+	'closewikis-page-err-nowiki' => 'Used as error message when specified wiki is invalid.',
+	'closewikis-page-err-closed' => 'Used as error message when the user tried to close wiki.',
+	'closewikis-page-err-opened' => 'Used as error message when the user tried to reopen wiki.',
+	'closewikis-list-header-wiki' => 'Used as column header of table.
+{{Identical|Wiki}}',
+	'closewikis-list-header-by' => 'Used as column header of table.',
+	'closewikis-list-header-timestamp' => 'Used as column header of table. This column contains timestamp (date and time).',
+	'closewikis-list-header-dispreason' => 'Used as column header of table.',
+	'closewikis-log' => 'Used as log name.',
+	'closewikis-log-close' => 'Used as log entry.',
+	'closewikis-log-reopen' => 'Used as log entry.',
 	'right-editclosedwikis' => '{{doc-right|editclosedwikis}}',
 	'right-closewikis' => '{{doc-right|closewikis}}',
 );
@@ -1278,8 +1293,8 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'closewikis-desc' => 'ウィキファーム内のウィキサイトを閉鎖できるようにする',
-	'closewikis-page' => 'ウィキを閉鎖',
-	'closewikis-page-close' => 'ウィキを閉鎖',
+	'closewikis-page' => 'ウィキの閉鎖',
+	'closewikis-page-close' => 'ウィキの閉鎖',
 	'closewikis-page-close-wiki' => 'ウィキ:',
 	'closewikis-page-close-dreason' => '理由 (表示用):',
 	'closewikis-page-close-reason' => '理由 (記録用):',
@@ -1287,20 +1302,20 @@ $messages['ja'] = array(
 	'closewikis-page-close-success' => 'ウィキを閉鎖しました',
 	'closewikis-page-reopen' => 'ウィキを再開',
 	'closewikis-page-reopen-wiki' => 'ウィキ:',
-	'closewikis-page-reopen-reason' => '理由：',
+	'closewikis-page-reopen-reason' => '理由:',
 	'closewikis-page-reopen-submit' => '再開',
 	'closewikis-page-reopen-success' => 'ウィキを再開しました',
-	'closewikis-page-err-nowiki' => '無効なウィキが指定されました',
+	'closewikis-page-err-nowiki' => '指定したウィキは無効です',
 	'closewikis-page-err-closed' => 'ウィキは既に閉鎖されています',
 	'closewikis-page-err-opened' => 'ウィキは閉鎖されていません',
-	'closewikis-list' => '閉鎖されたウィキの一覧',
+	'closewikis-list' => '閉鎖されたウィキ一覧',
 	'closewikis-list-intro' => 'この一覧は、スチュワードが閉鎖したウィキを含みます。',
 	'closewikis-list-header-wiki' => 'ウィキ',
 	'closewikis-list-header-by' => '閉鎖者',
-	'closewikis-list-header-timestamp' => '閉鎖日',
-	'closewikis-list-header-dispreason' => '表示理由',
+	'closewikis-list-header-timestamp' => '閉鎖日時',
+	'closewikis-list-header-dispreason' => '表示用の理由',
 	'closewikis-log' => 'ウィキ閉鎖記録',
-	'closewikis-log-header' => 'これはスチュワードによるすべてのウィキの閉鎖および再開の記録です',
+	'closewikis-log-header' => 'これは、スチュワードによるウィキ閉鎖/再開のすべての記録です',
 	'closewikis-log-close' => '$2 を閉鎖',
 	'closewikis-log-reopen' => '$2 を再開',
 	'right-editclosedwikis' => '閉鎖されたウィキを編集',
