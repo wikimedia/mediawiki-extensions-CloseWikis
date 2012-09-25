@@ -193,7 +193,7 @@ $specialPageAliases['myv'] = array(
 	'CloseWiki' => array( 'ПекстамсВики' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
@@ -208,7 +208,7 @@ $specialPageAliases['nl'] = array(
 	'CloseWiki' => array( 'WikiSluiten' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $specialPageAliases['nn'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
@@ -288,12 +288,12 @@ $specialPageAliases['vi'] = array(
 	'CloseWiki' => array( 'Đóng_cửa', 'Đóng_cửa_wiki' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'CloseWiki' => array( '关闭Wiki' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'CloseWiki' => array( '關閉Wiki' ),
 );

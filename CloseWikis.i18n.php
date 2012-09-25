@@ -1809,7 +1809,7 @@ $messages['nl'] = array(
 	'right-closewikis' => "Wiki's sluiten",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
