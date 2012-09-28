@@ -28,6 +28,11 @@ $specialPageAliases['as'] = array(
 	'CloseWiki' => array( 'ৱিকি_বন্ধ_কৰক' ),
 );
 
+/** Bashkir (башҡортса) */
+$specialPageAliases['ba'] = array(
+	'CloseWiki' => array( 'CloseWiki' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'CloseWiki' => array( 'Tukup_wiki' ),
