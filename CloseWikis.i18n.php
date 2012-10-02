@@ -287,7 +287,7 @@ $messages['be'] = array(
 	'closewikis-page-reopen-reason' => 'Прычына:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -1042,7 +1042,7 @@ $messages['gv'] = array(
 	'closewikis-page-reopen-reason' => 'Fa:',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'closewikis-page-reopen-reason' => 'Dalili:',
 );
@@ -1424,7 +1424,7 @@ $messages['ksh'] = array(
 	'right-closewikis' => 'Wikis zomaache',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1740,7 +1740,7 @@ $messages['nah'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2309,7 +2309,7 @@ $messages['sl'] = array(
 	'right-closewikis' => 'Zapiranje wikijev',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2345,7 +2345,7 @@ $messages['sr-ec'] = array(
 	'right-closewikis' => 'затварање викија',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  */
@@ -2742,7 +2742,7 @@ $messages['yi'] = array(
 	'closewikis-list-header-wiki' => 'וויקי:',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author PhiLiP
  */
@@ -2777,7 +2777,7 @@ $messages['zh-hans'] = array(
 	'right-closewikis' => '关闭维基',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  */
