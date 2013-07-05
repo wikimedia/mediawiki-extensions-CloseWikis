@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'CloseWiki' => array( 'قفل_الويكى' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'CloseWiki' => array( 'ৱিকি_বন্ধ_কৰক' ),
 );
@@ -51,6 +51,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'CloseWiki' => array( 'Wiki_schließen' ),
+);
+
+/** Swiss High German (Schweizer Hochdeutsch) */
+$specialPageAliases['de-ch'] = array(
+	'CloseWiki' => array( 'Wiki_schliessen' ),
 );
 
 /** Zazaki (Zazaki) */
@@ -198,12 +203,12 @@ $specialPageAliases['myv'] = array(
 	'CloseWiki' => array( 'ПекстамсВики' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'CloseWiki' => array( 'Wiki_sluten' ),
 );
@@ -213,7 +218,7 @@ $specialPageAliases['nl'] = array(
 	'CloseWiki' => array( 'WikiSluiten' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $specialPageAliases['nn'] = array(
 	'CloseWiki' => array( 'Steng_wiki' ),
 );
