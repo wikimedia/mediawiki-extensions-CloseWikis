@@ -28,7 +28,7 @@ class SpecialCloseWiki extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return wfMsg( 'closewikis-page' );
+		return wfMessage( 'closewikis-page' )->text();
 	}
 
 	public function execute( $par ) {
@@ -67,20 +67,20 @@ class SpecialCloseWiki extends SpecialPage {
 			$dreason = $wgRequest->getVal( 'wpcDisplayReason' );
 			$lreason = $wgRequest->getVal( 'wpcReason' );
 			if( !in_array( $wiki, $wgLocalDatabases ) ) {
-				$status = wfMsgExt( 'closewikis-page-err-nowiki', 'parseinline' );
+				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::close( $wiki, $dreason, $wgUser );
 				if( $statusOK ) {
-					$status = wfMsgExt( 'closewikis-page-close-success', 'parseinline' );
+					$status = wfMessage( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry( 'close', $this->getTitle() /* dummy */, $lreason, array( $wiki ) );
 				} else {
-					$status = wfMsgExt( 'closewikis-page-err-closed', 'parseinline' );
+					$status = wfMessage( 'closewikis-page-err-closed' )->parse();
 				}
 			}
 		}
 
-		$legend = wfMsgHtml( 'closewikis-page-close' );
+		$legend = wfMessage( 'closewikis-page-close' )->escaped();
 
 		// If operation was successful, empty all fields
 		$defaultWiki = $statusOK ? '' : $wgRequest->getVal( 'wpcWiki' );
@@ -116,20 +116,20 @@ class SpecialCloseWiki extends SpecialPage {
 			$wiki = $wgRequest->getVal( 'wprWiki' );
 			$lreason = $wgRequest->getVal( 'wprReason' );
 			if( !in_array( $wiki, $wgLocalDatabases ) ) {
-				$status = wfMsgExt( 'closewikis-page-err-nowiki', 'parseinline' );
+				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::reopen( $wiki );
 				if( $statusOK ) {
-					$status = wfMsgExt( 'closewikis-page-reopen-success', 'parseinline' );
+					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry( 'reopen', $this->getTitle() /* dummy */, $lreason, array( $wiki ) );
 				} else {
-					$status = wfMsgExt( 'closewikis-page-err-opened', 'parseinline' );
+					$status = wfMessage( 'closewikis-page-err-opened' )->parse();
 				}
 			}
 		}
 
-		$legend = wfMsgHtml( 'closewikis-page-reopen' );
+		$legend = wfMessage( 'closewikis-page-reopen' )->escaped();
 
 		// If operation was successful, empty all fields
 		$defaultWiki = $statusOK ? '' : $wgRequest->getVal( 'wprWiki' );

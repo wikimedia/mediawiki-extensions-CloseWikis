@@ -27,7 +27,7 @@ class SpecialListClosedWikis extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return wfMsg( 'closewikis-list' );
+		return wfMessage( 'closewikis-list' )->text();
 	}
 
 	public function execute( $par ) {
@@ -37,7 +37,7 @@ class SpecialListClosedWikis extends SpecialPage {
 		$wgOut->addWikiMsg( 'closewikis-list-intro' );
 		$wgOut->addHTML( '<table class="mw-datatable TablePager" style="width: 100%"><tr>' );
 		foreach( array( 'wiki', 'by', 'timestamp', 'dispreason' ) as $column )
-			$wgOut->addHTML( '<th>' . wfMsgExt( "closewikis-list-header-{$column}", 'parseinline' ) . '</th>' );
+			$wgOut->addHTML( '<th>' . wfMessage( "closewikis-list-header-{$column}" )->parse() . '</th>' );
 		$wgOut->addHTML( '</tr>' );
 		$list = CloseWikis::getAll();
 		foreach( $list as $entry ) {
