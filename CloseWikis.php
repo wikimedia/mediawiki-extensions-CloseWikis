@@ -39,8 +39,8 @@ $wgAvailableRights[] = 'closewikis';
 // To be promoted globally
 $wgAvailableRights[] = 'editclosedwikis';
 
-$wgAutoloadClasses['SpecialCloseWiki'] = "$dir/CloseWikis.page.php";
-$wgAutoloadClasses['SpecialListClosedWikis'] = "$dir/CloseWikis.list.php";
+$wgAutoloadClasses['SpecialCloseWiki'] = "$dir/SpecialCloseWiki.php";
+$wgAutoloadClasses['SpecialListClosedWikis'] = "$dir/SpecialListClosedWikis.php";
 $wgSpecialPages['CloseWiki'] = 'SpecialCloseWiki';
 $wgSpecialPages['ListClosedWikis'] = 'SpecialListClosedWikis';
 
