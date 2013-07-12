@@ -2120,11 +2120,17 @@ $messages['roa-tara'] = array(
 	'closewikis-page' => "Achiude 'a uicchi",
 	'closewikis-page-close' => "Achiude 'a uicchi",
 	'closewikis-page-close-wiki' => 'Uicchi:',
+	'closewikis-page-close-dreason' => 'Mutive (fatte vedè):',
+	'closewikis-page-close-reason' => 'Mutive (trasute):',
 	'closewikis-page-close-submit' => 'Achiude',
+	'closewikis-page-close-success' => 'Uicchi achiuse',
 	'closewikis-page-reopen' => "Riapre 'a uicchi",
 	'closewikis-page-reopen-wiki' => 'Uicchi:',
 	'closewikis-page-reopen-reason' => 'Mutive:',
 	'closewikis-page-reopen-submit' => 'Riapre',
+	'closewikis-page-reopen-success' => 'Uicchi aperte arrete',
+	'closewikis-page-err-nowiki' => 'Uicchi specificate invalide',
+	'closewikis-page-err-closed' => "'A uicchi ha state ggià achiuse",
 	'closewikis-page-err-opened' => "Uicchi non g'è achiuse",
 	'closewikis-list-header-wiki' => 'Uicchi',
 	'closewikis-list-header-by' => 'Achiuse da',
@@ -2811,4 +2817,3 @@ $messages['zh-hant'] = array(
 	'right-editclosedwikis' => '更改關閉維基',
 	'right-closewikis' => '關閉維基',
 );
-
