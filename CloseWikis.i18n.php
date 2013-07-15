@@ -54,25 +54,44 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'closewikis-desc' => '{{desc}}',
+	'closewikis-desc' => '{{desc|name=Close Wikis|url=http://www.mediawiki.org/wiki/Extension:CloseWikis}}',
 	'closewikis-closed' => '{{optional}}',
-	'closewikis-page' => 'Used as description.',
+	'closewikis-page' => '{{doc-special|CloseWiki|unlisted=1}}',
 	'closewikis-page-close' => 'Used as legend of fieldset.',
-	'closewikis-page-close-wiki' => '{{Identical|Wiki}}',
+	'closewikis-page-close-wiki' => 'Used as label for the Wiki select box.
+{{Identical|Wiki}}',
+	'closewikis-page-close-dreason' => 'Used as label for the textarea.',
+	'closewikis-page-close-reason' => 'Used as label for the input box.',
 	'closewikis-page-close-submit' => 'Label of submit button.
 {{Identical|Close}}',
-	'closewikis-page-reopen-wiki' => '{{Identical|Wiki}}',
-	'closewikis-page-reopen-reason' => '{{Identical|Reason}}',
+	'closewikis-page-close-success' => 'Used as success message.
+
+See also:
+* {{msg-mw|Closewikis-page-err-nowiki}}
+* {{msg-mw|Closewikis-page-err-closed}}',
+	'closewikis-page-reopen' => 'Used as fieldset label.',
+	'closewikis-page-reopen-wiki' => 'Used as label for the Wiki select box.
+{{Identical|Wiki}}',
+	'closewikis-page-reopen-reason' => 'Used as label for the Reason input box.
+{{Identical|Reason}}',
 	'closewikis-page-reopen-submit' => 'Label of submit button.',
+	'closewikis-page-reopen-success' => 'Used as success message.
+
+See also:
+* {{msg-mw|Closewikis-page-err-nowiki}}
+* {{msg-mw|Closewikis-page-err-opened}}',
 	'closewikis-page-err-nowiki' => 'Used as error message when specified wiki is invalid.',
 	'closewikis-page-err-closed' => 'Used as error message when the user tried to close wiki.',
 	'closewikis-page-err-opened' => 'Used as error message when the user tried to reopen wiki.',
+	'closewikis-list' => '{{doc-special|ListClosedWikis|unlisted=1}}',
+	'closewikis-list-intro' => 'Used as intro text for the table listing the closed wikis, in [[Special:ListClosedWikis]].',
 	'closewikis-list-header-wiki' => 'Used as column header of table.
 {{Identical|Wiki}}',
 	'closewikis-list-header-by' => 'Used as column header of table.',
 	'closewikis-list-header-timestamp' => 'Used as column header of table. This column contains timestamp (date and time).',
 	'closewikis-list-header-dispreason' => 'Used as column header of table.',
 	'closewikis-log' => 'Used as log name.',
+	'closewikis-log-header' => 'Explanation of wiki closures, shown on [[Special:Log]].',
 	'closewikis-log-close' => 'Used as log entry.',
 	'closewikis-log-reopen' => 'Used as log entry.',
 	'right-editclosedwikis' => '{{doc-right|editclosedwikis}}',
@@ -1300,7 +1319,7 @@ $messages['ja'] = array(
 	'closewikis-page-close-reason' => '理由 (記録用):',
 	'closewikis-page-close-submit' => '閉鎖',
 	'closewikis-page-close-success' => 'ウィキを閉鎖しました',
-	'closewikis-page-reopen' => 'ウィキを再開',
+	'closewikis-page-reopen' => 'ウィキの再開',
 	'closewikis-page-reopen-wiki' => 'ウィキ:',
 	'closewikis-page-reopen-reason' => '理由:',
 	'closewikis-page-reopen-submit' => '再開',
