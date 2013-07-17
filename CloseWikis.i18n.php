@@ -845,13 +845,34 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
+	'closewikis-page' => 'ویکی بسته‌شده',
+	'closewikis-page-close' => 'ویکی بسته‌شده',
 	'closewikis-page-close-wiki' => 'ویکی:',
+	'closewikis-page-close-dreason' => 'دلیل (نمایش‌داده‌شده):',
+	'closewikis-page-close-reason' => 'دلیل (واردشده):',
 	'closewikis-page-close-submit' => 'بستن',
+	'closewikis-page-close-success' => 'ویکی با موفقیت بسته‌شد',
+	'closewikis-page-reopen' => 'بازگشایی ویکی',
 	'closewikis-page-reopen-wiki' => 'ویکی:',
 	'closewikis-page-reopen-reason' => 'دلیل:',
+	'closewikis-page-reopen-submit' => 'بازگشایی',
+	'closewikis-page-reopen-success' => 'ویکی با موفقیت بازگشائی شد',
+	'closewikis-page-err-nowiki' => 'ویکی مشخص‌شدهٔ غیر معتبر',
+	'closewikis-page-err-closed' => 'ویکی در حال حاضر بسته‌است',
+	'closewikis-page-err-opened' => 'ویکی بسته نیست',
+	'closewikis-list' => 'فهرست ویکی‌های بسته',
+	'closewikis-list-intro' => 'در این فهرست ویکی‌های بسته شده توسط ویکی‌بدها فهرست شده‌اند.',
 	'closewikis-list-header-wiki' => 'ویکی',
+	'closewikis-list-header-by' => 'بسته‌شده توسط',
+	'closewikis-list-header-timestamp' => 'بسته‌شده در',
+	'closewikis-list-header-dispreason' => 'نمایش دلیل',
+	'closewikis-log' => 'سیاههٔ بستن ویکی',
+	'closewikis-log-header' => 'در اینجا سیاههٔ ویکی‌های بسته‌شده و بازگشائی‌شده موجود است.',
+	'closewikis-log-close' => 'بسته $2',
+	'closewikis-log-reopen' => 'بازگشایی $2',
 	'right-editclosedwikis' => 'ویرایش ویکی‌های بسته شده',
 	'right-closewikis' => 'بستن ویکی‌ها',
 );
