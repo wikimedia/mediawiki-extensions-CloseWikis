@@ -846,6 +846,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Mjbmr
  * @author Reza1615
+ * @author Taha
  */
 $messages['fa'] = array(
 	'closewikis-page' => 'ویکی بسته‌شده',
@@ -860,7 +861,7 @@ $messages['fa'] = array(
 	'closewikis-page-reopen-reason' => 'دلیل:',
 	'closewikis-page-reopen-submit' => 'بازگشایی',
 	'closewikis-page-reopen-success' => 'ویکی با موفقیت بازگشائی شد',
-	'closewikis-page-err-nowiki' => 'ویکی مشخص‌شدهٔ غیر معتبر',
+	'closewikis-page-err-nowiki' => 'ویکی مشخص‌شدهٔ نامعتبر',
 	'closewikis-page-err-closed' => 'ویکی در حال حاضر بسته‌است',
 	'closewikis-page-err-opened' => 'ویکی بسته نیست',
 	'closewikis-list' => 'فهرست ویکی‌های بسته',
@@ -2157,6 +2158,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'closewikis-desc' => "Permette de achiudere le site uicchi jndr'à fabbreche de uicchi",
 	'closewikis-page' => "Achiude 'a uicchi",
 	'closewikis-page-close' => "Achiude 'a uicchi",
 	'closewikis-page-close-wiki' => 'Uicchi:',
@@ -2172,8 +2174,18 @@ $messages['roa-tara'] = array(
 	'closewikis-page-err-nowiki' => 'Uicchi specificate invalide',
 	'closewikis-page-err-closed' => "'A uicchi ha state ggià achiuse",
 	'closewikis-page-err-opened' => "Uicchi non g'è achiuse",
+	'closewikis-list' => 'Elenghe le de uicchi achiuse',
+	'closewikis-list-intro' => "St'elenghe tène le uicchi ca onne state achiuse da le stiuard.",
 	'closewikis-list-header-wiki' => 'Uicchi',
 	'closewikis-list-header-by' => 'Achiuse da',
+	'closewikis-list-header-timestamp' => "Achiuse 'u",
+	'closewikis-list-header-dispreason' => 'Mutive visualizzate',
+	'closewikis-log' => 'Archivije de le chiusure de le uicchi',
+	'closewikis-log-header' => "Aqquà ste 'n'archivije de tutte le chiusure de le uicchi e le riaperture fatte da le stiuard",
+	'closewikis-log-close' => 'achiuse $2',
+	'closewikis-log-reopen' => 'riaperte $2',
+	'right-editclosedwikis' => 'Cange le uicchi achiuse',
+	'right-closewikis' => 'Close le uicchi',
 );
 
 /** Russian (русский)
