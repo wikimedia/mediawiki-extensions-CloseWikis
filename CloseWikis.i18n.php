@@ -1561,6 +1561,7 @@ $messages['lt'] = array(
 	'closewikis-page-reopen-reason' => 'Priežastis:',
 	'closewikis-page-reopen-submit' => 'Atidaryti iš naujo',
 	'closewikis-page-reopen-success' => 'Wiki sėkmingai iš naujo atidaryta',
+	'closewikis-page-err-nowiki' => 'Nurodyta neteisinga viki',
 	'closewikis-page-err-closed' => 'Wiki jau uždaryta',
 	'closewikis-page-err-opened' => 'Wiki neuždaryta',
 	'closewikis-list' => 'Uždarytu wiki sąrašas',
