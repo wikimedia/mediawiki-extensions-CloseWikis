@@ -48,6 +48,11 @@ $specialPageAliases['bs'] = array(
 	'CloseWiki' => array( 'ZatvoriWiki' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'CloseWiki' => array( 'Вики_дӀачӀагӀар' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'CloseWiki' => array( 'Wiki_schließen' ),
