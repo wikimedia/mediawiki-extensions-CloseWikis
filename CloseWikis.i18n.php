@@ -1697,6 +1697,37 @@ $messages['mn'] = array(
 	'closewikis-page-reopen-reason' => 'Шалтгаан:',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'closewikis-page' => 'विकि बंद करा',
+	'closewikis-page-close' => 'विकि बंद करा',
+	'closewikis-page-close-wiki' => 'विकि:',
+	'closewikis-page-close-dreason' => 'कारण(दाखविलेले):',
+	'closewikis-page-close-reason' => 'कारण(नोंदविलेले):',
+	'closewikis-page-close-submit' => 'बंद करा',
+	'closewikis-page-close-success' => 'विकि यशवीरित्या बंद करण्यात आला आहे',
+	'closewikis-page-reopen' => 'विकि पुन्हा सुरू करा',
+	'closewikis-page-reopen-wiki' => 'विकि:',
+	'closewikis-page-reopen-reason' => 'कारण:',
+	'closewikis-page-reopen-submit' => 'पुन्हा सुरू करा',
+	'closewikis-page-reopen-success' => 'विकि यशस्वीरित्या पुन्हा सुरू केल्या गेला',
+	'closewikis-page-err-nowiki' => 'नमूद विकि अवैध आहे',
+	'closewikis-page-err-closed' => 'विकि याआधीच बंद करण्यात आलेला आहे',
+	'closewikis-page-err-opened' => 'विकि बंद करण्यात आलेला नाही',
+	'closewikis-list' => 'बंद असलेल्या विकिंची यादी',
+	'closewikis-list-header-wiki' => 'विकि',
+	'closewikis-list-header-by' => 'ने बंद केला',
+	'closewikis-list-header-timestamp' => 'ला बंद केला',
+	'closewikis-list-header-dispreason' => 'दर्शविलेले कारण',
+	'closewikis-log' => 'विकि बंद करण्यामागच्या नोंदी',
+	'closewikis-log-close' => 'बंद आहे $2',
+	'closewikis-log-reopen' => 'पुन्हा सुरू केलेला $2',
+	'right-editclosedwikis' => 'संपादनास बंद विकि',
+	'right-closewikis' => 'बंद विकि',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
