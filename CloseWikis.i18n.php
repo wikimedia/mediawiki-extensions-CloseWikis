@@ -92,8 +92,12 @@ See also:
 	'closewikis-list-header-dispreason' => 'Used as column header of table.',
 	'closewikis-log' => 'Used as log name.',
 	'closewikis-log-header' => 'Explanation of wiki closures, shown on [[Special:Log]].',
-	'closewikis-log-close' => 'Used as log entry.',
-	'closewikis-log-reopen' => 'Used as log entry.',
+	'closewikis-log-close' => 'Used as log entry.　Parameters:
+* $1 - (Unused)
+* $2 - wikiname',
+	'closewikis-log-reopen' => 'Used as log entry. Parameters:
+* $1 - (Unused)
+* $2 - wikiname',
 	'right-editclosedwikis' => '{{doc-right|editclosedwikis}}',
 	'right-closewikis' => '{{doc-right|closewikis}}',
 );
