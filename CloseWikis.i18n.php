@@ -917,6 +917,35 @@ $messages['fi'] = array(
 	'right-closewikis' => 'Sulkea wikejä',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'closewikis-desc' => 'Loyvir stonging av wikium í wikisøvnum',
+	'closewikis-page' => 'Stong wiki',
+	'closewikis-page-close' => 'Stong wiki',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-dreason' => 'Orsøk (verður víst):',
+	'closewikis-page-close-submit' => 'Lat aftur',
+	'closewikis-page-close-success' => 'Wikiin er nú stongd',
+	'closewikis-page-reopen' => 'Lat wiki upp aftur',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Orsøk:',
+	'closewikis-page-reopen-submit' => 'Lat upp aftur',
+	'closewikis-page-reopen-success' => 'Wiki er nú opin aftur',
+	'closewikis-page-err-closed' => 'Wiki er longu stongd',
+	'closewikis-page-err-opened' => 'Wiki er ikki stongd',
+	'closewikis-list' => 'Yvirlit yvir stongdar wikiir',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Stongt hevur',
+	'closewikis-list-header-timestamp' => 'Stongt hin',
+	'closewikis-list-header-dispreason' => 'Víst orsøk',
+	'closewikis-log-close' => 'stongdi $2',
+	'closewikis-log-reopen' => 'lat upp aftur $2',
+	'right-editclosedwikis' => 'Rætta stongdar wikiir',
+	'right-closewikis' => 'Stong wikiir',
+);
+
 /** French (français)
  * @author Grondin
  * @author IAlex
