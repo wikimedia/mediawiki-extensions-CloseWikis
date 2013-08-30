@@ -302,6 +302,39 @@ $messages['bar'] = array(
 	'right-closewikis' => 'Wikis schliassen',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'closewikis-page' => 'Isarado an wiki',
+	'closewikis-page-close' => 'Isarado an wiki',
+	'closewikis-page-close-wiki' => 'Wiki:',
+	'closewikis-page-close-dreason' => 'Rason (pinagpahiling):',
+	'closewikis-page-close-reason' => 'Rason (pinagtala):',
+	'closewikis-page-close-submit' => 'Saraduhan',
+	'closewikis-page-close-success' => 'An Wiki matrayumpong pinagsaraduhan',
+	'closewikis-page-reopen' => 'Bukasi otro an wiki',
+	'closewikis-page-reopen-wiki' => 'Wiki:',
+	'closewikis-page-reopen-reason' => 'Rason:',
+	'closewikis-page-reopen-submit' => 'Bukasi otro',
+	'closewikis-page-reopen-success' => 'An wiki matrayumpong pinagbukasan otro',
+	'closewikis-page-err-nowiki' => 'Imbalidong wiki an pinagsambit',
+	'closewikis-page-err-closed' => 'An Wiki pinagsaraduhan na',
+	'closewikis-page-err-opened' => 'An Wiki dae pa pinagsaraduhan',
+	'closewikis-list' => 'Listahan kan pinagsaraduhan na mga wiki',
+	'closewikis-list-intro' => 'Ining listahan naglalaman nin mga wiki na pinagsaraduhan na kan mga katiwala.',
+	'closewikis-list-header-wiki' => 'Wiki',
+	'closewikis-list-header-by' => 'Pinagsaraduhan ni',
+	'closewikis-list-header-timestamp' => 'Pinagsaraduhan kaidtong',
+	'closewikis-list-header-dispreason' => 'Pinagpahiling na rason',
+	'closewikis-log' => 'Talaan kan sinaradong mga Wiki',
+	'closewikis-log-header' => 'Uya an sarong talaan kan gabos na wiking sinaraduhan asin an mga pagbukas otro na hinimo kan mga katiwala',
+	'closewikis-log-close' => 'pinagsaraduhan an $2',
+	'closewikis-log-reopen' => 'pinagbukasan otro an $2',
+	'right-editclosedwikis' => 'Liwaton an mga wiki na pinagsaraduhan',
+	'right-closewikis' => 'Saraduhan an mga wiki',
+);
+
 /** Belarusian (беларуская)
  * @author Тест
  */
