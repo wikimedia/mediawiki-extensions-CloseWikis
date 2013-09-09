@@ -165,7 +165,7 @@ $specialPageAliases['km'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'CloseWiki' => array( '위키닫기' ),
+	'CloseWiki' => array( '위키폐쇄', '위키닫기' ),
 );
 
 /** Colognian (Ripoarisch) */
