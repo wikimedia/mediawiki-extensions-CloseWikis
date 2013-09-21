@@ -306,6 +306,7 @@ $messages['bar'] = array(
  * @author Geopoet
  */
 $messages['bcl'] = array(
+	'closewikis-desc' => 'Minatugot na seraduhon an mga sityo kan wiki na yaon sa mga omahan nin wiki',
 	'closewikis-page' => 'Isarado an wiki',
 	'closewikis-page-close' => 'Isarado an wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
