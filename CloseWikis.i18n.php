@@ -554,12 +554,14 @@ $messages['ca'] = array(
 	'right-closewikis' => 'Tancar wikis',
 );
 
-/** Chechen (нохчийн) */
+/** Chechen (нохчийн)
+ */
 $messages['ce'] = array(
 	'closewikis-page-reopen-reason' => 'Бахьан:',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ */
 $messages['ckb'] = array(
 	'closewikis-page-reopen-reason' => 'هۆکار:',
 );
@@ -1150,7 +1152,8 @@ $messages['gv'] = array(
 	'closewikis-page-reopen-reason' => 'Fa:',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'closewikis-page-reopen-reason' => 'Dalili:',
 );
@@ -1332,7 +1335,7 @@ $messages['id'] = array(
  */
 $messages['ig'] = array(
 	'closewikis-page-close-wiki' => 'Wiki:',
-	'closewikis-page-close-submit' => 'Mèchié',
+	'closewikis-page-close-submit' => 'Mèchí',
 	'closewikis-page-reopen-wiki' => 'Wiki:',
 	'closewikis-page-reopen-reason' => 'Mgbághapụtà:',
 	'closewikis-page-reopen-submit' => 'Mèpókwá',
@@ -1529,7 +1532,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'closewikis-desc' => 'Määt et müjjelesch, enkel Wikis en ene Wiki-Farm zohzemaache.',
+	'closewikis-desc' => 'Määd et möjjelesch, enkel Wikis en enem Schtall met Wikis zohzemaache.',
 	'closewikis-page' => 'Wiki zomaache',
 	'closewikis-page-close' => 'Wiki zomaache',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -1910,7 +1913,7 @@ $messages['nah'] = array(
 	'closewikis-list-header-wiki' => 'Wiki',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1979,7 +1982,7 @@ $messages['nl'] = array(
 	'right-closewikis' => "Wiki's sluiten",
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -2048,7 +2051,7 @@ $messages['oc'] = array(
 	'right-closewikis' => 'Wikis clauses',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Odisha1
  * @author Psubhashish
@@ -2216,9 +2219,9 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Eduardo.mps
  * @author Jaideraf
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'closewikis-desc' => 'Permite fechar um wiki em sites com múltiplos wikis',
@@ -2432,7 +2435,6 @@ $messages['si'] = array(
  */
 $messages['sk'] = array(
 	'closewikis-desc' => 'Umožňuje zatvoriť wiki vo wiki farmách',
-	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Zatvoriť wiki',
 	'closewikis-page-close' => 'Zatvoriť wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -2502,7 +2504,6 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'closewikis-desc' => 'Омогућава затварање Вики-сајтова у Вики-фармама',
-	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Затвори викију',
 	'closewikis-page-close' => 'Затвори викију',
 	'closewikis-page-close-wiki' => 'Вики:',
@@ -2538,7 +2539,6 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'closewikis-desc' => 'Omogućava zatvaranje Viki-sajtova u Viki-farmama',
-	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Zatvori vikiju',
 	'closewikis-page-close' => 'Zatvori vikiju',
 	'closewikis-page-close-wiki' => 'Viki:',
@@ -2573,7 +2573,6 @@ $messages['sr-el'] = array(
  */
 $messages['stq'] = array(
 	'closewikis-desc' => 'Moaket dät Sluuten muugelk fon eenpelde Wikis in ne Wikifarm',
-	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Wiki sluute',
 	'closewikis-page-close' => 'Wiki sluute',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -2715,7 +2714,6 @@ $messages['tet'] = array(
  */
 $messages['tl'] = array(
 	'closewikis-desc' => 'Nagpapahintulot na maisara ang mga sityo ng wiking nasa loob ng mga linangan ng wiki',
-	'closewikis-closed' => '$1',
 	'closewikis-page' => 'Isara ang wiki',
 	'closewikis-page-close' => 'Isara ang wiki',
 	'closewikis-page-close-wiki' => 'Wiki:',
@@ -2824,7 +2822,8 @@ $messages['uk'] = array(
 	'right-closewikis' => 'Закриті Вікі',
 );
 
-/** Urdu (اردو) */
+/** Urdu (اردو)
+ */
 $messages['ur'] = array(
 	'closewikis-page-reopen-reason' => 'وجہ:',
 );
@@ -2912,7 +2911,8 @@ $messages['vo'] = array(
 	'right-closewikis' => 'Färmükön vükis',
 );
 
-/** Wu (吴语) */
+/** Wu (吴语)
+ */
 $messages['wuu'] = array(
 	'closewikis-page-reopen-reason' => '理由：',
 );
