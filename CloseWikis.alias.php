@@ -316,7 +316,7 @@ $specialPageAliases['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'CloseWiki' => array( '关闭Wiki' ),
+	'CloseWiki' => array( '关闭wiki', '关闭Wiki' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
