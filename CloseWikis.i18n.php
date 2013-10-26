@@ -884,11 +884,13 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Mjbmr
  * @author Reza1615
  * @author Taha
  */
 $messages['fa'] = array(
+	'closewikis-desc' => 'اجازه می‌دهد پایگاه ویکی را در مزرعهٔ ویکی ببندد',
 	'closewikis-page' => 'ویکی بسته‌شده',
 	'closewikis-page-close' => 'ویکی بسته‌شده',
 	'closewikis-page-close-wiki' => 'ویکی:',
