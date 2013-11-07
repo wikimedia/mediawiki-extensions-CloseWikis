@@ -2934,6 +2934,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author PhiLiP
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'closewikis-desc' => '允许关闭在维基农场的维基网站',
@@ -2952,7 +2953,7 @@ $messages['zh-hans'] = array(
 	'closewikis-page-err-nowiki' => '指定的维基无效',
 	'closewikis-page-err-closed' => '维基已经关闭',
 	'closewikis-page-err-opened' => '维基并不关闭',
-	'closewikis-list' => '封闭的维基列表',
+	'closewikis-list' => '关闭维基列表',
 	'closewikis-list-intro' => '该列表包含管家封闭的维基。',
 	'closewikis-list-header-wiki' => '维基',
 	'closewikis-list-header-by' => '关闭由',
