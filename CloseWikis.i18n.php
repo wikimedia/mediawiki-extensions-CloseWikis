@@ -567,7 +567,7 @@ $messages['ckb'] = array(
 	'closewikis-page-reopen-reason' => 'هۆکار:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Li-sung
  */
