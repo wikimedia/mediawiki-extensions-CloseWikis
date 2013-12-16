@@ -2934,6 +2934,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Xiaomingyan
  */
@@ -2955,15 +2956,15 @@ $messages['zh-hans'] = array(
 	'closewikis-page-err-closed' => '维基已经关闭',
 	'closewikis-page-err-opened' => '维基并不关闭',
 	'closewikis-list' => '关闭维基列表',
-	'closewikis-list-intro' => '该列表包含管家封闭的维基。',
+	'closewikis-list-intro' => '该列表包含监管员封闭的维基。',
 	'closewikis-list-header-wiki' => '维基',
 	'closewikis-list-header-by' => '关闭由',
 	'closewikis-list-header-timestamp' => '关闭在',
 	'closewikis-list-header-dispreason' => '显示的原因',
 	'closewikis-log' => '维基关闭日志',
-	'closewikis-log-header' => '这里是管家所有维基封锁和所做的重开的日志',
-	'closewikis-log-close' => '封闭$2',
-	'closewikis-log-reopen' => '重新开$2',
+	'closewikis-log-header' => '这里是监管员所有维基封锁和所做的重开的日志',
+	'closewikis-log-close' => '已关闭$2',
+	'closewikis-log-reopen' => '已重启$2',
 	'right-editclosedwikis' => '更改关闭维基',
 	'right-closewikis' => '关闭维基',
 );
