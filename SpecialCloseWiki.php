@@ -73,7 +73,7 @@ class SpecialCloseWiki extends SpecialPage {
 				if( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'close', $this->getTitle() /* dummy */, $lreason, array( $wiki ) );
+					$logpage->addEntry( 'close', $this->getPageTitle() /* dummy */, $lreason, array( $wiki ) );
 				} else {
 					$status = wfMessage( 'closewikis-page-err-closed' )->parse();
 				}
@@ -96,7 +96,7 @@ class SpecialCloseWiki extends SpecialPage {
 			$statusStyle = $statusOK ? 'success' : 'error';
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}
-		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getTitle()->getLocalURL() ) . '">' );
+		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
 		$form = array();
 		$form['closewikis-page-close-wiki'] = $this->buildSelect( CloseWikis::getUnclosedList(), 'wpcWiki', $defaultWiki );
 		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
@@ -122,7 +122,7 @@ class SpecialCloseWiki extends SpecialPage {
 				if( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'reopen', $this->getTitle() /* dummy */, $lreason, array( $wiki ) );
+					$logpage->addEntry( 'reopen', $this->getPageTitle() /* dummy */, $lreason, array( $wiki ) );
 				} else {
 					$status = wfMessage( 'closewikis-page-err-opened' )->parse();
 				}
@@ -140,7 +140,7 @@ class SpecialCloseWiki extends SpecialPage {
 			$statusStyle = $statusOK ? 'success' : 'error';
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}
-		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getTitle()->getLocalURL() ) . '">' );
+		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
 		$form = array();
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
