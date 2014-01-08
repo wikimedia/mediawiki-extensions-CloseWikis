@@ -102,7 +102,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
 		$form['closewikis-page-close-reason'] = Xml::input( 'wpcReason', false, $defaultReason );
 		$wgOut->addHTML( Xml::buildForm( $form, 'closewikis-page-close-submit' ) );
-		$wgOut->addHTML( Html::hidden( 'wpcEdittoken', $wgUser->editToken() ) );
+		$wgOut->addHTML( Html::hidden( 'wpcEdittoken', $wgUser->getEditToken() ) );
 		$wgOut->addHTML( "</form></fieldset>" );
 	}
 
@@ -145,7 +145,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
 		$wgOut->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );
-		$wgOut->addHTML( Html::hidden( 'wprEdittoken', $wgUser->editToken() ) );
+		$wgOut->addHTML( Html::hidden( 'wprEdittoken', $wgUser->getEditToken() ) );
 		$wgOut->addHTML( "</form></fieldset>" );
 	}
 }
