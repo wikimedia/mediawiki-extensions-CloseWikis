@@ -1,6 +1,7 @@
 <?php
 /**
  * Copyright (C) 2008 Victor Vasiliev <vasilvv@gmail.com>
+ * Copyright (C) 2014 Hydriz Scholz
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,9 +25,10 @@ if ( !defined( 'MEDIAWIKI' ) )
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'CloseWikis',
-	'author'         => 'Victor Vasiliev',
+	'author'         => array( 'Victor Vasiliev', 'Hydriz Scholz' ),
 	'descriptionmsg' => 'closewikis-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:CloseWikis',
+	'license-name'   => 'GNU GPL v2',
 );
 
 $dir = dirname( __FILE__ );
