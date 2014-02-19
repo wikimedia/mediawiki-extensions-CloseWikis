@@ -316,10 +316,10 @@ $specialPageAliases['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'CloseWiki' => array( '关闭wiki', '关闭Wiki' ),
+	'CloseWiki' => array( '关闭Wiki', '关闭维基' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'CloseWiki' => array( '關閉Wiki' ),
+	'CloseWiki' => array( '關閉Wiki', '關閉維基' ),
 );
