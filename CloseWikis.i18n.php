@@ -2675,6 +2675,7 @@ $messages['ta'] = array(
 
 /** Telugu (తెలుగు)
  * @author Kiranmayee
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
@@ -2700,6 +2701,7 @@ $messages['te'] = array(
 	'closewikis-log' => 'వికీ మూసివేతల లాగు',
 	'closewikis-log-close' => '$2 మూసివేయబడినది',
 	'closewikis-log-reopen' => '$2 తిరిగి తెరవబడినది',
+	'right-editclosedwikis' => 'మూసివేయబడిన వికీలను సవరించు',
 	'right-closewikis' => 'వికీలను మూసివేయండి',
 );
 
