@@ -556,9 +556,10 @@ $messages['ca'] = array(
 );
 
 /** Chechen (нохчийн)
+ * @author Умар
  */
 $messages['ce'] = array(
-	'closewikis-page-reopen-reason' => 'Бахьан:',
+	'closewikis-page-reopen-reason' => 'Бахьна:',
 );
 
 /** Sorani Kurdish (کوردی)
