@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Danny B.",
+            "Li-sung"
+        ]
+    },
+    "closewikis-desc": "Umožňuje uzavřít jednotlivé wiki na wikifarmách",
+    "closewikis-page": "Zavření wiki",
+    "closewikis-page-close": "Zavřít wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Důvod (k zobrazení):",
+    "closewikis-page-close-reason": "Důvod (k zapsání do knihy):",
+    "closewikis-page-close-submit": "Zavřít",
+    "closewikis-page-close-success": "Wiki byla úspěšně zavřena",
+    "closewikis-page-reopen": "Znovu otevřít wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Důvod:",
+    "closewikis-page-reopen-submit": "Otevřít",
+    "closewikis-page-reopen-success": "Wiki byla úspěšně otevřena",
+    "closewikis-page-err-nowiki": "Chybné určení wiki",
+    "closewikis-page-err-closed": "Wiki již je zavřena",
+    "closewikis-page-err-opened": "Wiki není zavřená",
+    "closewikis-list": "Seznam uzavřených wiki",
+    "closewikis-list-intro": "Tento seznam obsahuje wiki uzavřené stewardy.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Zavřel",
+    "closewikis-list-header-timestamp": "Kdy",
+    "closewikis-list-header-dispreason": "Zobrazený důvod",
+    "closewikis-log": "Kniha zavření wiki",
+    "closewikis-log-header": "Tato kniha zachycuje všechna zavření a znovuotevření wiki provedená stevardy",
+    "closewikis-log-close": "uzavírá $2",
+    "closewikis-log-reopen": "opět otevírá $2",
+    "right-editclosedwikis": "Editování uzavřených wiki",
+    "right-closewikis": "Zavírání wiki"
+}

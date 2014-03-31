@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chrisportelli"
+        ]
+    },
+    "closewikis-desc": "Tħalli li tagħlaq is-siti wiki fil-familji tal-wiki",
+    "closewikis-page": "Għalaq wiki",
+    "closewikis-page-close": "Agħlaq il-wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Raġuni (murija):",
+    "closewikis-page-close-reason": "Raġuni (reġistrat):",
+    "closewikis-page-close-submit": "Agħlaq",
+    "closewikis-page-close-success": "Il-wiki ġiet magħluqa",
+    "closewikis-page-reopen": "Erġa' iftaħ wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Raġuni:",
+    "closewikis-page-reopen-submit": "Erġa' iftaħ",
+    "closewikis-page-reopen-success": "Il-wiki ġiet miftuħa mill-ġdid",
+    "closewikis-page-err-nowiki": "Il-wiki speċifikata hi invalida",
+    "closewikis-page-err-closed": "Il-wiki hi diġà magħluqa",
+    "closewikis-page-err-opened": "Il-wiki mhix magħluqa",
+    "closewikis-list": "Lista ta' wikis magħluqa",
+    "closewikis-list-intro": "Din il-lista tikkonsisti fil-wikis li ġew magħluqa minn stwetti.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Magħluqa minn",
+    "closewikis-list-header-timestamp": "Magħluqa nhar",
+    "closewikis-list-header-dispreason": "Raġuni mogħtija",
+    "closewikis-log": "Reġistru tal-għeluq tal-wikis",
+    "closewikis-log-header": "Dan huwa reġistru tal-għeluq u l-ftuħ mill-ġdid tal-wikis minn stwetti",
+    "closewikis-log-close": "magħluqa $2",
+    "closewikis-log-reopen": "miftuħa $2",
+    "right-editclosedwikis": "Jimmodifika l-wikis magħluqa",
+    "right-closewikis": "Jagħlaq wikis"
+}

@@ -1,0 +1,33 @@
+{
+    "@metadata": {
+        "authors": [
+            "Danutz",
+            "KlaudiuMihaila",
+            "Stelistcristi"
+        ]
+    },
+    "closewikis-page": "Închide wiki",
+    "closewikis-page-close": "Închide wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Motiv (afișat):",
+    "closewikis-page-close-submit": "Închidere",
+    "closewikis-page-close-success": "Wiki închis cu succes",
+    "closewikis-page-reopen": "Redeschide wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Motiv:",
+    "closewikis-page-reopen-submit": "Redeschide",
+    "closewikis-page-reopen-success": "Wiki redeschis cu succes",
+    "closewikis-page-err-nowiki": "Wiki-ul specificat este invalid.",
+    "closewikis-page-err-closed": "Acest wiki e deja închis",
+    "closewikis-page-err-opened": "Acest wiki nu e închis",
+    "closewikis-list": "Listă de wiki închise",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Închis de",
+    "closewikis-list-header-timestamp": "Închis la",
+    "closewikis-list-header-dispreason": "Motiv afișat",
+    "closewikis-log": "Jurnal închidere wiki",
+    "closewikis-log-close": "închis $2",
+    "closewikis-log-reopen": "redeschis $2",
+    "right-editclosedwikis": "Modifică wiki închise",
+    "right-closewikis": "Închide wiki-urile"
+}

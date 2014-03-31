@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "closewikis-desc": "Permette de achiudere le site uicchi jndr'à fabbreche de uicchi",
+    "closewikis-page": "Achiude 'a uicchi",
+    "closewikis-page-close": "Achiude 'a uicchi",
+    "closewikis-page-close-wiki": "Uicchi:",
+    "closewikis-page-close-dreason": "Mutive (fatte vedè):",
+    "closewikis-page-close-reason": "Mutive (trasute):",
+    "closewikis-page-close-submit": "Achiude",
+    "closewikis-page-close-success": "Uicchi achiuse",
+    "closewikis-page-reopen": "Riapre 'a uicchi",
+    "closewikis-page-reopen-wiki": "Uicchi:",
+    "closewikis-page-reopen-reason": "Mutive:",
+    "closewikis-page-reopen-submit": "Riapre",
+    "closewikis-page-reopen-success": "Uicchi aperte arrete",
+    "closewikis-page-err-nowiki": "Uicchi specificate invalide",
+    "closewikis-page-err-closed": "'A uicchi ha state ggià achiuse",
+    "closewikis-page-err-opened": "Uicchi non g'è achiuse",
+    "closewikis-list": "Elenghe le de uicchi achiuse",
+    "closewikis-list-intro": "St'elenghe tène le uicchi ca onne state achiuse da le stiuard.",
+    "closewikis-list-header-wiki": "Uicchi",
+    "closewikis-list-header-by": "Achiuse da",
+    "closewikis-list-header-timestamp": "Achiuse 'u",
+    "closewikis-list-header-dispreason": "Mutive visualizzate",
+    "closewikis-log": "Archivije de le chiusure de le uicchi",
+    "closewikis-log-header": "Aqquà ste 'n'archivije de tutte le chiusure de le uicchi e le riaperture fatte da le stiuard",
+    "closewikis-log-close": "achiuse $2",
+    "closewikis-log-reopen": "riaperte $2",
+    "right-editclosedwikis": "Cange le uicchi achiuse",
+    "right-closewikis": "Close le uicchi"
+}

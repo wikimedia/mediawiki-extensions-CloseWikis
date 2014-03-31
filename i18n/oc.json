@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "closewikis-desc": "Permet de clausurar los sites wiki dins aqueste gestionari de wiki",
+    "closewikis-page": "Clausar lo wiki",
+    "closewikis-page-close": "Clausurar lo wiki",
+    "closewikis-page-close-wiki": "Wiki :",
+    "closewikis-page-close-dreason": "Motiu (afichat) :",
+    "closewikis-page-close-reason": "Motiu (enregistrat) :",
+    "closewikis-page-close-submit": "Clausurar",
+    "closewikis-page-close-success": "Wiki claus amb succès",
+    "closewikis-page-reopen": "Tornar dobrir lo wiki",
+    "closewikis-page-reopen-wiki": "Wiki :",
+    "closewikis-page-reopen-reason": "Motiu :",
+    "closewikis-page-reopen-submit": "Tornar dobrir",
+    "closewikis-page-reopen-success": "Lo wiki es estat redobert amb succès",
+    "closewikis-page-err-nowiki": "Lo wiki indicat es incorrècte",
+    "closewikis-page-err-closed": "Aqueste wiki ja es estat clausurat",
+    "closewikis-page-err-opened": "Wiki pas clausurat",
+    "closewikis-list": "Lista dels wikis clauses",
+    "closewikis-list-intro": "Aquesta lista conten los wiki clauses pels stewards.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Claus per",
+    "closewikis-list-header-timestamp": "Claus lo",
+    "closewikis-list-header-dispreason": "Rason balhada",
+    "closewikis-log": "Jornal de clausura dels wiki",
+    "closewikis-log-header": "Vaquí un jornal de totas las tampaduras e redoberturas de wiki fachas pels stewards",
+    "closewikis-log-close": "a clausurat $2",
+    "closewikis-log-reopen": "a redobert $2",
+    "right-editclosedwikis": "Modificar los wikis clausurats",
+    "right-closewikis": "Wikis clauses"
+}

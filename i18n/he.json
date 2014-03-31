@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rotemliss",
+            "YaronSh"
+        ]
+    },
+    "closewikis-desc": "הרחבה המאפשרת לסגור אתרי ויקי בחוות ויקי",
+    "closewikis-page": "סגירת ויקי",
+    "closewikis-page-close": "סגירת ויקי",
+    "closewikis-page-close-wiki": "ויקי:",
+    "closewikis-page-close-dreason": "סיבה (לתצוגה):",
+    "closewikis-page-close-reason": "סיבה (לרישום ביומן):",
+    "closewikis-page-close-submit": "סגירה",
+    "closewikis-page-close-success": "הוויקי נסגר בהצלחה",
+    "closewikis-page-reopen": "פתיחת הוויקי מחדש",
+    "closewikis-page-reopen-wiki": "ויקי:",
+    "closewikis-page-reopen-reason": "סיבה:",
+    "closewikis-page-reopen-submit": "פתיחה מחדש",
+    "closewikis-page-reopen-success": "הוויקי נפתח מחדש בהצלחה",
+    "closewikis-page-err-nowiki": "הוויקי שצוין שגוי",
+    "closewikis-page-err-closed": "הוויקי כבר סגור",
+    "closewikis-page-err-opened": "הוויקי אינו סגור",
+    "closewikis-list": "רשימת אתרי הוויקי הסגורים",
+    "closewikis-list-intro": "הרשימה מכילה אתרי ויקי שנסגרו על ידי דיילים.",
+    "closewikis-list-header-wiki": "ויקי",
+    "closewikis-list-header-by": "נסגר על ידי",
+    "closewikis-list-header-timestamp": "נסגר בתאריך",
+    "closewikis-list-header-dispreason": "הסיבה המוצגת",
+    "closewikis-log": "יומן סגירת אתרי ויקי",
+    "closewikis-log-header": "להלן יומן של כל הסגירות והפתיחות מחדש של אתרי ויקי שבוצעו על ידי דיילים.",
+    "closewikis-log-close": "נסגר $2",
+    "closewikis-log-reopen": "נפתח מחדש $2",
+    "right-editclosedwikis": "עריכת אתרי הוויקי הסגורים",
+    "right-closewikis": "סגירת אתרי ויקי"
+}

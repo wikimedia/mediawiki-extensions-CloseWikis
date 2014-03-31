@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nghtwlkr"
+        ]
+    },
+    "closewikis-desc": "Tillater stenging av wikier i wikisamlinger",
+    "closewikis-page": "Steng wiki",
+    "closewikis-page-close": "Steng wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Årsak (vises):",
+    "closewikis-page-close-reason": "Årsak (logges):",
+    "closewikis-page-close-submit": "Lukk",
+    "closewikis-page-close-success": "Wiki stengt",
+    "closewikis-page-reopen": "Åpne wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Årsak:",
+    "closewikis-page-reopen-submit": "Åpne",
+    "closewikis-page-reopen-success": "Wiki åpnet",
+    "closewikis-page-err-nowiki": "Ugyldig wiki oppgitt",
+    "closewikis-page-err-closed": "Wikien er allerede stengt",
+    "closewikis-page-err-opened": "Wikien er ikke stengt",
+    "closewikis-list": "Liste over stengte wikier",
+    "closewikis-list-intro": "Denne listen inneholder wikier som har blitt stengt av forvaltere.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Stengt av",
+    "closewikis-list-header-timestamp": "Stengt den",
+    "closewikis-list-header-dispreason": "Vist årsak",
+    "closewikis-log": "Logg for stenging av wikier",
+    "closewikis-log-header": "Her er en logg over alle wikistenginger og -åpninger gjort av forvaltere",
+    "closewikis-log-close": "stengte $2",
+    "closewikis-log-reopen": "åpnet $2",
+    "right-editclosedwikis": "Redigere stengte wikier",
+    "right-closewikis": "Steng wikier"
+}

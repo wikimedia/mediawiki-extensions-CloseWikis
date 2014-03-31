@@ -1,0 +1,33 @@
+{
+    "@metadata": {
+        "authors": [
+            "Avjoska",
+            "KalmerE.",
+            "Pikne"
+        ]
+    },
+    "closewikis-page": "Sule viki",
+    "closewikis-page-close": "Sule viki",
+    "closewikis-page-close-wiki": "Viki:",
+    "closewikis-page-close-dreason": "Põhjus (näidatud):",
+    "closewikis-page-close-reason": "Põhjus (logitud):",
+    "closewikis-page-close-submit": "Sulge",
+    "closewikis-page-close-success": "Viki edukalt suletud",
+    "closewikis-page-reopen": "Taasava viki",
+    "closewikis-page-reopen-wiki": "Viki:",
+    "closewikis-page-reopen-reason": "Põhjus:",
+    "closewikis-page-reopen-submit": "Taasava",
+    "closewikis-page-reopen-success": "Viki edukalt taasavatud",
+    "closewikis-page-err-closed": "Viki on juba suletud",
+    "closewikis-page-err-opened": "Viki ei ole suletud",
+    "closewikis-list": "Suletud vikide loend",
+    "closewikis-list-header-wiki": "Viki",
+    "closewikis-list-header-by": "Sulgeja:",
+    "closewikis-list-header-timestamp": "Suletud",
+    "closewikis-list-header-dispreason": "Põhjus esitatud",
+    "closewikis-log": "Vikide sulgemislogi",
+    "closewikis-log-close": "suleti $2",
+    "closewikis-log-reopen": "taasavati $2",
+    "right-editclosedwikis": "Redigeerida suletud vikisid",
+    "right-closewikis": "Sulgeda vikisid"
+}

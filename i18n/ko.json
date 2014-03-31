@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kwj2772",
+            "아라"
+        ]
+    },
+    "closewikis-desc": "위키 농장에서 위키를 폐쇄할 수 있습니다",
+    "closewikis-page": "위키 폐쇄",
+    "closewikis-page-close": "위키 폐쇄",
+    "closewikis-page-close-wiki": "위키:",
+    "closewikis-page-close-dreason": "이유 (보임):",
+    "closewikis-page-close-reason": "이유 (기록):",
+    "closewikis-page-close-submit": "폐쇄",
+    "closewikis-page-close-success": "위키를 성공적으로 폐쇄했습니다",
+    "closewikis-page-reopen": "위키 다시 열기",
+    "closewikis-page-reopen-wiki": "위키:",
+    "closewikis-page-reopen-reason": "이유:",
+    "closewikis-page-reopen-submit": "다시 열기",
+    "closewikis-page-reopen-success": "위키가 성공적으로 다시 열렸습니다",
+    "closewikis-page-err-nowiki": "지정된 위키가 올바르지 않습니다",
+    "closewikis-page-err-closed": "위키가 이미 폐쇄되었습니다",
+    "closewikis-page-err-opened": "위키가 폐쇄되지 않습니다",
+    "closewikis-list": "닫힌 위키의 목록",
+    "closewikis-list-intro": "이 목록은 사무장이 폐쇄한 위키를 포함합니다.",
+    "closewikis-list-header-wiki": "위키",
+    "closewikis-list-header-by": "폐쇄자",
+    "closewikis-list-header-timestamp": "폐쇄한 날짜",
+    "closewikis-list-header-dispreason": "보이는 이유",
+    "closewikis-log": "위키 폐쇄 기록",
+    "closewikis-log-header": "사무장이 폐쇄하고 다시 열은 모든 위키의 기록입니다",
+    "closewikis-log-close": "사용자가 $2(을)를 폐쇄했습니다",
+    "closewikis-log-reopen": "사용자가 $2(을)를 다시 열었습니다",
+    "right-editclosedwikis": "폐쇄된 위키 편집",
+    "right-closewikis": "위키 폐쇄"
+}

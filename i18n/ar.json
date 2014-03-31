@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Meno25",
+            "OsamaK"
+        ]
+    },
+    "closewikis-desc": "يسمح بغلق مواقع الويكي في مزارع الويكي",
+    "closewikis-page": "إغلاق الويكي",
+    "closewikis-page-close": "إغلاق الويكي",
+    "closewikis-page-close-wiki": "الويكي:",
+    "closewikis-page-close-dreason": "السبب (المعروض):",
+    "closewikis-page-close-reason": "السبب (المسجل):",
+    "closewikis-page-close-submit": "أغلق",
+    "closewikis-page-close-success": "الويكي تم إغلاقه بنجاح",
+    "closewikis-page-reopen": "إعادة فتح الويكي",
+    "closewikis-page-reopen-wiki": "الويكي:",
+    "closewikis-page-reopen-reason": "السبب:",
+    "closewikis-page-reopen-submit": "إعادة فتح",
+    "closewikis-page-reopen-success": "الويكي تمت إعادة فتحه بنجاح",
+    "closewikis-page-err-nowiki": "ويكي غير صحيح تم تحديده",
+    "closewikis-page-err-closed": "الويكي مغلق بالفعل",
+    "closewikis-page-err-opened": "الويكي ليس مغلقا",
+    "closewikis-list": "قائمة الويكيات المغلقة",
+    "closewikis-list-intro": "هذه القائمة تحتوي على الويكيات التي تم إغلاقها بواسطة المضيفين.",
+    "closewikis-list-header-wiki": "الويكي",
+    "closewikis-list-header-by": "أغلق بواسطة",
+    "closewikis-list-header-timestamp": "أغلق في",
+    "closewikis-list-header-dispreason": "السبب المعروض",
+    "closewikis-log": "سجل إغلاق الويكيات",
+    "closewikis-log-header": "هنا يوجد سجل بكل عمليات إغلاق وإعادة فتح الويكيات بواسطة المضيفين",
+    "closewikis-log-close": "أغلق $2",
+    "closewikis-log-reopen": "أعاد فتح $2",
+    "right-editclosedwikis": "تعديل الويكيات المغلقة",
+    "right-closewikis": "إغلاق الويكيات"
+}

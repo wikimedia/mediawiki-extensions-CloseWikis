@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "BicScope",
+            "Fitoschido"
+        ]
+    },
+    "closewikis-desc": "Permitir cerrar sitios wiki en granjas wiki",
+    "closewikis-page": "Cerrar wiki",
+    "closewikis-page-close": "Cerrar wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Motivo (mostrado):",
+    "closewikis-page-close-reason": "Motivo (registrado):",
+    "closewikis-page-close-submit": "Cerrar",
+    "closewikis-page-close-success": "El wiki se ha cerrado correctamente",
+    "closewikis-page-reopen": "Reabrir el wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Motivo:",
+    "closewikis-page-reopen-submit": "Reabrir",
+    "closewikis-page-reopen-success": "El wiki se ha reabierto correctamente",
+    "closewikis-page-err-nowiki": "Se especificó un wiki no válido",
+    "closewikis-page-err-closed": "El wiki ya se ha cerrado",
+    "closewikis-page-err-opened": "El wiki no está cerrado",
+    "closewikis-list": "Lista de wikis cerrados:",
+    "closewikis-list-intro": "Esta lista contiene wikis cerrados por stewards.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Cerrado por",
+    "closewikis-list-header-timestamp": "Cerrado el",
+    "closewikis-list-header-dispreason": "Motivo mostrado",
+    "closewikis-log": "Registro de wikis cerrados",
+    "closewikis-log-header": "He aquí un registro de todas las wikis cerradas y reabiertas hechas por administradores (stewards)",
+    "closewikis-log-close": "$2 cerrado",
+    "closewikis-log-reopen": "$2 reabierto",
+    "right-editclosedwikis": "Editar wikis cerrados",
+    "right-closewikis": "Cerrar wikis"
+}

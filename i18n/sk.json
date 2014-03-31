@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84"
+        ]
+    },
+    "closewikis-desc": "Umožňuje zatvoriť wiki vo wiki farmách",
+    "closewikis-page": "Zatvoriť wiki",
+    "closewikis-page-close": "Zatvoriť wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Dôvod (zobrazí sa):",
+    "closewikis-page-close-reason": "Dôvod (do záznamu):",
+    "closewikis-page-close-submit": "Zatvoriť",
+    "closewikis-page-close-success": "Wiki bola úspešne zatvorená",
+    "closewikis-page-reopen": "Znovu otvoriť wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Dôvod:",
+    "closewikis-page-reopen-submit": "Znovu otvoriť",
+    "closewikis-page-reopen-success": "Wiki bola úspešne znovu otvorená",
+    "closewikis-page-err-nowiki": "Bola zadaná neplatná wiki",
+    "closewikis-page-err-closed": "Wiki je už zatvorená",
+    "closewikis-page-err-opened": "Wiki nie je zatvorená",
+    "closewikis-list": "Zoznam zatvorených wiki",
+    "closewikis-list-intro": "Tento zoznam obsahuje wiki, ktoré stewardi zatvorili.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Zatvoril",
+    "closewikis-list-header-timestamp": "Kedy",
+    "closewikis-list-header-dispreason": "Dôvod",
+    "closewikis-log": "Záznam zatvorení wiki",
+    "closewikis-log-header": "Toto je záznam všetkých zatvorení a znovu otvorení wiki, ktoré vykonali stewardi",
+    "closewikis-log-close": "zatvoril $2",
+    "closewikis-log-reopen": "znovu otvoril $2",
+    "right-editclosedwikis": "Upravovať zatvorené wiki",
+    "right-closewikis": "Zatvárať wiki"
+}

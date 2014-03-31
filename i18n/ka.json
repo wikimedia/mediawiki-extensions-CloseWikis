@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "David1010"
+        ]
+    },
+    "closewikis-page": "ვიკის დახურვა",
+    "closewikis-page-close": "ვიკის დახურვა",
+    "closewikis-page-close-wiki": "ვიკი:",
+    "closewikis-page-close-submit": "დახურვა",
+    "closewikis-page-close-success": "ვიკი წარმატებით დაიხურა",
+    "closewikis-page-reopen": "ვიკის გახსნა",
+    "closewikis-page-reopen-wiki": "ვიკი:",
+    "closewikis-page-reopen-reason": "მიზეზი:",
+    "closewikis-page-reopen-submit": "გახსნა",
+    "closewikis-page-reopen-success": "ვიკი წარმატებით გაიხსნა",
+    "closewikis-list-header-wiki": "ვიკი"
+}

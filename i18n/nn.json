@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Harald Khan",
+            "Njardarlogar"
+        ]
+    },
+    "closewikis-desc": "Tillèt stenging av wikiar i wikisamlingar",
+    "closewikis-page": "Steng wiki",
+    "closewikis-page-close": "Steng wiki",
+    "closewikis-page-close-wiki": "Wiki:",
+    "closewikis-page-close-dreason": "Årsak (blir vist):",
+    "closewikis-page-close-reason": "Årsak (blir logga):",
+    "closewikis-page-close-submit": "Steng",
+    "closewikis-page-close-success": "Wiki stengt",
+    "closewikis-page-reopen": "Attopna wiki",
+    "closewikis-page-reopen-wiki": "Wiki:",
+    "closewikis-page-reopen-reason": "Årsak:",
+    "closewikis-page-reopen-submit": "Attopna",
+    "closewikis-page-reopen-success": "Wikien blei attopna",
+    "closewikis-page-err-nowiki": "Oppgav ugyldig wiki",
+    "closewikis-page-err-closed": "Wikien er allereie stengt",
+    "closewikis-page-err-opened": "Wikien er ikkje stengt",
+    "closewikis-list": "Lista over stengte wikiar",
+    "closewikis-list-intro": "Denne lista inneheld wikiar som har blitt stengt av forvaltarar.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Stengt av",
+    "closewikis-list-header-timestamp": "Stengt den",
+    "closewikis-list-header-dispreason": "Vist årsak",
+    "closewikis-log": "Logg over stenging av wikiar",
+    "closewikis-log-header": "Her er ein logg over alle stengingar og attopningar av gjorde av forvaltarar",
+    "closewikis-log-close": "stengte $2",
+    "closewikis-log-reopen": "opna att $2",
+    "right-editclosedwikis": "Endra stengte wikiar",
+    "right-closewikis": "Steng wikiar"
+}

@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Grondin",
+            "IAlex",
+            "Zetud"
+        ]
+    },
+    "closewikis-desc": "Permet de clôturer les sites wiki dans ce gestionnaire de wiki",
+    "closewikis-page": "Clôturer le wiki",
+    "closewikis-page-close": "Clôturer le wiki",
+    "closewikis-page-close-wiki": "Wiki :",
+    "closewikis-page-close-dreason": "Motif (affiché) :",
+    "closewikis-page-close-reason": "Motif (enregistré) :",
+    "closewikis-page-close-submit": "Clôturer",
+    "closewikis-page-close-success": "Wiki clôturé avec succès",
+    "closewikis-page-reopen": "Réouvrir le wiki",
+    "closewikis-page-reopen-wiki": "Wiki :",
+    "closewikis-page-reopen-reason": "Motif :",
+    "closewikis-page-reopen-submit": "Réouvrir",
+    "closewikis-page-reopen-success": "Wiki réouvert avec succès",
+    "closewikis-page-err-nowiki": "Le wiki indiqué est incorrect",
+    "closewikis-page-err-closed": "Ce wiki est déjà clôturé",
+    "closewikis-page-err-opened": "Wiki non clôturé",
+    "closewikis-list": "Liste des wikis clos",
+    "closewikis-list-intro": "Cette liste contient les wiki clos par les stewards.",
+    "closewikis-list-header-wiki": "Wiki",
+    "closewikis-list-header-by": "Clos par",
+    "closewikis-list-header-timestamp": "Clos le",
+    "closewikis-list-header-dispreason": "Raison donnée",
+    "closewikis-log": "Journal de clôture des wiki",
+    "closewikis-log-header": "Voici un journal de toutes les fermetures et réouvertures de wiki faites par les stewards",
+    "closewikis-log-close": "a clôturé $2",
+    "closewikis-log-reopen": "a réouvert $2",
+    "right-editclosedwikis": "Modifier les wikis clôturés",
+    "right-closewikis": "Clôturer les wikis"
+}

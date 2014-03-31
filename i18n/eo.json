@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Melancholie",
+            "Yekrats"
+        ]
+    },
+    "closewikis-desc": "Permesas fermi vikiojn en vikiaroj",
+    "closewikis-page": "Fermi vikion",
+    "closewikis-page-close": "Fermi vikion",
+    "closewikis-page-close-wiki": "Vikio:",
+    "closewikis-page-close-dreason": "Kialo (montrota):",
+    "closewikis-page-close-reason": "Kialo (protokolota):",
+    "closewikis-page-close-submit": "Fermi",
+    "closewikis-page-close-success": "Vikio estis sukcese fermita",
+    "closewikis-page-reopen": "Remalfermi vikion",
+    "closewikis-page-reopen-wiki": "Vikio:",
+    "closewikis-page-reopen-reason": "Kialo:",
+    "closewikis-page-reopen-submit": "Remalfermi",
+    "closewikis-page-reopen-success": "Vikio estis sukcese remalfermita",
+    "closewikis-page-err-nowiki": "Nevalida vikio estis specifita",
+    "closewikis-page-err-closed": "Vikio estas jam fermita",
+    "closewikis-page-err-opened": "Vikio ne estas fermita",
+    "closewikis-list": "Listo de fermaj vikioj",
+    "closewikis-list-intro": "Ĉi tiu listo enhavas vikiojn kiu estis fermita de stivardoj.",
+    "closewikis-list-header-wiki": "Vikio",
+    "closewikis-list-header-by": "Fermis de",
+    "closewikis-list-header-timestamp": "Fermis je",
+    "closewikis-list-header-dispreason": "Montrita kialo",
+    "closewikis-log": "Protokolo pri vikia fermado",
+    "closewikis-log-header": "Jen protokolo de ĉiuj viki-fermadoj kaj remalfermadoj de stevardoj",
+    "closewikis-log-close": "fermis $2",
+    "closewikis-log-reopen": "remalfermis $2",
+    "right-editclosedwikis": "Redakti fermitajn vikiojn",
+    "right-closewikis": "Fermi vikiojn"
+}
