@@ -154,6 +154,11 @@ $specialPageAliases['id'] = array(
 	'CloseWiki' => array( 'Tutup_wiki', 'TutupWiki' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'CloseWiki' => array( 'ChiudiWiki' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'CloseWiki' => array( 'ウィキ閉鎖', 'ウィキを閉鎖する' ),
