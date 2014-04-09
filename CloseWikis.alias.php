@@ -119,6 +119,11 @@ $specialPageAliases['gu'] = array(
 	'CloseWiki' => array( 'બંધવિકિ' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'CloseWiki' => array( 'PaniWiki' ),
+);
+
 /** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'CloseWiki' => array( 'Zatvori_wiki' ),
