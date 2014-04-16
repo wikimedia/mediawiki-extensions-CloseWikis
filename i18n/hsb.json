@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "closewikis-desc": "Zmóžnja začinjenje wikijowych sydłow we wikijowych farmach",
-    "closewikis-page": "Wiki začinić",
-    "closewikis-page-close": "Wiki začinić",
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-dreason": "Zwobraznjena přičina:",
-    "closewikis-page-close-reason": "Protokolowana přičina:",
-    "closewikis-page-close-submit": "Začinić",
-    "closewikis-page-close-success": "Wiki wuspěšnje začinjeny",
-    "closewikis-page-reopen": "Wiki zaso wočinić",
-    "closewikis-page-reopen-wiki": "wiki:",
-    "closewikis-page-reopen-reason": "Přičina:",
-    "closewikis-page-reopen-submit": "Zaso wočinić",
-    "closewikis-page-reopen-success": "Wiki wuspěšnje zaso wočinjeny",
-    "closewikis-page-err-nowiki": "Njepłaćiwy wiki podaty",
-    "closewikis-page-err-closed": "Wiki je hižo začinjeny",
-    "closewikis-page-err-opened": "Wiki njeje začinjeny",
-    "closewikis-list": "Lisćina začinjenych wikijow",
-    "closewikis-list-intro": "Tuta lisćina wobsahuje wikije, kotrež buchu wot stewardow začinjene.",
-    "closewikis-list-header-wiki": "Wiki",
-    "closewikis-list-header-by": "Začinjeny wot",
-    "closewikis-list-header-timestamp": "Začinjeny",
-    "closewikis-list-header-dispreason": "Zwobraznjena přičina",
-    "closewikis-log": "Protokol začinjenjow wikijow",
-    "closewikis-log-header": "To je protokol wšěch začinjenjow a zasowočinjenjow wikijow, kotrež su stewardźa činili.",
-    "closewikis-log-close": "je $2 začinił",
-    "closewikis-log-reopen": "je $2 zaso wočinił",
-    "right-editclosedwikis": "Začinjene wikije wobdźěłać",
-    "right-closewikis": "Wikije začinić"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"closewikis-desc": "Zmóžnja začinjenje wikijowych sydłow we wikijowych farmach",
+	"closewikis-page": "Wiki začinić",
+	"closewikis-page-close": "Wiki začinić",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Zwobraznjena přičina:",
+	"closewikis-page-close-reason": "Protokolowana přičina:",
+	"closewikis-page-close-submit": "Začinić",
+	"closewikis-page-close-success": "Wiki wuspěšnje začinjeny",
+	"closewikis-page-reopen": "Wiki zaso wočinić",
+	"closewikis-page-reopen-wiki": "wiki:",
+	"closewikis-page-reopen-reason": "Přičina:",
+	"closewikis-page-reopen-submit": "Zaso wočinić",
+	"closewikis-page-reopen-success": "Wiki wuspěšnje zaso wočinjeny",
+	"closewikis-page-err-nowiki": "Njepłaćiwy wiki podaty",
+	"closewikis-page-err-closed": "Wiki je hižo začinjeny",
+	"closewikis-page-err-opened": "Wiki njeje začinjeny",
+	"closewikis-list": "Lisćina začinjenych wikijow",
+	"closewikis-list-intro": "Tuta lisćina wobsahuje wikije, kotrež buchu wot stewardow začinjene.",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Začinjeny wot",
+	"closewikis-list-header-timestamp": "Začinjeny",
+	"closewikis-list-header-dispreason": "Zwobraznjena přičina",
+	"closewikis-log": "Protokol začinjenjow wikijow",
+	"closewikis-log-header": "To je protokol wšěch začinjenjow a zasowočinjenjow wikijow, kotrež su stewardźa činili.",
+	"closewikis-log-close": "je $2 začinił",
+	"closewikis-log-reopen": "je $2 zaso wočinił",
+	"right-editclosedwikis": "Začinjene wikije wobdźěłać",
+	"right-closewikis": "Wikije začinić"
 }

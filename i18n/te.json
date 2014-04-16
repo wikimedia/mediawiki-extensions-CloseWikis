@@ -1,33 +1,33 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kiranmayee",
-            "Ravichandra",
-            "Veeven"
-        ]
-    },
-    "closewikis-desc": "ఈ వికీ ఫాంలలోని వికీ సైటులను మూసివేయనిస్తుంది",
-    "closewikis-page": "వికీని మూసివేయండి",
-    "closewikis-page-close": "వికీని మూసివేయండి",
-    "closewikis-page-close-wiki": "వికీ:",
-    "closewikis-page-close-dreason": "కారణము (చూపించబడినది):",
-    "closewikis-page-close-reason": "కారణం (లాగ్ అయినది):",
-    "closewikis-page-close-submit": "మూసివేయండి",
-    "closewikis-page-close-success": "వికీ విజయవంతముగా మూసివేయబడినది",
-    "closewikis-page-reopen": "వికీని తిరిగి తెరవండి",
-    "closewikis-page-reopen-wiki": "వికీ:",
-    "closewikis-page-reopen-reason": "కారణం:",
-    "closewikis-page-reopen-submit": "తిరిగి తెరవండి",
-    "closewikis-page-err-closed": "వికీ ఇదివరకే మూసివేయబడినది",
-    "closewikis-page-err-opened": "వికీ మూయబడలేదు",
-    "closewikis-list": "మూసివేయబడిన వికీల జాబితా",
-    "closewikis-list-header-wiki": "వికీ",
-    "closewikis-list-header-by": "ద్వారా మూసివేయబడినది",
-    "closewikis-list-header-timestamp": "మూసివేయబడిన రోజు",
-    "closewikis-list-header-dispreason": "ప్రదర్శింపబడిన కారణము",
-    "closewikis-log": "వికీ మూసివేతల లాగు",
-    "closewikis-log-close": "$2 మూసివేయబడినది",
-    "closewikis-log-reopen": "$2 తిరిగి తెరవబడినది",
-    "right-editclosedwikis": "మూసివేయబడిన వికీలను సవరించు",
-    "right-closewikis": "వికీలను మూసివేయండి"
+	"@metadata": {
+		"authors": [
+			"Kiranmayee",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"closewikis-desc": "ఈ వికీ ఫాంలలోని వికీ సైటులను మూసివేయనిస్తుంది",
+	"closewikis-page": "వికీని మూసివేయండి",
+	"closewikis-page-close": "వికీని మూసివేయండి",
+	"closewikis-page-close-wiki": "వికీ:",
+	"closewikis-page-close-dreason": "కారణము (చూపించబడినది):",
+	"closewikis-page-close-reason": "కారణం (లాగ్ అయినది):",
+	"closewikis-page-close-submit": "మూసివేయండి",
+	"closewikis-page-close-success": "వికీ విజయవంతముగా మూసివేయబడినది",
+	"closewikis-page-reopen": "వికీని తిరిగి తెరవండి",
+	"closewikis-page-reopen-wiki": "వికీ:",
+	"closewikis-page-reopen-reason": "కారణం:",
+	"closewikis-page-reopen-submit": "తిరిగి తెరవండి",
+	"closewikis-page-err-closed": "వికీ ఇదివరకే మూసివేయబడినది",
+	"closewikis-page-err-opened": "వికీ మూయబడలేదు",
+	"closewikis-list": "మూసివేయబడిన వికీల జాబితా",
+	"closewikis-list-header-wiki": "వికీ",
+	"closewikis-list-header-by": "ద్వారా మూసివేయబడినది",
+	"closewikis-list-header-timestamp": "మూసివేయబడిన రోజు",
+	"closewikis-list-header-dispreason": "ప్రదర్శింపబడిన కారణము",
+	"closewikis-log": "వికీ మూసివేతల లాగు",
+	"closewikis-log-close": "$2 మూసివేయబడినది",
+	"closewikis-log-reopen": "$2 తిరిగి తెరవబడినది",
+	"right-editclosedwikis": "మూసివేయబడిన వికీలను సవరించు",
+	"right-closewikis": "వికీలను మూసివేయండి"
 }

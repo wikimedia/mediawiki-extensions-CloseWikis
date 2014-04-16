@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meno25"
-        ]
-    },
-    "closewikis-desc": "يسمح بغلق مواقع الويكى فى مزارع الويكي",
-    "closewikis-page": "إغلاق الويكي",
-    "closewikis-page-close": "إغلاق الويكي",
-    "closewikis-page-close-wiki": "الويكي:",
-    "closewikis-page-close-dreason": "السبب (المعروض):",
-    "closewikis-page-close-reason": "السبب (المسجل):",
-    "closewikis-page-close-submit": "إغلاق",
-    "closewikis-page-close-success": "الويكى تم إغلاقه بنجاح",
-    "closewikis-page-reopen": "إعادة فتح الويكي",
-    "closewikis-page-reopen-wiki": "الويكي:",
-    "closewikis-page-reopen-reason": "السبب:",
-    "closewikis-page-reopen-submit": "إعادة فتح",
-    "closewikis-page-reopen-success": "الويكى تمت إعادة فتحه بنجاح",
-    "closewikis-page-err-nowiki": "ويكى غير صحيح تم تحديده",
-    "closewikis-page-err-closed": "الويكى مغلق بالفعل",
-    "closewikis-page-err-opened": "الويكى ليس مغلقا",
-    "closewikis-list": "قائمة الويكيات المغلقة",
-    "closewikis-list-intro": "هذه القائمة تحتوى على الويكيات التى تم إغلاقها بواسطة المضيفين.",
-    "closewikis-list-header-wiki": "الويكى",
-    "closewikis-list-header-by": "أغلق بواسطة",
-    "closewikis-list-header-timestamp": "أغلق فى",
-    "closewikis-list-header-dispreason": "السبب المعروض",
-    "closewikis-log": "سجل إغلاق الويكيات",
-    "closewikis-log-header": "هنا يوجد سجل بكل عمليات إغلاق وإعادة فتح الويكيات بواسطة المضيفين",
-    "closewikis-log-close": "أغلق $2",
-    "closewikis-log-reopen": "أعاد فتح $2",
-    "right-editclosedwikis": "تعديل الويكيات المغلقة",
-    "right-closewikis": "إغلاق الويكيات"
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"closewikis-desc": "يسمح بغلق مواقع الويكى فى مزارع الويكي",
+	"closewikis-page": "إغلاق الويكي",
+	"closewikis-page-close": "إغلاق الويكي",
+	"closewikis-page-close-wiki": "الويكي:",
+	"closewikis-page-close-dreason": "السبب (المعروض):",
+	"closewikis-page-close-reason": "السبب (المسجل):",
+	"closewikis-page-close-submit": "إغلاق",
+	"closewikis-page-close-success": "الويكى تم إغلاقه بنجاح",
+	"closewikis-page-reopen": "إعادة فتح الويكي",
+	"closewikis-page-reopen-wiki": "الويكي:",
+	"closewikis-page-reopen-reason": "السبب:",
+	"closewikis-page-reopen-submit": "إعادة فتح",
+	"closewikis-page-reopen-success": "الويكى تمت إعادة فتحه بنجاح",
+	"closewikis-page-err-nowiki": "ويكى غير صحيح تم تحديده",
+	"closewikis-page-err-closed": "الويكى مغلق بالفعل",
+	"closewikis-page-err-opened": "الويكى ليس مغلقا",
+	"closewikis-list": "قائمة الويكيات المغلقة",
+	"closewikis-list-intro": "هذه القائمة تحتوى على الويكيات التى تم إغلاقها بواسطة المضيفين.",
+	"closewikis-list-header-wiki": "الويكى",
+	"closewikis-list-header-by": "أغلق بواسطة",
+	"closewikis-list-header-timestamp": "أغلق فى",
+	"closewikis-list-header-dispreason": "السبب المعروض",
+	"closewikis-log": "سجل إغلاق الويكيات",
+	"closewikis-log-header": "هنا يوجد سجل بكل عمليات إغلاق وإعادة فتح الويكيات بواسطة المضيفين",
+	"closewikis-log-close": "أغلق $2",
+	"closewikis-log-reopen": "أعاد فتح $2",
+	"right-editclosedwikis": "تعديل الويكيات المغلقة",
+	"right-closewikis": "إغلاق الويكيات"
 }

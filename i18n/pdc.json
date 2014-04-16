@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xqt"
-        ]
-    },
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-submit": "Zumache",
-    "closewikis-page-reopen-wiki": "Wiki:",
-    "closewikis-page-reopen-reason": "Grund:",
-    "closewikis-list-header-wiki": "Wiki"
+	"@metadata": {
+		"authors": [
+			"Xqt"
+		]
+	},
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-submit": "Zumache",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Grund:",
+	"closewikis-list-header-wiki": "Wiki"
 }

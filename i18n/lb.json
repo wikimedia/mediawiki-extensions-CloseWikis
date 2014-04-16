@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "closewikis-desc": "Erlaabt et Wiki-Siten a Wiki-Farmen zouzemaachen",
-    "closewikis-page": "Wiki zoumaachen",
-    "closewikis-page-close": "Wiki zoumaachen",
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-dreason": "Grond (ugewisen):",
-    "closewikis-page-close-reason": "Grond (geloggt):",
-    "closewikis-page-close-submit": "Zoumaachen",
-    "closewikis-page-close-success": "Wiki gouf zougemaach",
-    "closewikis-page-reopen": "Wiki nees opmaachen",
-    "closewikis-page-reopen-wiki": "Wiki:",
-    "closewikis-page-reopen-reason": "Grond:",
-    "closewikis-page-reopen-submit": "Nees opmaachen",
-    "closewikis-page-reopen-success": "Wiki nees opgemaach",
-    "closewikis-page-err-nowiki": "Ongëlteg Wiki uginn",
-    "closewikis-page-err-closed": "Wiki ass schonn zougemaach",
-    "closewikis-page-err-opened": "Wiki ass net zougemaach",
-    "closewikis-list": "Lëscht vun de Wikien déi zou sinn",
-    "closewikis-list-intro": "Op dëser Lëscht stinn déi Wikien déi vun de Stewarden zougemaach goufen.",
-    "closewikis-list-header-wiki": "Wiki",
-    "closewikis-list-header-by": "Zougemaach vum",
-    "closewikis-list-header-timestamp": "Zougemaach de(n)",
-    "closewikis-list-header-dispreason": "Grond",
-    "closewikis-log": "Lëscht vun den zougemaachte Wikien",
-    "closewikis-log-header": "Hei ass d'Lëscht vun alle Wikien déi vu Stewarden opgemaach oder zougemaach goufen",
-    "closewikis-log-close": "huet $2 zougemaach",
-    "closewikis-log-reopen": "huet $2 nees opgemaach",
-    "right-editclosedwikis": "Zougemaachte Wikien änneren",
-    "right-closewikis": "Wikien zoumaachen"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"closewikis-desc": "Erlaabt et Wiki-Siten a Wiki-Farmen zouzemaachen",
+	"closewikis-page": "Wiki zoumaachen",
+	"closewikis-page-close": "Wiki zoumaachen",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Grond (ugewisen):",
+	"closewikis-page-close-reason": "Grond (geloggt):",
+	"closewikis-page-close-submit": "Zoumaachen",
+	"closewikis-page-close-success": "Wiki gouf zougemaach",
+	"closewikis-page-reopen": "Wiki nees opmaachen",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Grond:",
+	"closewikis-page-reopen-submit": "Nees opmaachen",
+	"closewikis-page-reopen-success": "Wiki nees opgemaach",
+	"closewikis-page-err-nowiki": "Ongëlteg Wiki uginn",
+	"closewikis-page-err-closed": "Wiki ass schonn zougemaach",
+	"closewikis-page-err-opened": "Wiki ass net zougemaach",
+	"closewikis-list": "Lëscht vun de Wikien déi zou sinn",
+	"closewikis-list-intro": "Op dëser Lëscht stinn déi Wikien déi vun de Stewarden zougemaach goufen.",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Zougemaach vum",
+	"closewikis-list-header-timestamp": "Zougemaach de(n)",
+	"closewikis-list-header-dispreason": "Grond",
+	"closewikis-log": "Lëscht vun den zougemaachte Wikien",
+	"closewikis-log-header": "Hei ass d'Lëscht vun alle Wikien déi vu Stewarden opgemaach oder zougemaach goufen",
+	"closewikis-log-close": "huet $2 zougemaach",
+	"closewikis-log-reopen": "huet $2 nees opgemaach",
+	"right-editclosedwikis": "Zougemaachte Wikien änneren",
+	"right-closewikis": "Wikien zoumaachen"
 }

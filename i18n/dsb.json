@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "closewikis-desc": "Zmóžnja wikijowe sedła we wikijowych farmach zacyniś",
-    "closewikis-page": "Wiki zacyniś",
-    "closewikis-page-close": "Wiki zacyniś",
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-dreason": "Pśicyna (zwobraznjona):",
-    "closewikis-page-close-reason": "Pśicyna (sprotokolěrowana):",
-    "closewikis-page-close-submit": "Zacyniś",
-    "closewikis-page-close-success": "Wiki wuspěšnje zacynjony",
-    "closewikis-page-reopen": "Wiki zasej wócyniś",
-    "closewikis-page-reopen-wiki": "Wiki:",
-    "closewikis-page-reopen-reason": "Pśicyna:",
-    "closewikis-page-reopen-submit": "Zasej wócyniś",
-    "closewikis-page-reopen-success": "Wiki wuspěšnje zasej wócynjony",
-    "closewikis-page-err-nowiki": "Njepłaśiwy wiki pódany",
-    "closewikis-page-err-closed": "Wiki jo južo zacynjony",
-    "closewikis-page-err-opened": "Wiki njejo zacynjony",
-    "closewikis-list": "Lisćina zacynjonych wikijow",
-    "closewikis-list-intro": "Toś ta lisćina wopśimujo wikije, kótarež stewardy su zacynili.",
-    "closewikis-list-header-wiki": "Wiki",
-    "closewikis-list-header-by": "Zacynjony wót",
-    "closewikis-list-header-timestamp": "Zacynjony",
-    "closewikis-list-header-dispreason": "Zwobraznjona pśicyna",
-    "closewikis-log": "Protokol wikijowego zacynjenja",
-    "closewikis-log-header": "How jo protokol wšych wikijowych zacynjenjow a zasejwócynjenjow, kótarež stewardy su cynili",
-    "closewikis-log-close": "jo $2 zacynił",
-    "closewikis-log-reopen": "jo $2 zasej wócynił",
-    "right-editclosedwikis": "Zacynjone wikije wobźěłaś",
-    "right-closewikis": "Wikije zacyniś"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"closewikis-desc": "Zmóžnja wikijowe sedła we wikijowych farmach zacyniś",
+	"closewikis-page": "Wiki zacyniś",
+	"closewikis-page-close": "Wiki zacyniś",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Pśicyna (zwobraznjona):",
+	"closewikis-page-close-reason": "Pśicyna (sprotokolěrowana):",
+	"closewikis-page-close-submit": "Zacyniś",
+	"closewikis-page-close-success": "Wiki wuspěšnje zacynjony",
+	"closewikis-page-reopen": "Wiki zasej wócyniś",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Pśicyna:",
+	"closewikis-page-reopen-submit": "Zasej wócyniś",
+	"closewikis-page-reopen-success": "Wiki wuspěšnje zasej wócynjony",
+	"closewikis-page-err-nowiki": "Njepłaśiwy wiki pódany",
+	"closewikis-page-err-closed": "Wiki jo južo zacynjony",
+	"closewikis-page-err-opened": "Wiki njejo zacynjony",
+	"closewikis-list": "Lisćina zacynjonych wikijow",
+	"closewikis-list-intro": "Toś ta lisćina wopśimujo wikije, kótarež stewardy su zacynili.",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Zacynjony wót",
+	"closewikis-list-header-timestamp": "Zacynjony",
+	"closewikis-list-header-dispreason": "Zwobraznjona pśicyna",
+	"closewikis-log": "Protokol wikijowego zacynjenja",
+	"closewikis-log-header": "How jo protokol wšych wikijowych zacynjenjow a zasejwócynjenjow, kótarež stewardy su cynili",
+	"closewikis-log-close": "jo $2 zacynił",
+	"closewikis-log-reopen": "jo $2 zasej wócynił",
+	"right-editclosedwikis": "Zacynjone wikije wobźěłaś",
+	"right-closewikis": "Wikije zacyniś"
 }

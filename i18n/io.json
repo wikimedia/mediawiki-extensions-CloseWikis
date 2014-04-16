@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Malafaya"
-        ]
-    },
-    "closewikis-page": "Klozar wiki",
-    "closewikis-page-close": "Klozar wiki",
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-submit": "Klozez",
-    "closewikis-page-reopen": "Ri-apertar wiki",
-    "closewikis-page-reopen-reason": "Motivo:",
-    "closewikis-page-reopen-submit": "Ri-apertez",
-    "closewikis-list-header-wiki": "Wiki",
-    "closewikis-list-header-by": "Klozita da",
-    "closewikis-list-header-timestamp": "Klozita ye",
-    "closewikis-log-close": "klozis $2",
-    "closewikis-log-reopen": "ri-apertis $2"
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"closewikis-page": "Klozar wiki",
+	"closewikis-page-close": "Klozar wiki",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-submit": "Klozez",
+	"closewikis-page-reopen": "Ri-apertar wiki",
+	"closewikis-page-reopen-reason": "Motivo:",
+	"closewikis-page-reopen-submit": "Ri-apertez",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Klozita da",
+	"closewikis-list-header-timestamp": "Klozita ye",
+	"closewikis-log-close": "klozis $2",
+	"closewikis-log-reopen": "ri-apertis $2"
 }

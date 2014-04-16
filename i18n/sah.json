@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "HalanTul"
-        ]
-    },
-    "closewikis-page": "Биикини сабыы",
-    "closewikis-page-close": "Биикини сап",
-    "closewikis-page-close-wiki": "Биики:",
-    "closewikis-page-close-dreason": "Төрүөтэ (көстөрө):",
-    "closewikis-page-close-reason": "Төрүөтэ (сурунаалга суруллара):",
-    "closewikis-page-close-submit": "Сап",
-    "closewikis-page-close-success": "Биики сөпкө сабылынна",
-    "closewikis-page-reopen": "Биикини арый",
-    "closewikis-page-reopen-reason": "Төрүөтэ:",
-    "closewikis-page-reopen-success": "Биики сөпкө арылынна",
-    "closewikis-list-header-dispreason": "Көстөр төрүөтэ",
-    "closewikis-log-close": "сабыллыбыт $2"
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"closewikis-page": "Биикини сабыы",
+	"closewikis-page-close": "Биикини сап",
+	"closewikis-page-close-wiki": "Биики:",
+	"closewikis-page-close-dreason": "Төрүөтэ (көстөрө):",
+	"closewikis-page-close-reason": "Төрүөтэ (сурунаалга суруллара):",
+	"closewikis-page-close-submit": "Сап",
+	"closewikis-page-close-success": "Биики сөпкө сабылынна",
+	"closewikis-page-reopen": "Биикини арый",
+	"closewikis-page-reopen-reason": "Төрүөтэ:",
+	"closewikis-page-reopen-success": "Биики сөпкө арылынна",
+	"closewikis-list-header-dispreason": "Көстөр төрүөтэ",
+	"closewikis-log-close": "сабыллыбыт $2"
 }

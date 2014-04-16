@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nayvik"
-        ]
-    },
-    "closewikis-page-close-wiki": "ವಿಕಿ:",
-    "closewikis-page-reopen-wiki": "ವಿಕಿ:",
-    "closewikis-page-reopen-reason": "ಕಾರಣ:",
-    "closewikis-list-header-wiki": "ವಿಕಿ"
+	"@metadata": {
+		"authors": [
+			"Nayvik"
+		]
+	},
+	"closewikis-page-close-wiki": "ವಿಕಿ:",
+	"closewikis-page-reopen-wiki": "ವಿಕಿ:",
+	"closewikis-page-reopen-reason": "ಕಾರಣ:",
+	"closewikis-list-header-wiki": "ವಿಕಿ"
 }

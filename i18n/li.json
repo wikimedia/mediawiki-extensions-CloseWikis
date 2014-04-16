@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pahles"
-        ]
-    },
-    "closewikis-desc": "Maak het sjlete en heräöpene van wiki's in 'ne wikifarm mäögelik",
-    "closewikis-page": "Wiki sjlete",
-    "closewikis-page-close": "Wiki sjlete",
-    "closewikis-page-close-wiki": "Wiki:",
-    "closewikis-page-close-dreason": "Raej (weergegaeve op wiki):",
-    "closewikis-page-close-reason": "Raej (veur logbook):",
-    "closewikis-page-close-submit": "Sjlete",
-    "closewikis-page-close-success": "De wiki is noe gesjlote",
-    "closewikis-page-reopen": "Wiki heräöpene",
-    "closewikis-page-reopen-wiki": "Wiki:",
-    "closewikis-page-reopen-reason": "Reeje:",
-    "closewikis-page-reopen-submit": "Heräöpene",
-    "closewikis-page-reopen-success": "De wiki is noe heräöpend",
-    "closewikis-page-err-nowiki": "Ongeljige naam van wiki opgegaeve",
-    "closewikis-page-err-closed": "Deze wiki is al gesjlote",
-    "closewikis-page-err-opened": "Deze wiki is neet gesjlaote",
-    "closewikis-list": "Gesjlaote wiki's",
-    "closewikis-list-intro": "Deze lies bevat wiki's die gesjlaote zien door stewards.",
-    "closewikis-list-header-wiki": "Wiki",
-    "closewikis-list-header-by": "Gesjlaote door",
-    "closewikis-list-header-timestamp": "Gesjlaote op",
-    "closewikis-list-header-dispreason": "Weergegaeve raej",
-    "closewikis-log": "Wikisletingslogbook",
-    "closewikis-log-header": "Dit is 'n logbook van alle sjletinge en heräöpeninge van wiki's oetgeveurd door stewards",
-    "closewikis-log-close": "haet $2 gesjlaote",
-    "closewikis-log-reopen": "haet $2 heräöpend",
-    "right-editclosedwikis": "Gesjlaote wikis bewirke",
-    "right-closewikis": "Gesjlaote wiki's"
+	"@metadata": {
+		"authors": [
+			"Pahles"
+		]
+	},
+	"closewikis-desc": "Maak het sjlete en heräöpene van wiki's in 'ne wikifarm mäögelik",
+	"closewikis-page": "Wiki sjlete",
+	"closewikis-page-close": "Wiki sjlete",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Raej (weergegaeve op wiki):",
+	"closewikis-page-close-reason": "Raej (veur logbook):",
+	"closewikis-page-close-submit": "Sjlete",
+	"closewikis-page-close-success": "De wiki is noe gesjlote",
+	"closewikis-page-reopen": "Wiki heräöpene",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Reeje:",
+	"closewikis-page-reopen-submit": "Heräöpene",
+	"closewikis-page-reopen-success": "De wiki is noe heräöpend",
+	"closewikis-page-err-nowiki": "Ongeljige naam van wiki opgegaeve",
+	"closewikis-page-err-closed": "Deze wiki is al gesjlote",
+	"closewikis-page-err-opened": "Deze wiki is neet gesjlaote",
+	"closewikis-list": "Gesjlaote wiki's",
+	"closewikis-list-intro": "Deze lies bevat wiki's die gesjlaote zien door stewards.",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Gesjlaote door",
+	"closewikis-list-header-timestamp": "Gesjlaote op",
+	"closewikis-list-header-dispreason": "Weergegaeve raej",
+	"closewikis-log": "Wikisletingslogbook",
+	"closewikis-log-header": "Dit is 'n logbook van alle sjletinge en heräöpeninge van wiki's oetgeveurd door stewards",
+	"closewikis-log-close": "haet $2 gesjlaote",
+	"closewikis-log-reopen": "haet $2 heräöpend",
+	"right-editclosedwikis": "Gesjlaote wikis bewirke",
+	"right-closewikis": "Gesjlaote wiki's"
 }
