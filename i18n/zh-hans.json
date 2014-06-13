@@ -22,7 +22,7 @@
 	"closewikis-page-reopen-success": "维基成功打开",
 	"closewikis-page-err-nowiki": "指定的维基无效",
 	"closewikis-page-err-closed": "维基已经关闭",
-	"closewikis-page-err-opened": "维基并不关闭",
+	"closewikis-page-err-opened": "维基未关闭",
 	"closewikis-list": "关闭维基列表",
 	"closewikis-list-intro": "该列表包含监管员封闭的维基。",
 	"closewikis-list-header-wiki": "维基",
