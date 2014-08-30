@@ -331,5 +331,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'CloseWiki' => array( '關閉Wiki', '關閉維基' ),
+	'CloseWiki' => array( '關閉Wiki' ),
 );
