@@ -199,6 +199,11 @@ $specialPageAliases['lb'] = array(
 	'CloseWiki' => array( 'Wiki_zoumaachen' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'CloseWiki' => array( 'HanidyWiki' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'CloseWiki' => array( 'TutuikWiki' ),
