@@ -134,7 +134,7 @@ $specialPageAliases['hsb'] = array(
 	'CloseWiki' => array( 'Wiki_začinić' ),
 );
 
-/** 湘语 (湘语) */
+/** Xiang Chinese (湘语) */
 $specialPageAliases['hsn'] = array(
 	'CloseWiki' => array( '关闭维基' ),
 );
