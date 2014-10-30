@@ -51,7 +51,7 @@ $specialPageAliases['bs'] = array(
 
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $specialPageAliases['cdo'] = array(
-	'CloseWiki' => array( '截囇維基' ),
+	'CloseWiki' => array( '截唻維基' ),
 );
 
 /** Chechen (нохчийн) */
