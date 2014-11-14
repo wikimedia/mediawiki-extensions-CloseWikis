@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liangent",
-			"Mark85296341"
+			"Mark85296341",
+			"LNDDYL"
 		]
 	},
 	"closewikis-desc": "允許關閉在維基農場的維基網站",
@@ -21,7 +22,7 @@
 	"closewikis-page-err-nowiki": "指定的維基無效",
 	"closewikis-page-err-closed": "維基已經關閉",
 	"closewikis-page-err-opened": "維基並不關閉",
-	"closewikis-list": "封閉的維基列表",
+	"closewikis-list": "封閉的 wiki 清單",
 	"closewikis-list-intro": "該列表包含管家封閉的維基。",
 	"closewikis-list-header-wiki": "維基",
 	"closewikis-list-header-by": "關閉由",
