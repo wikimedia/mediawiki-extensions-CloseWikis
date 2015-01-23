@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'CloseWiki' => array( 'ৱিকি_বন্ধ_কৰক' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'CloseWiki' => array( 'Закрытие_вики' ),
+);
+
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = array(
 	'CloseWiki' => array( 'CloseWiki' ),
