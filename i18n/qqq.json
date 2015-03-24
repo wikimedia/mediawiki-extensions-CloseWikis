@@ -10,7 +10,7 @@
 			"Umherirrender"
 		]
 	},
-	"closewikis-desc": "{{desc|name=Close Wikis|url=http://www.mediawiki.org/wiki/Extension:CloseWikis}}",
+	"closewikis-desc": "{{desc|name=Close Wikis|url=https://www.mediawiki.org/wiki/Extension:CloseWikis}}",
 	"closewikis-closed": "{{optional}}",
 	"closewikis-page": "{{doc-special|CloseWiki|unlisted=1}}",
 	"closewikis-page-close": "Used as legend of fieldset.",
