@@ -39,6 +39,11 @@ $specialPageAliases['ba'] = array(
 	'CloseWiki' => array( 'CloseWiki' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'CloseWiki' => array( 'ویکی_ئی_بستین' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'CloseWiki' => array( 'Tukup_wiki' ),
