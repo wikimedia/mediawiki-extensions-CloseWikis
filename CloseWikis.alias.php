@@ -114,6 +114,11 @@ $specialPageAliases['fi'] = array(
 	'CloseWiki' => array( 'Sulje_wiki' ),
 );
 
+/** Western Frisian (Frysk) */
+$specialPageAliases['fy'] = array(
+	'CloseWiki' => array( 'WikiSlute' ),
+);
+
 /** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'CloseWiki' => array( 'Pechar_o_wiki' ),
