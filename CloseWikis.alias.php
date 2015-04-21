@@ -336,7 +336,7 @@ $specialPageAliases['tr'] = array(
 
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
-	'CloseWiki' => array( 'Закриті_Вікі' ),
+	'CloseWiki' => array( 'Закриті_вікі' ),
 );
 
 /** Veps (vepsän kel’) */
