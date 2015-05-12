@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'CloseWiki' => array( 'إغلاق_الويكي' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'CloseWiki' => array( 'قفل_الويكى' ),
 );
@@ -214,7 +214,7 @@ $specialPageAliases['lb'] = array(
 	'CloseWiki' => array( 'Wiki_zoumaachen' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'CloseWiki' => array( 'ویکی_بسته' ),
 );
