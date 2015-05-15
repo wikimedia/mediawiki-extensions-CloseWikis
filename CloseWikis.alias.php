@@ -214,7 +214,7 @@ $specialPageAliases['lb'] = array(
 	'CloseWiki' => array( 'Wiki_zoumaachen' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'CloseWiki' => array( 'ویکی_بسته' ),
 );
