@@ -216,7 +216,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'CloseWiki' => array( 'ویکی_بسته' ),
+	'CloseWiki' => array( 'ڤیکی_بأستە' ),
 );
 
 /** Malagasy (Malagasy) */
