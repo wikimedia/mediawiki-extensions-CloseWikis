@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aushulz"
+			"Aushulz",
+			"Sarvaturi"
 		]
 	},
 	"closewikis-page-close-wiki": "Wiki:",
 	"closewikis-page-close-submit": "Chiudi",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Mutivu:",
+	"closewikis-list": "Elencu di wiki chiuduti",
 	"closewikis-list-header-wiki": "Wiki"
 }
