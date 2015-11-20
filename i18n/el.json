@@ -21,7 +21,7 @@
 	"closewikis-page-err-nowiki": "Καθορίστηκε μη έγκυρο wiki",
 	"closewikis-page-err-closed": "Το Wiki έχει ήδη κλείσει",
 	"closewikis-page-err-opened": "Το βίκι δεν είναι κλειστό",
-	"closewikis-list": "Λίστα κλειστών  wikis",
+	"closewikis-list": "Κατάλογος κλειστών  wikis",
 	"closewikis-list-intro": "Αυτή η λίστα περιέχει τα wikis που έκλεισαν από επιτρόπους",
 	"closewikis-list-header-wiki": "Βίκι",
 	"closewikis-list-header-by": "Κλειστό από",
