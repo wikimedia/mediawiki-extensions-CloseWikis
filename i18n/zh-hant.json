@@ -32,6 +32,6 @@
 	"closewikis-log-header": "這裡是管家所有維基封鎖和所做的重開的日誌",
 	"closewikis-log-close": "封閉$2",
 	"closewikis-log-reopen": "重新開$2",
-	"right-editclosedwikis": "更改關閉維基",
+	"right-editclosedwikis": "編輯關閉的維基",
 	"right-closewikis": "關閉維基"
 }
