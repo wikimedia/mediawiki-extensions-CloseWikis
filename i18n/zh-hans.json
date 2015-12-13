@@ -33,6 +33,6 @@
 	"closewikis-log-header": "这里是监管员所有维基封锁和所做的重开的日志",
 	"closewikis-log-close": "已关闭$2",
 	"closewikis-log-reopen": "已重启$2",
-	"right-editclosedwikis": "更改关闭维基",
+	"right-editclosedwikis": "编辑已关闭的wiki",
 	"right-closewikis": "关闭维基"
 }
