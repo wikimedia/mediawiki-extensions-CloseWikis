@@ -151,7 +151,7 @@ class CloseWikis {
 	static function close( $wiki, $dispreason, $by ) {
 		global $wgMemc;
 		$dbw = CloseWikis::getMasterDB();
-		$dbw->begin();
+		$dbw->begin( __METHOD__ );
 		$dbw->insert(
 			'closedwikis',
 			array(
@@ -164,7 +164,7 @@ class CloseWikis {
 			array( 'IGNORE' )	// Better error handling
 		);
 		$result = (bool)$dbw->affectedRows();
-		$dbw->commit();
+		$dbw->commit( __METHOD__ );
 		$wgMemc->delete( "closedwikis:{$wiki}" );
 		self::$cachedList = null;
 		return $result;
@@ -174,14 +174,14 @@ class CloseWikis {
 	static function reopen( $wiki ) {
 		global $wgMemc;
 		$dbw = self::getMasterDB();
-		$dbw->begin();
+		$dbw->begin( __METHOD__ );
 		$dbw->delete(
 			'closedwikis',
 			array( 'cw_wiki' => $wiki ),
 			__METHOD__
 		);
 		$result = (bool)$dbw->affectedRows();
-		$dbw->commit();
+		$dbw->commit( __METHOD__ );
 		$wgMemc->delete( "closedwikis:{$wiki}" );
 		self::$cachedList = null;
 		return $result;
