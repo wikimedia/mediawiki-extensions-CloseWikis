@@ -27,6 +27,10 @@ class SpecialCloseWiki extends SpecialPage {
 		parent::__construct( 'CloseWiki', 'closewikis' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	public function getDescription() {
 		return wfMessage( 'closewikis-page' )->text();
 	}
