@@ -3,7 +3,8 @@
 		"authors": [
 			"Grondin",
 			"IAlex",
-			"Zetud"
+			"Zetud",
+			"Gomoko"
 		]
 	},
 	"closewikis-desc": "Permet de clôturer les sites wiki dans ce gestionnaire de wiki",
@@ -13,12 +14,12 @@
 	"closewikis-page-close-dreason": "Motif (affiché) :",
 	"closewikis-page-close-reason": "Motif (enregistré) :",
 	"closewikis-page-close-submit": "Clôturer",
-	"closewikis-page-close-success": "Wiki clôturé avec succès",
+	"closewikis-page-close-success": "Le wiki a été fermé",
 	"closewikis-page-reopen": "Réouvrir le wiki",
 	"closewikis-page-reopen-wiki": "Wiki :",
 	"closewikis-page-reopen-reason": "Motif :",
 	"closewikis-page-reopen-submit": "Réouvrir",
-	"closewikis-page-reopen-success": "Wiki réouvert avec succès",
+	"closewikis-page-reopen-success": "Le wiki a été réouvert",
 	"closewikis-page-err-nowiki": "Le wiki indiqué est incorrect",
 	"closewikis-page-err-closed": "Ce wiki est déjà clôturé",
 	"closewikis-page-err-opened": "Wiki non clôturé",

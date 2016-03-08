@@ -4,7 +4,8 @@
 			"Dim Grits",
 			"Prima klasy4na",
 			"Sodmy",
-			"Тест"
+			"Тест",
+			"Piramidion"
 		]
 	},
 	"closewikis-desc": "Дозволяє закрити вікі сайти у вікі фермі",
@@ -14,12 +15,12 @@
 	"closewikis-page-close-dreason": "Причина (для показу):",
 	"closewikis-page-close-reason": "Причина (для запису в журнал):",
 	"closewikis-page-close-submit": "Закрити",
-	"closewikis-page-close-success": "Wiki успішно закрито",
+	"closewikis-page-close-success": "Цю вікі було закрито",
 	"closewikis-page-reopen": "Перевідкрити Вікі",
 	"closewikis-page-reopen-wiki": "Вікі:",
 	"closewikis-page-reopen-reason": "Причина:",
 	"closewikis-page-reopen-submit": "Повторно відкрити",
-	"closewikis-page-reopen-success": "Вікі успішно відновлено",
+	"closewikis-page-reopen-success": "Цю вікі було відновлено",
 	"closewikis-page-err-nowiki": "Вказано неприпустиму Вікі",
 	"closewikis-page-err-closed": "Вікі вже закрита",
 	"closewikis-page-err-opened": "Вікі не закрита",
