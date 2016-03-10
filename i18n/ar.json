@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"OsamaK"
+			"OsamaK",
+			"Maroen1990"
 		]
 	},
 	"closewikis-desc": "يسمح بغلق مواقع الويكي في مزارع الويكي",
@@ -12,7 +13,7 @@
 	"closewikis-page-close-dreason": "السبب (المعروض):",
 	"closewikis-page-close-reason": "السبب (المسجل):",
 	"closewikis-page-close-submit": "أغلق",
-	"closewikis-page-close-success": "الويكي تم إغلاقه بنجاح",
+	"closewikis-page-close-success": "الويكي تم إغلاقه",
 	"closewikis-page-reopen": "إعادة فتح الويكي",
 	"closewikis-page-reopen-wiki": "الويكي:",
 	"closewikis-page-reopen-reason": "السبب:",

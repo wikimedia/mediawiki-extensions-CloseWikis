@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Darth Kule",
-			"Pietrodn"
+			"Pietrodn",
+			"Beta16"
 		]
 	},
 	"closewikis-desc": "Permette di chiudere i siti wiki nelle famiglie wiki",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Motivo (visualizzato):",
 	"closewikis-page-close-reason": "Motivo (registrato):",
 	"closewikis-page-close-submit": "Chiudi",
-	"closewikis-page-close-success": "Wiki chiusa con successo",
+	"closewikis-page-close-success": "Il wiki è stato chiuso",
 	"closewikis-page-reopen": "Riapri wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motivo:",
 	"closewikis-page-reopen-submit": "Riapri",
-	"closewikis-page-reopen-success": "Wiki riaperta con successo",
+	"closewikis-page-reopen-success": "Il wiki è stato riaperto",
 	"closewikis-page-err-nowiki": "Specificata una wiki non valida",
 	"closewikis-page-err-closed": "La wiki è già chiusa",
 	"closewikis-page-err-opened": "La wiki non è chiusa",
