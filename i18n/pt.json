@@ -3,7 +3,8 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"Sir Lestaty de Lioncourt"
+			"Sir Lestaty de Lioncourt",
+			"Vitorvicentevalente"
 		]
 	},
 	"closewikis-desc": "Permite fechar wikis em fazendas de wikis",
@@ -13,12 +14,12 @@
 	"closewikis-page-close-dreason": "Motivo (apresentado):",
 	"closewikis-page-close-reason": "Motivo (registado):",
 	"closewikis-page-close-submit": "Fechar",
-	"closewikis-page-close-success": "Wiki foi fechada com sucesso",
+	"closewikis-page-close-success": "A wiki foi encerrada",
 	"closewikis-page-reopen": "Reabrir wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motivo:",
 	"closewikis-page-reopen-submit": "Reabrir",
-	"closewikis-page-reopen-success": "Wiki reaberta com sucesso",
+	"closewikis-page-reopen-success": "A wiki foi reaberta",
 	"closewikis-page-err-nowiki": "Foi especificada uma wiki inválida",
 	"closewikis-page-err-closed": "Wiki já está fechada",
 	"closewikis-page-err-opened": "Esta wiki não está fechada",
