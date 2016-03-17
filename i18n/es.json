@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BicScope",
-			"Fitoschido"
+			"Fitoschido",
+			"Matiia"
 		]
 	},
 	"closewikis-desc": "Permitir cerrar sitios wiki en granjas wiki",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Motivo (mostrado):",
 	"closewikis-page-close-reason": "Motivo (registrado):",
 	"closewikis-page-close-submit": "Cerrar",
-	"closewikis-page-close-success": "El wiki se ha cerrado correctamente",
+	"closewikis-page-close-success": "El wiki se ha cerrado",
 	"closewikis-page-reopen": "Reabrir el wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motivo:",
 	"closewikis-page-reopen-submit": "Reabrir",
-	"closewikis-page-reopen-success": "El wiki se ha reabierto correctamente",
+	"closewikis-page-reopen-success": "El wiki se ha reabierto",
 	"closewikis-page-err-nowiki": "Se especificó un wiki no válido",
 	"closewikis-page-err-closed": "El wiki ya se ha cerrado",
 	"closewikis-page-err-opened": "El wiki no está cerrado",
