@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ferrer",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"closewikis-desc": "Позволяет закрывать вики-сайты в вики ферме",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Причина (отображаемая):",
 	"closewikis-page-close-reason": "Причина (для журнала):",
 	"closewikis-page-close-submit": "Закрыть",
-	"closewikis-page-close-success": "Вики успешно закрыта",
+	"closewikis-page-close-success": "Вики закрыта",
 	"closewikis-page-reopen": "Открыть вики",
 	"closewikis-page-reopen-wiki": "Вики:",
 	"closewikis-page-reopen-reason": "Причина:",
 	"closewikis-page-reopen-submit": "Открыть",
-	"closewikis-page-reopen-success": "Вики успешно открыта",
+	"closewikis-page-reopen-success": "Вики открыта",
 	"closewikis-page-err-nowiki": "Указана неправильная вики",
 	"closewikis-page-err-closed": "Вики уже закрыта",
 	"closewikis-page-err-opened": "Вики не закрыта",
