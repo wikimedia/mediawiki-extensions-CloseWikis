@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftabuzzaman"
 		]
 	},
 	"closewikis-desc": "উইকি ফার্মে উইকি সাইট বন্ধ করার সুযোগ দিন",
@@ -17,7 +18,7 @@
 	"closewikis-page-reopen-wiki": "উইকি:",
 	"closewikis-page-reopen-reason": "কারণ:",
 	"closewikis-page-reopen-submit": "নতুন করে চালু করুন",
-	"closewikis-page-reopen-success": "উইকি সফলভাবে পুনরায় চালু করা হয়েছে",
+	"closewikis-page-reopen-success": "উইকি পুনরায় চালু করা হয়েছে",
 	"closewikis-page-err-nowiki": "অপ্রযোজ্য উইকি নির্বাচন করা হয়েছে",
 	"closewikis-page-err-closed": "উইকি ইতিমধ্যেই বন্ধ রয়েছে",
 	"closewikis-page-err-opened": "উইকি বন্ধ নয়",
