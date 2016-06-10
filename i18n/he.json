@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"closewikis-desc": "הרחבה המאפשרת לסגור אתרי ויקי בחוות ויקי",
@@ -31,6 +32,6 @@
 	"closewikis-log-header": "להלן יומן של כל הסגירות והפתיחות מחדש של אתרי ויקי שבוצעו על ידי דיילים.",
 	"closewikis-log-close": "נסגר $2",
 	"closewikis-log-reopen": "נפתח מחדש $2",
-	"right-editclosedwikis": "עריכת אתרי הוויקי הסגורים",
+	"right-editclosedwikis": "עריכת אתרי ויקי סגורים",
 	"right-closewikis": "סגירת אתרי ויקי"
 }
