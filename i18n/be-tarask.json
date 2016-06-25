@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"closewikis-desc": "Дазваляе закрываць вікі-сайты ў вікі-фэрмах",
@@ -12,7 +13,7 @@
 	"closewikis-page-close-dreason": "Прычына (якая будзе паказвацца):",
 	"closewikis-page-close-reason": "Прычына (для журнала):",
 	"closewikis-page-close-submit": "Закрыць",
-	"closewikis-page-close-success": "Вікі пасьпяхова закрытая",
+	"closewikis-page-close-success": "Вікі была закрытая",
 	"closewikis-page-reopen": "Адкрыць вікі ізноў",
 	"closewikis-page-reopen-wiki": "Вікі:",
 	"closewikis-page-reopen-reason": "Прычына:",
