@@ -1,19 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Kumkumuk"
 		]
 	},
+	"closewikis-desc": "Çıflıgan wiki de sitanê wiki rê racnayışi rê icazet da nê",
 	"closewikis-page": "Wiki racnê",
 	"closewikis-page-close": "Wiki racnê",
 	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Sebep (asnayen):",
+	"closewikis-page-close-reason": "Sebep (rocaneyen):",
 	"closewikis-page-close-submit": "Racnê",
-	"closewikis-page-close-success": "Wiki racneyê",
+	"closewikis-page-close-success": "Wiki racne yê",
 	"closewikis-page-reopen": "Wikiyer fına ake",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Sebeb:",
 	"closewikis-page-reopen-submit": "Fına Ake",
-	"closewikis-page-reopen-success": "Wiki fına abiyê",
+	"closewikis-page-reopen-success": "Wiki fına abiyê ya",
 	"closewikis-page-err-opened": "Wiki racnayi niya",
 	"closewikis-list": "Listey wikiyan dê racneyan",
 	"closewikis-list-header-wiki": "Wiki",
