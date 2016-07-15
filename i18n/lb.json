@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
-	"closewikis-desc": "Erlaabt et Wiki-Siten a Wiki-Farmen zouzemaachen",
+	"closewikis-desc": "Erlaabt et Wiki-Sitten a Wiki-Farmen zouzemaachen",
 	"closewikis-page": "Wiki zoumaachen",
 	"closewikis-page-close": "Wiki zoumaachen",
 	"closewikis-page-close-wiki": "Wiki:",
