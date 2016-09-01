@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"closewikis-desc": "Çıflıgan wiki de sitanê wiki rê racnayışi rê icazet da nê",
@@ -26,7 +27,7 @@
 	"closewikis-list-header-wiki": "Wiki",
 	"closewikis-list-header-by": "Racnayen",
 	"closewikis-list-header-timestamp": "Racnayışê cı",
-	"closewikis-list-header-dispreason": "Asaye sebeb",
+	"closewikis-list-header-dispreason": "Sebebo asaye",
 	"closewikis-log": "Qeydê racnayena wiki",
 	"closewikis-log-header": "Ena terefê steward'an ra qeydê raceneka wik ya racnayış u akerdışi ya.",
 	"closewikis-log-close": "$2 wiki racnê",
