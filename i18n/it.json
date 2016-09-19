@@ -3,7 +3,8 @@
 		"authors": [
 			"Darth Kule",
 			"Pietrodn",
-			"Beta16"
+			"Beta16",
+			"Tosky"
 		]
 	},
 	"closewikis-desc": "Permette di chiudere i siti wiki nelle famiglie wiki",
@@ -20,8 +21,8 @@
 	"closewikis-page-reopen-submit": "Riapri",
 	"closewikis-page-reopen-success": "Il wiki è stato riaperto",
 	"closewikis-page-err-nowiki": "Specificata una wiki non valida",
-	"closewikis-page-err-closed": "La wiki è già chiusa",
-	"closewikis-page-err-opened": "La wiki non è chiusa",
+	"closewikis-page-err-closed": "Il wiki è già chiuso",
+	"closewikis-page-err-opened": "Il wiki non è chiuso",
 	"closewikis-list": "Elenco di wiki chiuse",
 	"closewikis-list-intro": "Questo elenco contiene le wiki che sono state chiuse dagli steward.",
 	"closewikis-list-header-wiki": "Wiki",
