@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"closewikis-desc": "Tillater stenging av wikier i wikisamlinger",
@@ -11,12 +12,12 @@
 	"closewikis-page-close-dreason": "Årsak (vises):",
 	"closewikis-page-close-reason": "Årsak (logges):",
 	"closewikis-page-close-submit": "Lukk",
-	"closewikis-page-close-success": "Wiki stengt",
+	"closewikis-page-close-success": "Wikien ble stengt",
 	"closewikis-page-reopen": "Åpne wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Årsak:",
 	"closewikis-page-reopen-submit": "Åpne",
-	"closewikis-page-reopen-success": "Wiki åpnet",
+	"closewikis-page-reopen-success": "Wikien ble gjenåpnet",
 	"closewikis-page-err-nowiki": "Ugyldig wiki oppgitt",
 	"closewikis-page-err-closed": "Wikien er allerede stengt",
 	"closewikis-page-err-opened": "Wikien er ikke stengt",
