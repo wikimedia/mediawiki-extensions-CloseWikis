@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Mainframe98"
 		]
 	},
 	"closewikis-desc": "Maakt het sluiten en heropenen van wiki's in een wikifarm mogelijk",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Reden (weergegeven op wiki):",
 	"closewikis-page-close-reason": "Reden (voor logboek):",
 	"closewikis-page-close-submit": "Sluiten",
-	"closewikis-page-close-success": "De wiki is nu gesloten",
+	"closewikis-page-close-success": "De wiki is gesloten",
 	"closewikis-page-reopen": "Wiki heropenen",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Reden:",
 	"closewikis-page-reopen-submit": "Heropenen",
-	"closewikis-page-reopen-success": "De wiki is nu heropend",
+	"closewikis-page-reopen-success": "De wiki is heropend",
 	"closewikis-page-err-nowiki": "Ongeldige naam van wiki opgegeven",
 	"closewikis-page-err-closed": "Deze wiki is al gesloten",
 	"closewikis-page-err-opened": "Deze wiki was niet gesloten",
