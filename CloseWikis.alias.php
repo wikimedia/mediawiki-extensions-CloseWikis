@@ -12,6 +12,7 @@ $specialPageAliases = array();
 /** English (English) */
 $specialPageAliases['en'] = array(
 	'CloseWiki' => array( 'CloseWiki' ),
+	'ListClosedWikis' => array( 'ListClosedWikis' ),
 );
 
 /** Arabic (العربية) */
