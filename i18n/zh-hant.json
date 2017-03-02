@@ -3,7 +3,8 @@
 		"authors": [
 			"Liangent",
 			"Mark85296341",
-			"LNDDYL"
+			"LNDDYL",
+			"烈羽"
 		]
 	},
 	"closewikis-desc": "允許關閉在維基農場的維基網站",
@@ -13,12 +14,12 @@
 	"closewikis-page-close-dreason": "原因（顯示）：",
 	"closewikis-page-close-reason": "理由（登入）：",
 	"closewikis-page-close-submit": "關閉",
-	"closewikis-page-close-success": "維基成功關閉",
+	"closewikis-page-close-success": "wiki已關閉",
 	"closewikis-page-reopen": "重新打開維基",
 	"closewikis-page-reopen-wiki": "Wiki：",
 	"closewikis-page-reopen-reason": "原因：",
 	"closewikis-page-reopen-submit": "重新打開",
-	"closewikis-page-reopen-success": "維基成功打開",
+	"closewikis-page-reopen-success": "wiki已重啟",
 	"closewikis-page-err-nowiki": "指定的維基無效",
 	"closewikis-page-err-closed": "維基已經關閉",
 	"closewikis-page-err-opened": "維基並不關閉",
