@@ -88,7 +88,7 @@ class CloseWikis {
 
 	static function getSlaveDB() {
 		global $wgCloseWikisDatabase;
-		return wfGetDB( DB_SLAVE, 'closewikis', $wgCloseWikisDatabase );
+		return wfGetDB( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
 	}
 
 	static function getMasterDB() {
