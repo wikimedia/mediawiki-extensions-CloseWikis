@@ -1,0 +1,62 @@
+{
+	"name": "CloseWikis",
+	"version": "1.2",
+	"author": [
+		"Victor Vasiliev",
+		"Hydriz Scholz"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CloseWikis",
+	"descriptionmsg": "closewikis-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"AvailableRights": [
+		"closewikis",
+		"editclosedwikis"
+	],
+	"GroupPermissions": {
+		"steward": {
+			"closewikis": true
+		}
+	},
+	"LogActions": {
+		"closewiki/close": "closewikis-log-close",
+		"closewiki/reopen": "closewikis-log-reopen"
+	},
+	"LogHeaders": {
+		"closewiki": "closewikis-log-header"
+	},
+	"LogNames": {
+		"closewiki": "closewikis-log"
+	},
+	"LogTypes": [
+		"closewiki"
+	],
+	"SpecialPages": {
+		"CloseWiki": "SpecialCloseWiki",
+		"ListClosedWikis": "SpecialListClosedWikis"
+	},
+	"MessagesDirs": {
+		"CloseWikis": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"CloseWikisAlias": "CloseWikis.alias.php"
+	},
+	"AutoloadClasses": {
+		"CloseWikis": "CloseWikis.class.php",
+		"CloseWikisHooks": "CloseWikisHooks.php",
+		"CloseWikisRow": "CloseWikisRow.php",
+		"SpecialCloseWiki": "SpecialCloseWiki.php",
+		"SpecialListClosedWikis": "SpecialListClosedWikis.php"
+	},
+	"Hooks": {
+		"getUserPermissionsErrors": "CloseWikisHooks::userCan"
+	},
+	"config": {
+		"CloseWikisDatabase": {
+			"value": "closedwikis"
+		}
+	},
+	"manifest_version": 2
+}
