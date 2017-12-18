@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Borislav",
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"closewikis-desc": "Позволява да се затварят уикита в уики ферми",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Причина (публична):",
 	"closewikis-page-close-reason": "Причина (за дневници)",
 	"closewikis-page-close-submit": "Затваряне",
-	"closewikis-page-close-success": "Уикито беше затворено.",
+	"closewikis-page-close-success": "Уикито е затворено",
 	"closewikis-page-reopen": "Отваряне на уики",
 	"closewikis-page-reopen-wiki": "Уики:",
 	"closewikis-page-reopen-reason": "Причина:",
 	"closewikis-page-reopen-submit": "Отваряне наново",
-	"closewikis-page-reopen-success": "Уикито беше наново отворено.",
+	"closewikis-page-reopen-success": "Уикито е отворено отново",
 	"closewikis-page-err-nowiki": "Посоченото уики е невалидно.",
 	"closewikis-page-err-closed": "Уикито вече беше затворено.",
 	"closewikis-page-err-opened": "Уикито не беше затворено.",
