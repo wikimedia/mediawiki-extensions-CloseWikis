@@ -3,7 +3,8 @@
 		"authors": [
 			"SPQRobin",
 			"Siebrand",
-			"Mainframe98"
+			"Mainframe98",
+			"Mar(c)"
 		]
 	},
 	"closewikis-desc": "Maakt het sluiten en heropenen van wiki's in een wikifarm mogelijk",
@@ -32,6 +33,6 @@
 	"closewikis-log-header": "Dit is een logboek van alle sluitingen en heropeningen van wiki's uitgevoerd door stewards",
 	"closewikis-log-close": "heeft $2 gesloten",
 	"closewikis-log-reopen": "heeft $2 heropend",
-	"right-editclosedwikis": "Gesloten wikis bewerken",
+	"right-editclosedwikis": "Gesloten wiki's bewerken",
 	"right-closewikis": "Wiki's sluiten"
 }
