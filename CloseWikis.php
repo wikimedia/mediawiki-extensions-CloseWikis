@@ -28,7 +28,7 @@ $wgExtensionCredits['other'][] = array(
 	'author'         => array( 'Victor Vasiliev', 'Hydriz Scholz' ),
 	'descriptionmsg' => 'closewikis-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:CloseWikis',
-	'license-name'   => 'GPL-2.0+',
+	'license-name'   => 'GPL-2.0-or-later',
 );
 
 $dir = dirname( __FILE__ );
