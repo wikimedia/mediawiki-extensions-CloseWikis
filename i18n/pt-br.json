@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo.mps",
 			"Jaideraf",
-			"555"
+			"555",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"closewikis-desc": "Permite fechar um wiki em sites com múltiplos wikis",
@@ -13,12 +14,12 @@
 	"closewikis-page-close-dreason": "Motivo (exibido):",
 	"closewikis-page-close-reason": "Motivo (registrado):",
 	"closewikis-page-close-submit": "Fechar",
-	"closewikis-page-close-success": "Wiki fechado com êxito",
+	"closewikis-page-close-success": "A wiki foi encerrada",
 	"closewikis-page-reopen": "Reabrir wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motivo:",
 	"closewikis-page-reopen-submit": "Reabrir",
-	"closewikis-page-reopen-success": "Wiki reaberto com êxito",
+	"closewikis-page-reopen-success": "A wiki foi reaberta",
 	"closewikis-page-err-nowiki": "O wiki especificado é inválido",
 	"closewikis-page-err-closed": "Wiki já fechado",
 	"closewikis-page-err-opened": "Este wiki não está fechado",
