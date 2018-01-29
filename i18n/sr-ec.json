@@ -3,7 +3,8 @@
 		"authors": [
 			"Rancher",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"Acamicamacaraca"
 		]
 	},
 	"closewikis-desc": "Омогућава затварање Вики-сајтова у Вики-фармама",
@@ -32,6 +33,6 @@
 	"closewikis-log-header": "Овде је историја свих затварања и поновних отварања Викија од стране стјуарда",
 	"closewikis-log-close": "затворен $2",
 	"closewikis-log-reopen": "поново отворен $2",
-	"right-editclosedwikis": "уређивање затворених викија",
-	"right-closewikis": "затварање викија"
+	"right-editclosedwikis": "Уређивање затворених викија",
+	"right-closewikis": "Затварање викија"
 }
