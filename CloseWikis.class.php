@@ -56,7 +56,7 @@ class CloseWikis {
 		}
 		$dbr = self::getSlaveDB();
 		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', array( 'cw_wiki' => $wiki ), __METHOD__ ) );
-		$wgMemc->set( $memcKey, $result );
+		$wgMemc->set( $memcKey, $result, BagOStuff::TTL_MONTH );
 		return $result;
 	}
 
