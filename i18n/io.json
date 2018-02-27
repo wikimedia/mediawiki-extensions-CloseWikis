@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
 	"closewikis-page": "Klozar wiki",
@@ -14,6 +15,7 @@
 	"closewikis-list-header-wiki": "Wiki",
 	"closewikis-list-header-by": "Klozita da",
 	"closewikis-list-header-timestamp": "Klozita ye",
+	"closewikis-log-header": "Yen listo pri omna Wiki apertita o klozita dal super-administreri (''stewards'')",
 	"closewikis-log-close": "klozis $2",
 	"closewikis-log-reopen": "ri-apertis $2"
 }
