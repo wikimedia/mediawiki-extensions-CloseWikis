@@ -3,7 +3,8 @@
 		"authors": [
 			"Crazymadlover",
 			"Glavkos",
-			"Omnipaedista"
+			"Omnipaedista",
+			"Nikosgranturismogt"
 		]
 	},
 	"closewikis-desc": "Επιτρέπει να κλείσει wiki ιστοσελίδες  σε wiki φάρμες",
@@ -12,12 +13,12 @@
 	"closewikis-page-close-wiki": "Βίκι:",
 	"closewikis-page-close-dreason": "Λόγος (εμφανίζεται):",
 	"closewikis-page-close-submit": "Κλείσιμο",
-	"closewikis-page-close-success": "Το Wiki έκλεισε επιτυχώς",
+	"closewikis-page-close-success": "Το Βίκι έκλεισε",
 	"closewikis-page-reopen": "Ξανάνοιγμα του βίκι",
 	"closewikis-page-reopen-wiki": "Βίκι:",
 	"closewikis-page-reopen-reason": "Αιτία:",
 	"closewikis-page-reopen-submit": "Ξανάνοιγμα",
-	"closewikis-page-reopen-success": "Το Wiki ξανάνοιξε επιτυχώς",
+	"closewikis-page-reopen-success": "Το Wiki ξανάνοιξε",
 	"closewikis-page-err-nowiki": "Καθορίστηκε μη έγκυρο wiki",
 	"closewikis-page-err-closed": "Το Wiki έχει ήδη κλείσει",
 	"closewikis-page-err-opened": "Το βίκι δεν είναι κλειστό",
