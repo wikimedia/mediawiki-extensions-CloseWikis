@@ -1,5 +1,22 @@
 <?php
 class CloseWikisHooks {
+
+	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
+		global $wgWikimediaJenkinsCI;
+		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
+			$updater->addExtensionTable( 'closedwikis', __DIR__ . '/closewikis.sql' );
+		}
+		return true;
+	}
+
+	public static function onRegistration() {
+		global $wgWikimediaJenkinsCI, $wgCloseWikisDatabase, $wgDBname;
+
+		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
+			$wgCloseWikisDatabase = $wgDBname;
+		}
+	}
+
 	/**
 	 * @static
 	 * @param $title
