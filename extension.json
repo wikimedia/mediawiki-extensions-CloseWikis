@@ -54,8 +54,10 @@
 		"SpecialListClosedWikis": "SpecialListClosedWikis.php"
 	},
 	"Hooks": {
-		"getUserPermissionsErrors": "CloseWikisHooks::userCan"
+		"getUserPermissionsErrors": "CloseWikisHooks::userCan",
+		"LoadExtensionSchemaUpdates": "CloseWikisHooks::onLoadExtensionSchemaUpdates"
 	},
+	"callback": "CloseWikisHooks::onRegistration",
 	"config": {
 		"CloseWikisDatabase": {
 			"value": "closedwikis"
