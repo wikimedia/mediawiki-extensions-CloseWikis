@@ -3,7 +3,8 @@
 		"authors": [
 			"Danny B.",
 			"Li-sung",
-			"Patriccck"
+			"Patriccck",
+			"Matěj Suchánek"
 		]
 	},
 	"closewikis-desc": "Umožňuje uzavřít jednotlivé wiki na wikifarmách",
@@ -30,8 +31,8 @@
 	"closewikis-list-header-dispreason": "Zobrazený důvod",
 	"closewikis-log": "Kniha zavření wiki",
 	"closewikis-log-header": "Tato kniha zachycuje všechna zavření a znovuotevření wiki provedená stevardy",
-	"closewikis-log-close": "uzavřeno $2",
-	"closewikis-log-reopen": "znovu otevřeno $2",
+	"closewikis-log-close": "uzavírá $2",
+	"closewikis-log-reopen": "opět otevírá $2",
 	"right-editclosedwikis": "Editování uzavřených wiki",
 	"right-closewikis": "Zavírání wiki"
 }
