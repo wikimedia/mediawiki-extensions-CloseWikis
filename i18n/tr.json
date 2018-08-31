@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Karduelis"
+			"Karduelis",
+			"TmY e12"
 		]
 	},
 	"closewikis-desc": "Viki çiftliklerindeki viki sitelerini kapatmaya izin verir",
@@ -22,13 +23,13 @@
 	"closewikis-page-err-closed": "Viki zaten kapalı",
 	"closewikis-page-err-opened": "Viki kapalı değil",
 	"closewikis-list": "Kapalı Vikiler listesi",
-	"closewikis-list-intro": "Bu liste, stewardlar tarafından kapatılan vikileri içerir.",
+	"closewikis-list-intro": "Bu liste, kâhyalar tarafından kapatılan vikileri içerir.",
 	"closewikis-list-header-wiki": "Viki",
 	"closewikis-list-header-by": "Kapatan",
 	"closewikis-list-header-timestamp": "Kapatılma tarihi",
 	"closewikis-list-header-dispreason": "Gösterilen sebep",
 	"closewikis-log": "Viki kapatma günlüğü",
-	"closewikis-log-header": "Bu, stewardlar tarafından yapılan tüm viki kapatma ve tekrar açmalarının günlüğüdür",
+	"closewikis-log-header": "Bu, kâhyalar tarafından yapılan tüm viki kapatma ve tekrar açmalarının günlüğüdür",
 	"closewikis-log-close": "$2 vikisini kapattı",
 	"closewikis-log-reopen": "$2 vikisini tekrar açtı",
 	"right-editclosedwikis": "Kapalı vikileri değiştir",
