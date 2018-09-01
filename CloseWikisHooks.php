@@ -28,15 +28,15 @@ class CloseWikisHooks {
 	static function userCan( &$title, &$user, $action, &$result ) {
 		static $closed = null;
 		global $wgLang;
-		if( $action == 'read' ) {
+		if ( $action == 'read' ) {
 			return true;
 		}
 
-		if( is_null( $closed ) ) {
+		if ( is_null( $closed ) ) {
 			$closed = CloseWikis::getClosedRow( wfWikiID() );
 		}
 
-		if( $closed->isClosed() && !$user->isAllowed( 'editclosedwikis' ) ) {
+		if ( $closed->isClosed() && !$user->isAllowed( 'editclosedwikis' ) ) {
 			$reason = $closed->getReason();
 			$ts = $closed->getTimestamp();
 			$by = $closed->getBy();

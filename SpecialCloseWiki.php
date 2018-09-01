@@ -18,13 +18,12 @@
  * MA 02110-1301, USA.
  */
 
-if( !defined( 'MEDIAWIKI' ) ) {
+if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
 
 class SpecialCloseWiki extends SpecialPage {
 	public function __construct() {
-
 		parent::__construct( 'CloseWiki', 'closewikis' );
 	}
 
@@ -40,13 +39,13 @@ class SpecialCloseWiki extends SpecialPage {
 		global $wgUser;
 
 		$this->setHeaders();
-		if( !$this->userCanExecute( $wgUser ) ) {
+		if ( !$this->userCanExecute( $wgUser ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
 
 		$this->closeForm();
-		if( CloseWikis::getList() ) {
+		if ( CloseWikis::getList() ) {
 			$this->reopenForm();
 		}
 	}
@@ -55,7 +54,7 @@ class SpecialCloseWiki extends SpecialPage {
 		sort( $list );
 		$select = new XmlSelect( $name );
 		$select->setDefault( $default );
-		foreach( $list as $wiki ) {
+		foreach ( $list as $wiki ) {
 			$select->addOption( $wiki );
 		}
 		return $select->getHTML();
@@ -66,16 +65,16 @@ class SpecialCloseWiki extends SpecialPage {
 
 		$status = '';
 		$statusOK = false;
-		if( $wgRequest->wasPosted() && $wgUser->matchEditToken( $wgRequest->getVal( 'wpcEdittoken' ) ) ) {
+		if ( $wgRequest->wasPosted() && $wgUser->matchEditToken( $wgRequest->getVal( 'wpcEdittoken' ) ) ) {
 			global $wgLocalDatabases;
 			$wiki = $wgRequest->getVal( 'wpcWiki' );
 			$dreason = $wgRequest->getVal( 'wpcDisplayReason' );
 			$lreason = $wgRequest->getVal( 'wpcReason' );
-			if( !in_array( $wiki, $wgLocalDatabases ) ) {
+			if ( !in_array( $wiki, $wgLocalDatabases ) ) {
 				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::close( $wiki, $dreason, $wgUser );
-				if( $statusOK ) {
+				if ( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry( 'close', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
@@ -92,12 +91,12 @@ class SpecialCloseWiki extends SpecialPage {
 		$defaultDisplayReason = $statusOK ? '' : $wgRequest->getVal( 'wpcDisplayReason' );
 		$defaultReason = $statusOK ? '' : $wgRequest->getVal( 'wpcReason' );
 		// For some reason Xml::textarea( 'blabla', null ) produces an unclosed tag
-		if( !$defaultDisplayReason ) {
+		if ( !$defaultDisplayReason ) {
 			$defaultDisplayReason = '';
 		}
 
 		$wgOut->addHTML( "<fieldset><legend>{$legend}</legend>" );
-		if( $status ) {
+		if ( $status ) {
 			$statusStyle = $statusOK ? 'success' : 'error';
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}
@@ -116,15 +115,15 @@ class SpecialCloseWiki extends SpecialPage {
 
 		$status = '';
 		$statusOK = false;
-		if( $wgRequest->wasPosted() && $wgUser->matchEditToken( $wgRequest->getVal( 'wprEdittoken' ) ) ) {
+		if ( $wgRequest->wasPosted() && $wgUser->matchEditToken( $wgRequest->getVal( 'wprEdittoken' ) ) ) {
 			global $wgLocalDatabases;
 			$wiki = $wgRequest->getVal( 'wprWiki' );
 			$lreason = $wgRequest->getVal( 'wprReason' );
-			if( !in_array( $wiki, $wgLocalDatabases ) ) {
+			if ( !in_array( $wiki, $wgLocalDatabases ) ) {
 				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::reopen( $wiki );
-				if( $statusOK ) {
+				if ( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry( 'reopen', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
@@ -141,7 +140,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$defaultReason = $statusOK ? '' : $wgRequest->getVal( 'wprReason' );
 
 		$wgOut->addHTML( "<fieldset><legend>{$legend}</legend>" );
-		if( $status ) {
+		if ( $status ) {
 			$statusStyle = $statusOK ? 'success' : 'error';
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}

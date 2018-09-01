@@ -17,7 +17,7 @@ class CloseWikis {
 		$list = [];
 		$dbr = self::getSlaveDB();
 		$result = $dbr->select( 'closedwikis', '*', false, __METHOD__ );
-		foreach( $result as $row ) {
+		foreach ( $result as $row ) {
 			$list[] = new CloseWikisRow( $row );
 		}
 		$dbr->freeResult( $result );
@@ -26,13 +26,13 @@ class CloseWikis {
 
 	/** Returns list of closed wikis in form of string array. Cached in CloseWikis::$cachedList */
 	static function getList() {
-		if( self::$cachedList ) {
+		if ( self::$cachedList ) {
 			return self::$cachedList;
 		}
 		$list = [];
 		$dbr = self::getMasterDB();	// Used only on writes
 		$result = $dbr->select( 'closedwikis', 'cw_wiki', false, __METHOD__ );
-		foreach( $result as $row ) {
+		foreach ( $result as $row ) {
 			$list[] = $row->cw_wiki;
 		}
 		$dbr->freeResult( $result );
@@ -51,7 +51,7 @@ class CloseWikis {
 		global $wgMemc;
 		$memcKey = "closedwikis:{$wiki}";
 		$cached = $wgMemc->get( $memcKey );
-		if( is_object( $cached ) ) {
+		if ( is_object( $cached ) ) {
 			return $cached;
 		}
 		$dbr = self::getSlaveDB();
