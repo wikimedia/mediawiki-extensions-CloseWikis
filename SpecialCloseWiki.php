@@ -18,8 +18,9 @@
  * MA 02110-1301, USA.
  */
 
-if( !defined( 'MEDIAWIKI' ) )
+if( !defined( 'MEDIAWIKI' ) ) {
 	exit;
+}
 
 class SpecialCloseWiki extends SpecialPage {
 	public function __construct() {

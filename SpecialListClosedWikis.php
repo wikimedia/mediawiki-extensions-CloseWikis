@@ -18,8 +18,9 @@
  * MA 02110-1301, USA.
  */
 
-if( !defined( 'MEDIAWIKI' ) )
+if( !defined( 'MEDIAWIKI' ) ) {
 	exit;
+}
 
 class SpecialListClosedWikis extends SpecialPage {
 	public function __construct() {
@@ -36,8 +37,9 @@ class SpecialListClosedWikis extends SpecialPage {
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'closewikis-list-intro' );
 		$wgOut->addHTML( '<table class="mw-datatable TablePager" style="width: 100%"><tr>' );
-		foreach( [ 'wiki', 'by', 'timestamp', 'dispreason' ] as $column )
+		foreach( [ 'wiki', 'by', 'timestamp', 'dispreason' ] as $column ) {
 			$wgOut->addHTML( '<th>' . wfMessage( "closewikis-list-header-{$column}" )->parse() . '</th>' );
+		}
 		$wgOut->addHTML( '</tr>' );
 		$list = CloseWikis::getAll();
 		foreach( $list as $entry ) {
