@@ -14,7 +14,7 @@ class CloseWikis {
 
 	/** Returns list of all closed wikis in form of CloseWikisRow array. Not cached */
 	static function getAll() {
-		$list = array();
+		$list = [];
 		$dbr = self::getSlaveDB();
 		$result = $dbr->select( 'closedwikis', '*', false, __METHOD__ );
 		foreach( $result as $row ) {
@@ -29,7 +29,7 @@ class CloseWikis {
 		if( self::$cachedList ) {
 			return self::$cachedList;
 		}
-		$list = array();
+		$list = [];
 		$dbr = self::getMasterDB();	// Used only on writes
 		$result = $dbr->select( 'closedwikis', 'cw_wiki', false, __METHOD__ );
 		foreach( $result as $row ) {
@@ -55,7 +55,7 @@ class CloseWikis {
 			return $cached;
 		}
 		$dbr = self::getSlaveDB();
-		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', array( 'cw_wiki' => $wiki ), __METHOD__ ) );
+		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', [ 'cw_wiki' => $wiki ], __METHOD__ ) );
 		$wgMemc->set( $memcKey, $result, BagOStuff::TTL_MONTH );
 		return $result;
 	}
@@ -70,14 +70,14 @@ class CloseWikis {
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->insert(
 			'closedwikis',
-			array(
+			[
 				'cw_wiki' => $wiki,
 				'cw_reason' => $dispreason,
 				'cw_timestamp' => $dbw->timestamp( wfTimestampNow() ),
 				'cw_by' => $by->getName(),
-			),
+			],
 			__METHOD__,
-			array( 'IGNORE' )	// Better error handling
+			[ 'IGNORE' ]	// Better error handling
 		);
 		$result = (bool)$dbw->affectedRows();
 		$dbw->endAtomic( __METHOD__ );
@@ -93,7 +93,7 @@ class CloseWikis {
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->delete(
 			'closedwikis',
-			array( 'cw_wiki' => $wiki ),
+			[ 'cw_wiki' => $wiki ],
 			__METHOD__
 		);
 		$result = (bool)$dbw->affectedRows();

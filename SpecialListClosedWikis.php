@@ -36,7 +36,7 @@ class SpecialListClosedWikis extends SpecialPage {
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'closewikis-list-intro' );
 		$wgOut->addHTML( '<table class="mw-datatable TablePager" style="width: 100%"><tr>' );
-		foreach( array( 'wiki', 'by', 'timestamp', 'dispreason' ) as $column )
+		foreach( [ 'wiki', 'by', 'timestamp', 'dispreason' ] as $column )
 			$wgOut->addHTML( '<th>' . wfMessage( "closewikis-list-header-{$column}" )->parse() . '</th>' );
 		$wgOut->addHTML( '</tr>' );
 		$list = CloseWikis::getAll();

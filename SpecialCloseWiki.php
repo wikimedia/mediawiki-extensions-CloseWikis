@@ -77,7 +77,7 @@ class SpecialCloseWiki extends SpecialPage {
 				if( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'close', $this->getPageTitle() /* dummy */, $lreason, array( $wiki ) );
+					$logpage->addEntry( 'close', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
 				} else {
 					$status = wfMessage( 'closewikis-page-err-closed' )->parse();
 				}
@@ -101,7 +101,7 @@ class SpecialCloseWiki extends SpecialPage {
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}
 		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
-		$form = array();
+		$form = [];
 		$form['closewikis-page-close-wiki'] = $this->buildSelect( CloseWikis::getUnclosedList(), 'wpcWiki', $defaultWiki );
 		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
 		$form['closewikis-page-close-reason'] = Xml::input( 'wpcReason', false, $defaultReason );
@@ -126,7 +126,7 @@ class SpecialCloseWiki extends SpecialPage {
 				if( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'reopen', $this->getPageTitle() /* dummy */, $lreason, array( $wiki ) );
+					$logpage->addEntry( 'reopen', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
 				} else {
 					$status = wfMessage( 'closewikis-page-err-opened' )->parse();
 				}
@@ -145,7 +145,7 @@ class SpecialCloseWiki extends SpecialPage {
 			$wgOut->addHTML( "<p><strong class=\"{$statusStyle}\">{$status}</strong></p>" );
 		}
 		$wgOut->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
-		$form = array();
+		$form = [];
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
 		$wgOut->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );

@@ -40,8 +40,8 @@ class CloseWikisHooks {
 			$reason = $closed->getReason();
 			$ts = $closed->getTimestamp();
 			$by = $closed->getBy();
-			$result[] =	array( 'closewikis-closed', $reason, $by,
-				$wgLang->timeanddate( $ts ), $wgLang->time( $ts ), $wgLang->date( $ts ) );
+			$result[] =	[ 'closewikis-closed', $reason, $by,
+				$wgLang->timeanddate( $ts ), $wgLang->time( $ts ), $wgLang->date( $ts ) ];
 			return false;
 		}
 		return true;
