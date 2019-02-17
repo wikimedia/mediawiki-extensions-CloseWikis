@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hylle",
-			"Sarrus"
+			"Sarrus",
+			"Saederup92"
 		]
 	},
 	"closewikis-desc": "Tillader lukning af wiki'er i wikisamlinger",
@@ -17,7 +18,7 @@
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Årsag:",
 	"closewikis-page-reopen-submit": "Genåbn",
-	"closewikis-page-reopen-success": "Wikien er nu genåbnet",
+	"closewikis-page-reopen-success": "Wikien blev genåbnet",
 	"closewikis-page-err-nowiki": "Ugyldig wiki specificeret",
 	"closewikis-page-err-closed": "Wikien er lukket i forvejen",
 	"closewikis-page-err-opened": "Wikien er ikke lukket",
