@@ -4,5 +4,7 @@
 			"Умар"
 		]
 	},
-	"closewikis-page-reopen-reason": "Бахьана:"
+	"closewikis-page-close-dreason": "Бахьана (гушдолу):",
+	"closewikis-page-reopen-reason": "Бахьана:",
+	"closewikis-list-header-dispreason": "Гушдолу бахьана"
 }
