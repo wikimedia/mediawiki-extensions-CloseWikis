@@ -2,7 +2,7 @@
 class CloseWikis {
 	static $cachedList = null;
 
-	static function getSlaveDB() {
+	static function getReplicaDB() {
 		global $wgCloseWikisDatabase;
 		return wfGetDB( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
 	}
@@ -15,7 +15,7 @@ class CloseWikis {
 	/** Returns list of all closed wikis in form of CloseWikisRow array. Not cached */
 	static function getAll() {
 		$list = [];
-		$dbr = self::getSlaveDB();
+		$dbr = self::getReplicaDB();
 		$result = $dbr->select( 'closedwikis', '*', false, __METHOD__ );
 		foreach ( $result as $row ) {
 			$list[] = new CloseWikisRow( $row );
@@ -54,7 +54,7 @@ class CloseWikis {
 		if ( is_object( $cached ) ) {
 			return $cached;
 		}
-		$dbr = self::getSlaveDB();
+		$dbr = self::getReplicaDB();
 		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', [ 'cw_wiki' => $wiki ], __METHOD__ ) );
 		$wgMemc->set( $memcKey, $result, BagOStuff::TTL_MONTH );
 		return $result;
