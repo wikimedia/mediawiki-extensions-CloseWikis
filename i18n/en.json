@@ -31,6 +31,8 @@
 	"closewikis-log-header": "Here is a log of all wiki closures and reopenings made by stewards",
 	"closewikis-log-close": "closed $2",
 	"closewikis-log-reopen": "reopened $2",
+	"action-editclosedwikis": "edit closed wikis",
 	"right-editclosedwikis": "Edit closed wikis",
+	"action-closewikis": "close wikis",
 	"right-closewikis": "Close wikis"
 }

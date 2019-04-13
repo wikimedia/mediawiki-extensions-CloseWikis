@@ -37,6 +37,8 @@
 	"closewikis-log-header": "Explanation of wiki closures, shown on [[Special:Log]].",
 	"closewikis-log-close": "Used as log entry. Parameters:\n* $1 - (Unused)\n* $2 - wikiname\n{{Identical|Closed}}",
 	"closewikis-log-reopen": "Used as log entry. Parameters:\n* $1 - (Unused)\n* $2 - wikiname",
+	"action-editclosedwikis": "{{doc-action|editclosedwikis}}",
 	"right-editclosedwikis": "{{doc-right|editclosedwikis}}",
+	"action-closewikis": "{{doc-action|closewikis}}",
 	"right-closewikis": "{{doc-right|closewikis}}"
 }
