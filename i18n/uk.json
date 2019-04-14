@@ -5,7 +5,8 @@
 			"Prima klasy4na",
 			"Sodmy",
 			"Тест",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"closewikis-desc": "Дозволяє закрити вікі сайти у вікі фермі",
@@ -34,6 +35,8 @@
 	"closewikis-log-header": "Ось журнал всіх закритих та відновдених Вікі, що зроблені стюардами",
 	"closewikis-log-close": "закрито $2",
 	"closewikis-log-reopen": "відновлено $2",
+	"action-editclosedwikis": "редагування закритих вікі",
 	"right-editclosedwikis": "Редагування закритих Вікі",
+	"action-closewikis": "закриття вікі",
 	"right-closewikis": "Закриті Вікі"
 }

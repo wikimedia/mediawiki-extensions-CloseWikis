@@ -32,6 +32,8 @@
 	"closewikis-log-header": "هنا يوجد سجل بكل عمليات إغلاق وإعادة فتح الويكيات بواسطة المضيفين",
 	"closewikis-log-close": "أغلق $2",
 	"closewikis-log-reopen": "أعاد فتح $2",
+	"action-editclosedwikis": "تعديل الويكيات المغلقة",
 	"right-editclosedwikis": "تعديل الويكيات المغلقة",
+	"action-closewikis": "إغلاق الويكيات",
 	"right-closewikis": "إغلاق الويكيات"
 }

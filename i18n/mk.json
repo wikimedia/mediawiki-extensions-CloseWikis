@@ -30,6 +30,8 @@
 	"closewikis-log-header": "Еве дневник на сите затворања на викија од страна на надзорници и нивни повторни отворања",
 	"closewikis-log-close": "затворено $2",
 	"closewikis-log-reopen": "отворено $2",
+	"action-editclosedwikis": "уредување на затворени викија",
 	"right-editclosedwikis": "Уредување на затворени викија",
+	"action-closewikis": "затворате викија",
 	"right-closewikis": "Затворање на викија"
 }

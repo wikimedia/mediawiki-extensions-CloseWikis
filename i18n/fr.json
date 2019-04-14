@@ -4,7 +4,8 @@
 			"Grondin",
 			"IAlex",
 			"Zetud",
-			"Gomoko"
+			"Gomoko",
+			"Pols12"
 		]
 	},
 	"closewikis-desc": "Permet de clôturer les sites wiki dans ce gestionnaire de wiki",
@@ -33,6 +34,8 @@
 	"closewikis-log-header": "Voici un journal de toutes les fermetures et réouvertures de wiki faites par les stewards",
 	"closewikis-log-close": "a clôturé $2",
 	"closewikis-log-reopen": "a réouvert $2",
+	"action-editclosedwikis": "modifier des wikis clos",
 	"right-editclosedwikis": "Modifier les wikis clôturés",
+	"action-closewikis": "clore des wikis",
 	"right-closewikis": "Clôturer les wikis"
 }
