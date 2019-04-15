@@ -30,6 +30,8 @@
 	"closewikis-log-header": "Aqquà ste 'n'archivije de tutte le chiusure de le uicchi e le riaperture fatte da le stiuard",
 	"closewikis-log-close": "achiuse $2",
 	"closewikis-log-reopen": "riaperte $2",
+	"action-editclosedwikis": "cange le uicchi achiuse",
 	"right-editclosedwikis": "Cange le uicchi achiuse",
+	"action-closewikis": "achiude le uicchi",
 	"right-closewikis": "Close le uicchi"
 }

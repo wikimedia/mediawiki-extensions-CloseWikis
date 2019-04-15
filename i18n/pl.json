@@ -3,7 +3,8 @@
 		"authors": [
 			"Jwitos",
 			"Maikking",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Railfail536"
 		]
 	},
 	"closewikis-desc": "Pozwala zamykać pojedyncze projekty wiki na farmie wiki",
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "Poniżej znajduje się rejestr wszystkich wiki zamkniętych lub ponownie otwartych przez stewardów",
 	"closewikis-log-close": "zamknięta $2",
 	"closewikis-log-reopen": "powtórnie otwarta $2",
+	"action-editclosedwikis": "edytowania zamkniętych wiki",
 	"right-editclosedwikis": "Edycja zamkniętych projektów wiki",
+	"action-closewikis": "zamykania wiki",
 	"right-closewikis": "Zamykanie projektów wiki"
 }
