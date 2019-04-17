@@ -33,6 +33,8 @@
 	"closewikis-log-header": "Este é um registo de todas as wikis que foram fechadas ou reabertas por administradores ''(stewards)''",
 	"closewikis-log-close": "fechada $2",
 	"closewikis-log-reopen": "reaberta $2",
+	"action-editclosedwikis": "editar wikis fechadas",
 	"right-editclosedwikis": "Editar wikis fechadas",
+	"action-closewikis": "fechar wikis",
 	"right-closewikis": "Fechar wikis"
 }

@@ -4,7 +4,8 @@
 			"Crazymadlover",
 			"Glavkos",
 			"Omnipaedista",
-			"Nikosgranturismogt"
+			"Nikosgranturismogt",
+			"Protnet"
 		]
 	},
 	"closewikis-desc": "Επιτρέπει να κλείσει wiki ιστοσελίδες  σε wiki φάρμες",
@@ -31,6 +32,8 @@
 	"closewikis-log": "Ημερολόγιο κλεισίματος βίκι",
 	"closewikis-log-close": "έκλεισε $2",
 	"closewikis-log-reopen": "ξανάνοιξε $2",
+	"action-editclosedwikis": "επεξεργαστείτε κλειστά wiki",
 	"right-editclosedwikis": "Επεξεργασία κλεισμένων βίκι",
+	"action-closewikis": "κλείσετε wiki",
 	"right-closewikis": "Κλείσιμο των βίκι"
 }
