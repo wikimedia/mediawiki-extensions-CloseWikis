@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Kumkumuk",
-			"Mirzali"
+			"Mirzali",
+			"Orbot707"
 		]
 	},
 	"closewikis-desc": "Çıflıgan wiki de sitanê wiki rê racnayışi rê icazet da nê",
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "Ena terefê steward'an ra qeydê raceneka wik ya racnayış u akerdışi ya.",
 	"closewikis-log-close": "$2 kerd kip",
 	"closewikis-log-reopen": "$2 viki fına akerdı",
+	"action-editclosedwikis": "Qefılnaye wikiy bıvurnê",
 	"right-editclosedwikis": "Racnayê wiki ya bıvurnê",
+	"action-closewikis": "Wikiyan bıqefılne",
 	"right-closewikis": "Wikiyan racnê"
 }

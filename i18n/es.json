@@ -33,5 +33,6 @@
 	"closewikis-log-close": "$2 cerrado",
 	"closewikis-log-reopen": "$2 reabierto",
 	"right-editclosedwikis": "Editar wikis cerrados",
+	"action-closewikis": "cerrar wikis",
 	"right-closewikis": "Cerrar wikis"
 }

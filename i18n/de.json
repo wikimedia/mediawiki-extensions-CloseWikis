@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ChrisiPK",
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"closewikis-desc": "Ermöglicht das Schließen einzelner Wikis in einer Wikifarm",
@@ -31,6 +32,8 @@
 	"closewikis-log-header": "Dieses Logbuch zeigt alle Schließungen und Wiederöffnungen von Wikis durch Stewards an.",
 	"closewikis-log-close": "schloss $2",
 	"closewikis-log-reopen": "öffnete $2 wieder",
+	"action-editclosedwikis": "geschlossene Wikis zu bearbeiten",
 	"right-editclosedwikis": "Geschlossene Wikis bearbeiten",
+	"action-closewikis": "Wikis zu schließen",
 	"right-closewikis": "Wikis schließen"
 }

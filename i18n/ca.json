@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Paucabot",
-			"SMP"
+			"SMP",
+			"Fitoschido"
 		]
 	},
 	"closewikis-desc": "Permet tancar llocs wiki en granges de wikis",
@@ -32,5 +33,6 @@
 	"closewikis-log-close": "tancat $2",
 	"closewikis-log-reopen": "reobert $2",
 	"right-editclosedwikis": "Editar en wikis tancats",
+	"action-closewikis": "tancar wikis",
 	"right-closewikis": "Tancar wikis"
 }
