@@ -14,7 +14,7 @@
 	"closewikis-page-close-dreason": "কারণ (প্রদর্শিত):",
 	"closewikis-page-close-reason": "কারণ (লগড):",
 	"closewikis-page-close-submit": "বন্ধ",
-	"closewikis-page-close-success": "উইকি সফলভাবে বন্ধ করা হয়েছে",
+	"closewikis-page-close-success": "উইকিটি বন্ধ করা হয়েছে",
 	"closewikis-page-reopen": "উইকি নতুন করে চালু করুন",
 	"closewikis-page-reopen-wiki": "উইকি:",
 	"closewikis-page-reopen-reason": "কারণ:",
@@ -33,6 +33,8 @@
 	"closewikis-log-header": "এটি হচ্ছে স্টুয়ার্ড কর্তৃক বন্ধ ও পুনরায় চালু করা সকল উইকির লগ",
 	"closewikis-log-close": "বন্ধ $2",
 	"closewikis-log-reopen": "পুনরায় চালু $2",
+	"action-editclosedwikis": "বন্ধ উইকি সম্পাদনা করার",
 	"right-editclosedwikis": "সম্পাদনা বন্ধ এমন উইকি",
+	"action-closewikis": "উইকি বন্ধ করার",
 	"right-closewikis": "উইকি বন্ধ করুন"
 }

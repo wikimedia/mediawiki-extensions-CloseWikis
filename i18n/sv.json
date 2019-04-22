@@ -3,7 +3,8 @@
 		"authors": [
 			"Boivie",
 			"M.M.S.",
-			"Najami"
+			"Najami",
+			"WikiPhoenix"
 		]
 	},
 	"closewikis-desc": "Möjliggör stängning av wikier inom wikisamlingar",
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "Här är en logg över alla stängningar och återöppningar av wikier som gjorts av stewarder",
 	"closewikis-log-close": "stängde $2",
 	"closewikis-log-reopen": "återöppnade $2",
+	"action-editclosedwikis": "redigera stängda wikis",
 	"right-editclosedwikis": "Redigera stängda wikier",
+	"action-closewikis": "stänga wikis",
 	"right-closewikis": "Stäng wikier"
 }

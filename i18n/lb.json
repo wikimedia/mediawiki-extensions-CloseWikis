@@ -32,5 +32,6 @@
 	"closewikis-log-close": "huet $2 zougemaach",
 	"closewikis-log-reopen": "huet $2 nees opgemaach",
 	"right-editclosedwikis": "Zougemaachte Wikien änneren",
+	"action-closewikis": "Wikien zoumaachen",
 	"right-closewikis": "Wikien zoumaachen"
 }
