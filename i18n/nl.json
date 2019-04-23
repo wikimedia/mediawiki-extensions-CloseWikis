@@ -33,6 +33,8 @@
 	"closewikis-log-header": "Dit is een logboek van alle sluitingen en heropeningen van wiki's uitgevoerd door stewards",
 	"closewikis-log-close": "heeft $2 gesloten",
 	"closewikis-log-reopen": "heeft $2 heropend",
+	"action-editclosedwikis": "gesloten wiki's te bewerken",
 	"right-editclosedwikis": "Gesloten wiki's bewerken",
+	"action-closewikis": "wiki's te sluiten",
 	"right-closewikis": "Wiki's sluiten"
 }
