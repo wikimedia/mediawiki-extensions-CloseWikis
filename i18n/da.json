@@ -33,5 +33,6 @@
 	"closewikis-log-close": "lukkede $2",
 	"closewikis-log-reopen": "genåbnede $2",
 	"right-editclosedwikis": "Redigere lukkede wikier",
+	"action-closewikis": "lukke wikier",
 	"right-closewikis": "Luk wikier"
 }
