@@ -3,7 +3,8 @@
 		"authors": [
 			"Danutz",
 			"KlaudiuMihaila",
-			"Stelistcristi"
+			"Stelistcristi",
+			"Andrei Stroe"
 		]
 	},
 	"closewikis-page": "Închide wiki",
@@ -11,12 +12,12 @@
 	"closewikis-page-close-wiki": "Wiki:",
 	"closewikis-page-close-dreason": "Motiv (afișat):",
 	"closewikis-page-close-submit": "Închidere",
-	"closewikis-page-close-success": "Wiki închis cu succes",
+	"closewikis-page-close-success": "Wikiul a fost închis",
 	"closewikis-page-reopen": "Redeschide wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motiv:",
 	"closewikis-page-reopen-submit": "Redeschide",
-	"closewikis-page-reopen-success": "Wiki redeschis cu succes",
+	"closewikis-page-reopen-success": "Wikiul a fost redeschis",
 	"closewikis-page-err-nowiki": "Wiki-ul specificat este invalid.",
 	"closewikis-page-err-closed": "Acest wiki e deja închis",
 	"closewikis-page-err-opened": "Acest wiki nu e închis",
