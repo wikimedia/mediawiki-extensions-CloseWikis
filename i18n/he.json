@@ -3,7 +3,8 @@
 		"authors": [
 			"Rotemliss",
 			"YaronSh",
-			"Guycn2"
+			"Guycn2",
+			"Erelon"
 		]
 	},
 	"closewikis-desc": "מתן אפשרות לסגירת אתרי ויקי בחוות־ויקי",
@@ -13,7 +14,7 @@
 	"closewikis-page-close-dreason": "סיבה (לתצוגה):",
 	"closewikis-page-close-reason": "סיבה (לרישום ביומן):",
 	"closewikis-page-close-submit": "סגירה",
-	"closewikis-page-close-success": "הוויקי נסגר בהצלחה",
+	"closewikis-page-close-success": "הוויקי נסגר",
 	"closewikis-page-reopen": "פתיחת הוויקי מחדש",
 	"closewikis-page-reopen-wiki": "ויקי:",
 	"closewikis-page-reopen-reason": "סיבה:",
@@ -33,5 +34,6 @@
 	"closewikis-log-close": "נסגר $2",
 	"closewikis-log-reopen": "נפתח מחדש $2",
 	"right-editclosedwikis": "עריכת אתרי ויקי סגורים",
+	"action-closewikis": "סגירת אתרי ויקי",
 	"right-closewikis": "סגירת אתרי ויקי"
 }

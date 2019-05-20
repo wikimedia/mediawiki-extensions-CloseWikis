@@ -32,6 +32,7 @@
 	"closewikis-log-header": "Журнал усіх закрыцьцяй і адкрыцьцяй вікі сьцюардамі",
 	"closewikis-log-close": "закрытая $2",
 	"closewikis-log-reopen": "адкрытая ізноў $2",
+	"action-editclosedwikis": "рэдагаваньне закрытых вікі",
 	"right-editclosedwikis": "рэдагаваньне ў закрытых вікі",
 	"right-closewikis": "закрыцьцё вікі"
 }
