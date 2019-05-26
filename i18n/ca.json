@@ -3,7 +3,8 @@
 		"authors": [
 			"Paucabot",
 			"SMP",
-			"Fitoschido"
+			"Fitoschido",
+			"Toniher"
 		]
 	},
 	"closewikis-desc": "Permet tancar llocs wiki en granges de wikis",
@@ -18,7 +19,7 @@
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motiu:",
 	"closewikis-page-reopen-submit": "Reobre",
-	"closewikis-page-reopen-success": "El wiki s'ha reobert satisfactòriament",
+	"closewikis-page-reopen-success": "S'ha reobert el wiki",
 	"closewikis-page-err-nowiki": "Wiki especificat no vàlid",
 	"closewikis-page-err-closed": "El wiki ja està tancat",
 	"closewikis-page-err-opened": "El wiki no està tancat",
