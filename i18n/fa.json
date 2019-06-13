@@ -4,7 +4,8 @@
 			"Ebraminio",
 			"Mjbmr",
 			"Reza1615",
-			"Taha"
+			"Taha",
+			"FarsiNevis"
 		]
 	},
 	"closewikis-desc": "اجازه می‌دهد پایگاه ویکی را در مزرعهٔ ویکی ببندد",
@@ -14,12 +15,12 @@
 	"closewikis-page-close-dreason": "دلیل (نمایش‌داده‌شده):",
 	"closewikis-page-close-reason": "دلیل (واردشده):",
 	"closewikis-page-close-submit": "بستن",
-	"closewikis-page-close-success": "ویکی با موفقیت بسته‌شد",
+	"closewikis-page-close-success": "ویکی مورد نظر، بسته شد",
 	"closewikis-page-reopen": "بازگشایی ویکی",
 	"closewikis-page-reopen-wiki": "ویکی:",
 	"closewikis-page-reopen-reason": "دلیل:",
 	"closewikis-page-reopen-submit": "بازگشایی",
-	"closewikis-page-reopen-success": "ویکی با موفقیت بازگشائی شد",
+	"closewikis-page-reopen-success": "ویکی مورد نظر، بازگشایی شد",
 	"closewikis-page-err-nowiki": "ویکی مشخص‌شدهٔ نامعتبر",
 	"closewikis-page-err-closed": "ویکی در حال حاضر بسته‌است",
 	"closewikis-page-err-opened": "ویکی بسته نیست",
