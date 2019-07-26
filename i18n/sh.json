@@ -30,6 +30,8 @@
 	"closewikis-log-header": "Ovdje se nalazi zapisnik svih zatvaranja wikija od strane stjuarda i njihovih ponovnih otvaranja",
 	"closewikis-log-close": "zatvoreno $2",
 	"closewikis-log-reopen": "ponovno otvoreno $2",
+	"action-editclosedwikis": "uređivanje zatvorenih wikija",
 	"right-editclosedwikis": "Uređivanje zatvorenih wikija",
+	"action-closewikis": "zatvarate wikije",
 	"right-closewikis": "Zatvaranje wikija"
 }
