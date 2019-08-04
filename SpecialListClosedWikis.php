@@ -48,7 +48,7 @@ class SpecialListClosedWikis extends SpecialPage {
 			$wgOut->addHTML( '<td>' . $entry->getBy() . '</td>' );
 			$wgOut->addHTML( '<td>' . $wgLang->timeanddate( $entry->getTimestamp() ) . '</td>' );
 			$wgOut->addHTML( '<td>' );
-			$wgOut->addWikiText( $entry->getReason() );
+			$wgOut->addWikiTextAsInterface( $entry->getReason() );
 			$wgOut->addHTML( '</td>' );
 			$wgOut->addHTML( '</tr>' );
 		}
