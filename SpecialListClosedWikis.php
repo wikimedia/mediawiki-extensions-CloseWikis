@@ -18,10 +18,6 @@
  * MA 02110-1301, USA.
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit;
-}
-
 class SpecialListClosedWikis extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'ListClosedWikis' );
