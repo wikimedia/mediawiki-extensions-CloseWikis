@@ -3,7 +3,8 @@
 		"authors": [
 			"Ferrer",
 			"Александр Сигачёв",
-			"Okras"
+			"Okras",
+			"Vlad5250"
 		]
 	},
 	"closewikis-desc": "Позволяет закрывать вики-сайты в вики ферме",
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "Журнал всех закрытий и открытый вики стюардами",
 	"closewikis-log-close": "закрыто $2",
 	"closewikis-log-reopen": "открыта $2",
+	"action-editclosedwikis": "править закрытые вики",
 	"right-editclosedwikis": "Править закрытые вики",
+	"action-closewikis": "закрытие вики",
 	"right-closewikis": "Закрытие вики"
 }
