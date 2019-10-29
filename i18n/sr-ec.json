@@ -5,7 +5,8 @@
 			"Михајло Анђелковић",
 			"Сербијана",
 			"Acamicamacaraca",
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"closewikis-desc": "Омогућава затварање вики локација у вики фармама",
@@ -34,6 +35,8 @@
 	"closewikis-log-header": "Овде је евиденција свих затварања и поновних отварања викија од стране стјуарда",
 	"closewikis-log-close": "затворен $2",
 	"closewikis-log-reopen": "поново отворен $2",
+	"action-editclosedwikis": "уређивање затворених викија",
 	"right-editclosedwikis": "Уређивање затворених викија",
+	"action-closewikis": "затворени викији",
 	"right-closewikis": "Затварање викија"
 }
