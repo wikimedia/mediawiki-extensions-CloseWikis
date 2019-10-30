@@ -31,6 +31,8 @@
 	"closewikis-log-header": "Her er en logg over alle wikistenginger og -åpninger gjort av forvaltere",
 	"closewikis-log-close": "stengte $2",
 	"closewikis-log-reopen": "åpnet $2",
+	"action-editclosedwikis": "redigere stengte wikier",
 	"right-editclosedwikis": "Redigere stengte wikier",
+	"action-closewikis": "stenge wikier",
 	"right-closewikis": "Steng wikier"
 }
