@@ -47,11 +47,11 @@
 		"CloseWikisAlias": "CloseWikis.alias.php"
 	},
 	"AutoloadClasses": {
-		"CloseWikis": "CloseWikis.php",
-		"CloseWikisHooks": "CloseWikisHooks.php",
-		"CloseWikisRow": "CloseWikisRow.php",
-		"SpecialCloseWiki": "SpecialCloseWiki.php",
-		"SpecialListClosedWikis": "SpecialListClosedWikis.php"
+		"CloseWikis": "includes/CloseWikis.php",
+		"CloseWikisHooks": "includes/CloseWikisHooks.php",
+		"CloseWikisRow": "includes/CloseWikisRow.php",
+		"SpecialCloseWiki": "includes/specials/SpecialCloseWiki.php",
+		"SpecialListClosedWikis": "includes/specials/SpecialListClosedWikis.php"
 	},
 	"Hooks": {
 		"getUserPermissionsErrors": "CloseWikisHooks::userCan",

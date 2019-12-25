@@ -4,7 +4,7 @@ class CloseWikisHooks {
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		global $wgWikimediaJenkinsCI;
 		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
-			$updater->addExtensionTable( 'closedwikis', __DIR__ . '/closewikis.sql' );
+			$updater->addExtensionTable( 'closedwikis', __DIR__ . '/../sql/closewikis.sql' );
 		}
 		return true;
 	}
