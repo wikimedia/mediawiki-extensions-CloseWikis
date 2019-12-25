@@ -47,7 +47,7 @@
 		"CloseWikisAlias": "CloseWikis.alias.php"
 	},
 	"AutoloadClasses": {
-		"CloseWikis": "CloseWikis.class.php",
+		"CloseWikis": "CloseWikis.php",
 		"CloseWikisHooks": "CloseWikisHooks.php",
 		"CloseWikisRow": "CloseWikisRow.php",
 		"SpecialCloseWiki": "SpecialCloseWiki.php",
