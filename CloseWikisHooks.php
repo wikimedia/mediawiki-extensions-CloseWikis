@@ -32,7 +32,7 @@ class CloseWikisHooks {
 			return true;
 		}
 
-		if ( is_null( $closed ) ) {
+		if ( $closed === null ) {
 			$closed = CloseWikis::getClosedRow( wfWikiID() );
 		}
 
