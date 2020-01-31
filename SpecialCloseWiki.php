@@ -57,9 +57,10 @@ class SpecialCloseWiki extends SpecialPage {
 	protected function closeForm() {
 		$request = $this->getRequest();
 		$output = $this->getOutput();
+		$user = $this->getUser();
 		$status = '';
 		$statusOK = false;
-		if ( $request->wasPosted() && $this->getUser()->matchEditToken( $request->getVal( 'wpcEdittoken' ) ) ) {
+		if ( $request->wasPosted() && $user->matchEditToken( $request->getVal( 'wpcEdittoken' ) ) ) {
 			global $wgLocalDatabases;
 			$wiki = $request->getVal( 'wpcWiki' );
 			$dreason = $request->getVal( 'wpcDisplayReason' );
@@ -67,11 +68,17 @@ class SpecialCloseWiki extends SpecialPage {
 			if ( !in_array( $wiki, $wgLocalDatabases ) ) {
 				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
 			} else {
-				$statusOK = CloseWikis::close( $wiki, $dreason, $this->getUser() );
+				$statusOK = CloseWikis::close( $wiki, $dreason, $user );
 				if ( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'close', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
+					$logpage->addEntry(
+						'close',
+						$this->getPageTitle(), /* dummy */
+						$lreason,
+						[ $wiki ],
+						$user
+					);
 				} else {
 					$status = wfMessage( 'closewikis-page-err-closed' )->parse();
 				}
@@ -100,16 +107,17 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
 		$form['closewikis-page-close-reason'] = Xml::input( 'wpcReason', false, $defaultReason );
 		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-close-submit' ) );
-		$output->addHTML( Html::hidden( 'wpcEdittoken', $this->getUser()->getEditToken() ) );
+		$output->addHTML( Html::hidden( 'wpcEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
 	}
 
 	protected function reopenForm() {
 		$request = $this->getRequest();
 		$output = $this->getOutput();
+		$user = $this->getUser();
 		$status = '';
 		$statusOK = false;
-		if ( $request->wasPosted() && $this->getUser()->matchEditToken( $request->getVal( 'wprEdittoken' ) ) ) {
+		if ( $request->wasPosted() && $user->matchEditToken( $request->getVal( 'wprEdittoken' ) ) ) {
 			global $wgLocalDatabases;
 			$wiki = $request->getVal( 'wprWiki' );
 			$lreason = $request->getVal( 'wprReason' );
@@ -120,7 +128,13 @@ class SpecialCloseWiki extends SpecialPage {
 				if ( $statusOK ) {
 					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
-					$logpage->addEntry( 'reopen', $this->getPageTitle() /* dummy */, $lreason, [ $wiki ] );
+					$logpage->addEntry(
+						'reopen',
+						$this->getPageTitle(), /* dummy */
+						$lreason,
+						[ $wiki ],
+						$user
+					);
 				} else {
 					$status = wfMessage( 'closewikis-page-err-opened' )->parse();
 				}
@@ -143,7 +157,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
 		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );
-		$output->addHTML( Html::hidden( 'wprEdittoken', $this->getUser()->getEditToken() ) );
+		$output->addHTML( Html::hidden( 'wprEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
 	}
 }
