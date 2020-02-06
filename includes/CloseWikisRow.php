@@ -1,5 +1,8 @@
 <?php
 class CloseWikisRow {
+	/**
+	 * @var object|false
+	 */
 	private $mRow;
 
 	public function __construct( $row ) {

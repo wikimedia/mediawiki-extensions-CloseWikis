@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class CloseWikis {
 	static $cachedList = null;
 
@@ -46,32 +49,45 @@ class CloseWikis {
 		return array_diff( $wgLocalDatabases, self::getList() );
 	}
 
-	/** Returns a CloseWikisRow for specific wiki. Cached in $wgMemc */
-	static function getClosedRow( $wiki ) {
-		global $wgMemc;
-		$memcKey = "closedwikis:{$wiki}";
-		$cached = $wgMemc->get( $memcKey );
-		if ( is_object( $cached ) ) {
-			return $cached;
-		}
-		$dbr = self::getReplicaDB();
-		$result = new CloseWikisRow( $dbr->selectRow( 'closedwikis', '*', [ 'cw_wiki' => $wiki ], __METHOD__ ) );
-		$wgMemc->set( $memcKey, $result, BagOStuff::TTL_MONTH );
-		return $result;
+	/**
+	 * Returns a CloseWikisRow for specific wiki
+	 *
+	 * @param string $wikiId
+	 * @return CloseWikisRow
+	 */
+	static function getClosedRow( $wikiId ) {
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+
+		$fname = __METHOD__;
+		$map = $cache->getWithSetCallback(
+			$cache->makeGlobalKey( 'closedwikis-state', $wikiId ),
+			$cache::TTL_MONTH,
+			function () use ( $wikiId, $fname ) {
+				$dbr = self::getReplicaDB();
+				$row = $dbr->selectRow( 'closedwikis', '*', [ 'cw_wiki' => $wikiId ], $fname );
+
+				return $row ? (array)$row : [];
+			}
+		);
+
+		return new CloseWikisRow( $map ? (object)$map : false );
 	}
 
-	/** Closes a wiki
+	/**
+	 * Closes a wiki
 	 *
+	 * @param string $wikiId
+	 * @param string $dispreason
 	 * @param $by User
+	 * @return bool
 	 */
-	static function close( $wiki, $dispreason, $by ) {
-		global $wgMemc;
+	static function close( $wikiId, $dispreason, $by ) {
 		$dbw = self::getMasterDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->insert(
 			'closedwikis',
 			[
-				'cw_wiki' => $wiki,
+				'cw_wiki' => $wikiId,
 				'cw_reason' => $dispreason,
 				'cw_timestamp' => $dbw->timestamp( wfTimestampNow() ),
 				'cw_by' => $by->getName(),
@@ -81,24 +97,34 @@ class CloseWikis {
 		);
 		$result = (bool)$dbw->affectedRows();
 		$dbw->endAtomic( __METHOD__ );
-		$wgMemc->delete( "closedwikis:{$wiki}" );
+
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$cache->delete( $cache->makeGlobalKey( 'closedwikis-state', $wikiId ) );
+
 		self::$cachedList = null;
 		return $result;
 	}
 
-	/** Reopens a wiki */
-	static function reopen( $wiki ) {
-		global $wgMemc;
+	/**
+	 * Reopens a wiki
+	 *
+	 * @param string $wikiId
+	 * @return bool
+	 */
+	static function reopen( $wikiId ) {
 		$dbw = self::getMasterDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->delete(
 			'closedwikis',
-			[ 'cw_wiki' => $wiki ],
+			[ 'cw_wiki' => $wikiId ],
 			__METHOD__
 		);
 		$result = (bool)$dbw->affectedRows();
 		$dbw->endAtomic( __METHOD__ );
-		$wgMemc->delete( "closedwikis:{$wiki}" );
+
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$cache->delete( $cache->makeGlobalKey( 'closedwikis-state', $wikiId ) );
+
 		self::$cachedList = null;
 		return $result;
 	}
