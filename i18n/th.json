@@ -1,10 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ans"
+			"Ans",
+			"Aefgh39622"
 		]
 	},
+	"closewikis-desc": "อนุญาตให้ปิดไซต์วิกิที่อยู่ในฟาร์มวิกิได้",
+	"closewikis-page": "ปิดวิกิ",
+	"closewikis-page-close": "ปิดวิกิ",
 	"closewikis-page-close-wiki": "วิกิ:",
+	"closewikis-page-close-dreason": "เหตุผล (แสดงผล):",
+	"closewikis-page-close-submit": "ปิด",
+	"closewikis-page-reopen": "เปิดวิกิใหม่",
 	"closewikis-page-reopen-wiki": "วิกิ:",
-	"closewikis-list-header-wiki": "วิกิ"
+	"closewikis-page-reopen-reason": "เหตุผล:",
+	"closewikis-page-reopen-submit": "เปิดใหม่",
+	"closewikis-page-err-nowiki": "ระบุวิกิไม่ถูกต้อง",
+	"closewikis-page-err-closed": "วิกิถูกปิดไปแล้ว",
+	"closewikis-page-err-opened": "วิกิไม่ได้ถูกปิด",
+	"closewikis-list": "รายการวิกิที่ถูกปิด",
+	"closewikis-list-intro": "รายการนี้ประกอบด้วยวิกิที่ถูกปิดโดยผู้จัดการโครงการ",
+	"closewikis-list-header-wiki": "วิกิ",
+	"closewikis-list-header-by": "ถูกปิดโดย",
+	"closewikis-list-header-timestamp": "ถูกปิดเมื่อ",
+	"closewikis-list-header-dispreason": "เหตุผลที่แสดง",
+	"closewikis-log": "ปูมการปิดวิกิ",
+	"closewikis-log-close": "ถูกปิดเมื่อ $2",
+	"closewikis-log-reopen": "ถูกเปิดใหม่เมื่อ $2",
+	"right-editclosedwikis": "แก้ไขวิกิที่ถูกปิดแล้ว",
+	"right-closewikis": "ปิดวิกิ"
 }
