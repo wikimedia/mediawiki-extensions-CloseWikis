@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
-			"Михајло Анђелковић",
-			"Сербијана",
 			"Acamicamacaraca",
 			"BadDog",
-			"Zoranzoki21"
+			"Rancher",
+			"Zoranzoki21",
+			"Михајло Анђелковић",
+			"Сербијана"
 		]
 	},
 	"closewikis-desc": "Омогућава затварање вики пројеката у вики фармама",

@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gomoko",
 			"Grondin",
 			"IAlex",
-			"Zetud",
-			"Gomoko",
-			"Pols12"
+			"Pols12",
+			"Zetud"
 		]
 	},
 	"closewikis-desc": "Permet de clôturer les sites wiki dans ce gestionnaire de wiki",

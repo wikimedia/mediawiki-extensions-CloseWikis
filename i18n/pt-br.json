@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eduardo Addad de Oliveira",
 			"Eduardo.mps",
 			"Jaideraf",
-			"555",
-			"Eduardo Addad de Oliveira"
+			555
 		]
 	},
 	"closewikis-desc": "Permite fechar um wiki em sites com múltiplos wikis",
