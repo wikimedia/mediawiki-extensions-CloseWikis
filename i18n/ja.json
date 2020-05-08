@@ -4,6 +4,7 @@
 			"Aotake",
 			"Fryed-peach",
 			"Hosiryuhosi",
+			"Kkairri",
 			"Rxy",
 			"Shirayuki",
 			"青子守歌"
@@ -35,6 +36,8 @@
 	"closewikis-log-header": "これは、スチュワードによるウィキ閉鎖/再開のすべての記録です",
 	"closewikis-log-close": "$2 を閉鎖",
 	"closewikis-log-reopen": "$2 を再開",
+	"action-editclosedwikis": "閉鎖されたウィキを編集",
 	"right-editclosedwikis": "閉鎖されたウィキを編集",
+	"action-closewikis": "ウィキを閉鎖",
 	"right-closewikis": "ウィキを閉鎖"
 }
