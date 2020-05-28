@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bennylin"
+			"Bennylin",
+			"Diki Ananta"
 		]
 	},
 	"closewikis-desc": "Mengizinkan penutupan situs wiki di sebuah lahan wiki",
@@ -11,12 +12,12 @@
 	"closewikis-page-close-dreason": "Alasan (ditampilkan):",
 	"closewikis-page-close-reason": "Alasan (dicatat log):",
 	"closewikis-page-close-submit": "Tutup",
-	"closewikis-page-close-success": "Wiki ditutup dengan sukses",
+	"closewikis-page-close-success": "Wiki telah ditutup",
 	"closewikis-page-reopen": "Buka ulang wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Alasan:",
 	"closewikis-page-reopen-submit": "Buka kembali",
-	"closewikis-page-reopen-success": "Wiki dibuka kembali dengan sukses",
+	"closewikis-page-reopen-success": "Wiki telah dibuka kembali",
 	"closewikis-page-err-nowiki": "Wiki tidak sah",
 	"closewikis-page-err-closed": "Wiki telah ditutup",
 	"closewikis-page-err-opened": "Wiki tidak ditutup",
