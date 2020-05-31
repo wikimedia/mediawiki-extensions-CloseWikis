@@ -6,6 +6,13 @@ class CloseWikisHooks {
 		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
 			$updater->addExtensionTable( 'closedwikis', __DIR__ . '/../sql/closewikis.sql' );
 		}
+
+		$updater->dropExtensionIndex(
+			'closedwikis', // table
+			'cw_wiki', // index
+			__DIR__ . '/../sql/closedwikis-patch-pk.sql' // file
+		);
+
 		return true;
 	}
 
