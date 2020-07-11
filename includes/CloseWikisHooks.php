@@ -18,11 +18,10 @@ class CloseWikisHooks {
 	}
 
 	/**
-	 * @static
-	 * @param &$title
-	 * @param &$user User
-	 * @param $action
-	 * @param &$result
+	 * @param Title &$title
+	 * @param User &$user
+	 * @param string $action
+	 * @param array &$result
 	 * @return bool
 	 */
 	static function userCan( &$title, &$user, $action, &$result ) {

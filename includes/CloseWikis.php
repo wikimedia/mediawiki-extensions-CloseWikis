@@ -15,7 +15,10 @@ class CloseWikis {
 		return wfGetDB( DB_MASTER, 'closewikis', $wgCloseWikisDatabase );
 	}
 
-	/** Returns list of all closed wikis in form of CloseWikisRow array. Not cached */
+	/**
+	 * Returns list of all closed wikis in form of CloseWikisRow array. Not cached
+	 * @return CloseWikisRow[]
+	 */
 	static function getAll() {
 		$list = [];
 		$dbr = self::getReplicaDB();
@@ -27,7 +30,10 @@ class CloseWikis {
 		return $list;
 	}
 
-	/** Returns list of closed wikis in form of string array. Cached in CloseWikis::$cachedList */
+	/**
+	 * Returns list of closed wikis in form of string array. Cached in CloseWikis::$cachedList
+	 * @return string[]
+	 */
 	static function getList() {
 		if ( self::$cachedList ) {
 			return self::$cachedList;
@@ -43,7 +49,10 @@ class CloseWikis {
 		return $list;
 	}
 
-	/** Returns list of unclosed wikis in form of string array. Based on getList() */
+	/**
+	 * Returns list of unclosed wikis in form of string array. Based on getList()
+	 * @return string[]
+	 */
 	static function getUnclosedList() {
 		global $wgLocalDatabases;
 		return array_diff( $wgLocalDatabases, self::getList() );
@@ -78,7 +87,7 @@ class CloseWikis {
 	 *
 	 * @param string $wikiId
 	 * @param string $dispreason
-	 * @param $by User
+	 * @param User $by
 	 * @return bool
 	 */
 	static function close( $wikiId, $dispreason, $by ) {
