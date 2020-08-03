@@ -32,7 +32,7 @@
 	"closewikis-list-header-timestamp": "Затворен на",
 	"closewikis-list-header-dispreason": "Приказани разлог",
 	"closewikis-log": "Дневник затварања викија",
-	"closewikis-log-header": "Овде је евиденција свих затварања и поновних отварања викија од стране стјуарда",
+	"closewikis-log-header": "Ово је дневник свих затварања и поновних отварања пројеката које су извршили стјуарди",
 	"closewikis-log-close": "затворен $2",
 	"closewikis-log-reopen": "поново отворен $2",
 	"action-editclosedwikis": "уређивање затворених викија",
