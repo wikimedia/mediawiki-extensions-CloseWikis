@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Daud I.F. Argana",
 			"Diki Ananta",
 			"Sumbukompor"
 		]
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "Daftar ini adalah log penutupan dan pembukaan ulang wiki oleh pengelola.",
 	"closewikis-log-close": "ditutup $2",
 	"closewikis-log-reopen": "dibuka ulang $2",
+	"action-editclosedwikis": "menyunting wiki yang ditutup",
 	"right-editclosedwikis": "Sunting wiki yang ditutup",
+	"action-closewikis": "menutup wiki",
 	"right-closewikis": "Tutup wiki"
 }
