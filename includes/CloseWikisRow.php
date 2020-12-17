@@ -1,7 +1,7 @@
 <?php
 class CloseWikisRow {
 	/**
-	 * @var object|false
+	 * @var stdClass|false
 	 */
 	private $mRow;
 

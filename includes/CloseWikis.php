@@ -3,6 +3,7 @@
 use MediaWiki\MediaWikiServices;
 
 class CloseWikis {
+	/** @var string[]|null */
 	static $cachedList = null;
 
 	static function getReplicaDB() {
