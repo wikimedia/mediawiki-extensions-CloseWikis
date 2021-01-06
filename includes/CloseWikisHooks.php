@@ -24,7 +24,7 @@ class CloseWikisHooks {
 	 * @param array &$result
 	 * @return bool
 	 */
-	static function userCan( &$title, &$user, $action, &$result ) {
+	public static function userCan( &$title, &$user, $action, &$result ) {
 		static $closed = null;
 		global $wgLang;
 		if ( $action == 'read' ) {

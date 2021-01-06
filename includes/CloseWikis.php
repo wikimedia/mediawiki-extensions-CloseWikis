@@ -4,14 +4,14 @@ use MediaWiki\MediaWikiServices;
 
 class CloseWikis {
 	/** @var string[]|null */
-	static $cachedList = null;
+	private static $cachedList = null;
 
-	static function getReplicaDB() {
+	private static function getReplicaDB() {
 		global $wgCloseWikisDatabase;
 		return wfGetDB( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
 	}
 
-	static function getMasterDB() {
+	private static function getMasterDB() {
 		global $wgCloseWikisDatabase;
 		return wfGetDB( DB_MASTER, 'closewikis', $wgCloseWikisDatabase );
 	}
@@ -20,7 +20,7 @@ class CloseWikis {
 	 * Returns list of all closed wikis in form of CloseWikisRow array. Not cached
 	 * @return CloseWikisRow[]
 	 */
-	static function getAll() {
+	public static function getAll() {
 		$list = [];
 		$dbr = self::getReplicaDB();
 		$result = $dbr->select( 'closedwikis', '*', false, __METHOD__ );
@@ -35,7 +35,7 @@ class CloseWikis {
 	 * Returns list of closed wikis in form of string array. Cached in CloseWikis::$cachedList
 	 * @return string[]
 	 */
-	static function getList() {
+	public static function getList() {
 		if ( self::$cachedList ) {
 			return self::$cachedList;
 		}
@@ -54,7 +54,7 @@ class CloseWikis {
 	 * Returns list of unclosed wikis in form of string array. Based on getList()
 	 * @return string[]
 	 */
-	static function getUnclosedList() {
+	public static function getUnclosedList() {
 		global $wgLocalDatabases;
 		return array_diff( $wgLocalDatabases, self::getList() );
 	}
@@ -65,7 +65,7 @@ class CloseWikis {
 	 * @param string $wikiId
 	 * @return CloseWikisRow
 	 */
-	static function getClosedRow( $wikiId ) {
+	public static function getClosedRow( $wikiId ) {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
 		$fname = __METHOD__;
@@ -91,7 +91,7 @@ class CloseWikis {
 	 * @param User $by
 	 * @return bool
 	 */
-	static function close( $wikiId, $dispreason, $by ) {
+	public static function close( $wikiId, $dispreason, $by ) {
 		$dbw = self::getMasterDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->insert(
@@ -121,7 +121,7 @@ class CloseWikis {
 	 * @param string $wikiId
 	 * @return bool
 	 */
-	static function reopen( $wikiId ) {
+	public static function reopen( $wikiId ) {
 		$dbw = self::getMasterDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->delete(
