@@ -8,11 +8,11 @@
 	"closewikis-page-close": "ვიკის დახურვა",
 	"closewikis-page-close-wiki": "ვიკი:",
 	"closewikis-page-close-submit": "დახურვა",
-	"closewikis-page-close-success": "ვიკი წარმატებით დაიხურა",
+	"closewikis-page-close-success": "ვიკი დაიხურა",
 	"closewikis-page-reopen": "ვიკის გახსნა",
 	"closewikis-page-reopen-wiki": "ვიკი:",
 	"closewikis-page-reopen-reason": "მიზეზი:",
 	"closewikis-page-reopen-submit": "გახსნა",
-	"closewikis-page-reopen-success": "ვიკი წარმატებით გაიხსნა",
+	"closewikis-page-reopen-success": "ვიკი გაიხსნა",
 	"closewikis-list-header-wiki": "ვიკი"
 }
