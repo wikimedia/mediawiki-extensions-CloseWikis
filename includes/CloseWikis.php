@@ -11,9 +11,9 @@ class CloseWikis {
 		return wfGetDB( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
 	}
 
-	private static function getMasterDB() {
+	private static function getPrimaryDB() {
 		global $wgCloseWikisDatabase;
-		return wfGetDB( DB_MASTER, 'closewikis', $wgCloseWikisDatabase );
+		return wfGetDB( DB_PRIMARY, 'closewikis', $wgCloseWikisDatabase );
 	}
 
 	/**
@@ -40,7 +40,7 @@ class CloseWikis {
 			return self::$cachedList;
 		}
 		$list = [];
-		$dbr = self::getMasterDB();	// Used only on writes
+		$dbr = self::getPrimaryDB();	// Used only on writes
 		$result = $dbr->select( 'closedwikis', 'cw_wiki', false, __METHOD__ );
 		foreach ( $result as $row ) {
 			$list[] = $row->cw_wiki;
@@ -92,7 +92,7 @@ class CloseWikis {
 	 * @return bool
 	 */
 	public static function close( $wikiId, $dispreason, $by ) {
-		$dbw = self::getMasterDB();
+		$dbw = self::getPrimaryDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->insert(
 			'closedwikis',
@@ -122,7 +122,7 @@ class CloseWikis {
 	 * @return bool
 	 */
 	public static function reopen( $wikiId ) {
-		$dbw = self::getMasterDB();
+		$dbw = self::getPrimaryDB();
 		$dbw->startAtomic( __METHOD__ );
 		$dbw->delete(
 			'closedwikis',
