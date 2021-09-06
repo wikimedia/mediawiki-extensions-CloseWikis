@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
 			"Vinhtantran"
 		]
 	},
@@ -12,12 +13,12 @@
 	"closewikis-page-close-dreason": "Lý do (để trình bày):",
 	"closewikis-page-close-reason": "Lý do (trong nhật trình):",
 	"closewikis-page-close-submit": "Đóng cửa",
-	"closewikis-page-close-success": "Đóng cửa wiki thành công",
+	"closewikis-page-close-success": "Đã đóng wiki",
 	"closewikis-page-reopen": "Mở cửa lại wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Lý do:",
 	"closewikis-page-reopen-submit": "Mở cửa lại",
-	"closewikis-page-reopen-success": "Mở cửa lại wiki thành công",
+	"closewikis-page-reopen-success": "Đã mở lại wiki",
 	"closewikis-page-err-nowiki": "Định rõ wiki không hợp lệ",
 	"closewikis-page-err-closed": "Wiki đã bị đóng cửa",
 	"closewikis-page-err-opened": "Wiki chưa bị đóng cửa",
