@@ -2,13 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Aushulz",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Ajeje Brazorf"
 		]
 	},
+	"closewikis-page": "Chiudi wiki",
+	"closewikis-page-close": "Chiudi wiki",
 	"closewikis-page-close-wiki": "Wiki:",
 	"closewikis-page-close-submit": "Chiudi",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Mutivu:",
 	"closewikis-list": "Elencu di wiki chiuduti",
-	"closewikis-list-header-wiki": "Wiki"
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-timestamp": "Chiudutu lu",
+	"closewikis-list-header-dispreason": "Mutivu ammustratu",
+	"action-closewikis": "chiùdiri wiki",
+	"right-closewikis": "Chiudi wiki"
 }

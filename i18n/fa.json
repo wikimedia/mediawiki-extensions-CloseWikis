@@ -5,7 +5,8 @@
 			"FarsiNevis",
 			"Mjbmr",
 			"Reza1615",
-			"Taha"
+			"Taha",
+			"Jeeputer"
 		]
 	},
 	"closewikis-desc": "اجازه می‌دهد پایگاه ویکی را در مزرعهٔ ویکی ببندد",
@@ -34,6 +35,8 @@
 	"closewikis-log-header": "در اینجا سیاههٔ ویکی‌های بسته‌شده و بازگشائی‌شده موجود است.",
 	"closewikis-log-close": "بسته $2",
 	"closewikis-log-reopen": "بازگشایی $2",
+	"action-editclosedwikis": "ویرایش ویکی‌های بسته‌شده",
 	"right-editclosedwikis": "ویرایش ویکی‌های بسته شده",
+	"action-closewikis": "بستن ویکی‌ها",
 	"right-closewikis": "بستن ویکی‌ها"
 }
