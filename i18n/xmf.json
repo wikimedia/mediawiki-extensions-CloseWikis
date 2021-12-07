@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"closewikis-page": "ვიკიშ კილუა",
+	"closewikis-page-close": "ვიკიშ კილუა",
+	"closewikis-page-close-wiki": "ვიკი:",
+	"closewikis-page-close-dreason": "ბაძაძი (იძირებენფერი):",
+	"closewikis-page-close-reason": "ბაძაძი (ჟურნალიშო):",
+	"closewikis-page-close-submit": "კილუა",
+	"closewikis-page-close-success": "ვიკიქ დიკილჷ",
+	"closewikis-page-reopen": "ვიკიშ გონწყუმა",
+	"closewikis-page-reopen-wiki": "ვიკი:",
+	"closewikis-page-reopen-reason": "სამანჯელი:",
+	"closewikis-page-reopen-submit": "გონწყუმა",
+	"closewikis-page-reopen-success": "ვიკიქ გინწყჷ",
+	"closewikis-page-err-closed": "ვიკი კილერი რე",
+	"closewikis-page-err-opened": "ვიკი ვა რე კილერი",
+	"closewikis-list": "კილერი ვიკიეფიშ ერკებული",
+	"closewikis-list-header-wiki": "ვიკი",
+	"closewikis-list-header-by": "კილჷ",
+	"closewikis-log-close": "კილერი $2",
+	"closewikis-log-reopen": "გონწყუმილი $2",
+	"action-editclosedwikis": "კილერი ვიკიეფიშ რედქტირაფა"
+}

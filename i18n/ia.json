@@ -31,6 +31,8 @@
 	"closewikis-log-header": "Ecce un registro de tote le clausuras e reaperturas de wikis facite per stewards",
 	"closewikis-log-close": "claudeva $2",
 	"closewikis-log-reopen": "reaperiva $2",
+	"action-editclosedwikis": "modificar wikis claudite",
 	"right-editclosedwikis": "Modificar wikis claudite",
+	"action-closewikis": "clauder wikis",
 	"right-closewikis": "Clauder wikis"
 }
