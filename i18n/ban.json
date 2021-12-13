@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"closewikis-page-close": "Sineb wiki",
+	"closewikis-page-close-submit": "Sineb",
+	"closewikis-page-close-success": "Wiki kasineb",
+	"closewikis-page-err-closed": "Wiki sampun kasineb",
+	"closewikis-list": "Lis wiki kasineb",
+	"closewikis-list-header-by": "Kasineb olih",
+	"closewikis-log-close": "kasineb $2",
+	"action-editclosedwikis": "nguahin wiki kasineb",
+	"action-closewikis": "sineb wiki"
+}

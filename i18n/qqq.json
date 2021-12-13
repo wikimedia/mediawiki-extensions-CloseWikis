@@ -11,7 +11,7 @@
 		]
 	},
 	"closewikis-desc": "{{desc|name=Close Wikis|url=https://www.mediawiki.org/wiki/Extension:CloseWikis}}",
-	"closewikis-closed": "{{optional}}",
+	"closewikis-closed": "{{notranslate}}",
 	"closewikis-page": "{{doc-special|CloseWiki|unlisted=1}}",
 	"closewikis-page-close": "Used as legend of fieldset.",
 	"closewikis-page-close-wiki": "Used as label for the Wiki select box.\n{{Identical|Wiki}}",

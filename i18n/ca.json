@@ -4,7 +4,8 @@
 			"Fitoschido",
 			"Paucabot",
 			"SMP",
-			"Toniher"
+			"Toniher",
+			"Mguix"
 		]
 	},
 	"closewikis-desc": "Permet tancar llocs wiki en granges de wikis",
@@ -14,7 +15,7 @@
 	"closewikis-page-close-dreason": "Motiu (mostrat):",
 	"closewikis-page-close-reason": "Motiu (registrat):",
 	"closewikis-page-close-submit": "Tanca",
-	"closewikis-page-close-success": "El wiki s'ha tancat amb èxit",
+	"closewikis-page-close-success": "El wiki s'ha tancat",
 	"closewikis-page-reopen": "Reobre el wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Motiu:",

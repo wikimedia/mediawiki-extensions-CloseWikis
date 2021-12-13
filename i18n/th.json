@@ -2,19 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Ans"
+			"Ans",
+			"Patsagorn Y."
 		]
 	},
 	"closewikis-desc": "อนุญาตให้ปิดไซต์วิกิที่อยู่ในฟาร์มวิกิได้",
 	"closewikis-page": "ปิดวิกิ",
 	"closewikis-page-close": "ปิดวิกิ",
 	"closewikis-page-close-wiki": "วิกิ:",
-	"closewikis-page-close-dreason": "เหตุผล (แสดงผล):",
+	"closewikis-page-close-dreason": "เหตุผล (ที่จะถูกแสดงผล):",
+	"closewikis-page-close-reason": "เหตุผล (ที่จะถูกบันทึกในปูม):",
 	"closewikis-page-close-submit": "ปิด",
+	"closewikis-page-close-success": "วิกินี้ถูกปิดแล้ว",
 	"closewikis-page-reopen": "เปิดวิกิใหม่",
 	"closewikis-page-reopen-wiki": "วิกิ:",
 	"closewikis-page-reopen-reason": "เหตุผล:",
 	"closewikis-page-reopen-submit": "เปิดใหม่",
+	"closewikis-page-reopen-success": "วิกิถูกเปิดอีกครั้งแล้ว",
 	"closewikis-page-err-nowiki": "ระบุวิกิไม่ถูกต้อง",
 	"closewikis-page-err-closed": "วิกิถูกปิดไปแล้ว",
 	"closewikis-page-err-opened": "วิกิไม่ได้ถูกปิด",

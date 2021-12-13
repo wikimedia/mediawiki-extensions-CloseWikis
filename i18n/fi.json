@@ -6,7 +6,8 @@
 			"Nike",
 			"Silvonen",
 			"Str4nd",
-			"Vililikku"
+			"Vililikku",
+			"Pyscowicz"
 		]
 	},
 	"closewikis-desc": "Mahdollistaa wiki-farmien wikien sulkemisen",
@@ -35,6 +36,8 @@
 	"closewikis-log-header": "Tässä on loki kaikista ylivalvojien tekemistä wikien sulkemisista ja uudelleenavaamisista",
 	"closewikis-log-close": "suljettiin $2",
 	"closewikis-log-reopen": "avattiin $2 uudelleen",
+	"action-editclosedwikis": "muokata suljettuja wikejä",
 	"right-editclosedwikis": "Muokata suljettuja wikejä",
+	"action-closewikis": "sulkea wikejä",
 	"right-closewikis": "Sulkea wikejä"
 }

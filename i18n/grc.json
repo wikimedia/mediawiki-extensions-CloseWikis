@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Omnipaedista"
+			"Omnipaedista",
+			"PastelKos"
 		]
 	},
-	"closewikis-page-close-wiki": "Βίκι:",
+	"closewikis-page-close-wiki": "Οὐίκι:",
 	"closewikis-page-close-submit": "Κλῄειν",
-	"closewikis-page-reopen-wiki": "Βίκι:",
+	"closewikis-page-reopen-wiki": "Οὐίκι:",
 	"closewikis-page-reopen-reason": "Αἰτία:",
 	"closewikis-page-reopen-submit": "Ἀνοίγειν πάλιν",
-	"closewikis-list-header-wiki": "Βίκι"
+	"closewikis-list-header-wiki": "Οὐίκι:"
 }

@@ -4,7 +4,8 @@
 			"Boivie",
 			"M.M.S.",
 			"Najami",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
 	"closewikis-desc": "Möjliggör stängning av wikier inom wikisamlingar",
@@ -14,15 +15,15 @@
 	"closewikis-page-close-dreason": "Anledning (visas):",
 	"closewikis-page-close-reason": "Anledning (loggas):",
 	"closewikis-page-close-submit": "Stäng",
-	"closewikis-page-close-success": "Wiki lyckades stängas",
+	"closewikis-page-close-success": "Wikin stängdes",
 	"closewikis-page-reopen": "Återöppna wiki",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Anledning:",
 	"closewikis-page-reopen-submit": "Återöppna",
-	"closewikis-page-reopen-success": "Wiki lyckades återöppnas",
-	"closewikis-page-err-nowiki": "Ogiltig wiki specificerad",
-	"closewikis-page-err-closed": "Wiki är redan stängd",
-	"closewikis-page-err-opened": "Wiki är inte stängd",
+	"closewikis-page-reopen-success": "Wikin återöppnades",
+	"closewikis-page-err-nowiki": "Ogiltig wiki angiven",
+	"closewikis-page-err-closed": "Wikin är redan stängd",
+	"closewikis-page-err-opened": "Wikin är inte stängd",
 	"closewikis-list": "Lista över stängda wikier",
 	"closewikis-list-intro": "Denna lista innehåller wikier som stängdes av stewarder.",
 	"closewikis-list-header-wiki": "Wiki",
@@ -33,8 +34,8 @@
 	"closewikis-log-header": "Här är en logg över alla stängningar och återöppningar av wikier som gjorts av stewarder",
 	"closewikis-log-close": "stängde $2",
 	"closewikis-log-reopen": "återöppnade $2",
-	"action-editclosedwikis": "redigera stängda wikis",
+	"action-editclosedwikis": "redigera stängda wikier",
 	"right-editclosedwikis": "Redigera stängda wikier",
-	"action-closewikis": "stänga wikis",
+	"action-closewikis": "stänga wikier",
 	"right-closewikis": "Stäng wikier"
 }
