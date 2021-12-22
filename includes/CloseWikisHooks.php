@@ -32,7 +32,7 @@ class CloseWikisHooks {
 		}
 
 		if ( $closed === null ) {
-			$closed = CloseWikis::getClosedRow( wfWikiID() );
+			$closed = CloseWikis::getClosedRow( WikiMap::getCurrentWikiId() );
 		}
 
 		if ( $closed->isClosed() && !$user->isAllowed( 'editclosedwikis' ) ) {
