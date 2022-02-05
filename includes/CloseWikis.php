@@ -27,7 +27,6 @@ class CloseWikis {
 		foreach ( $result as $row ) {
 			$list[] = new CloseWikisRow( $row );
 		}
-		$dbr->freeResult( $result );
 		return $list;
 	}
 
@@ -45,7 +44,6 @@ class CloseWikis {
 		foreach ( $result as $row ) {
 			$list[] = $row->cw_wiki;
 		}
-		$dbr->freeResult( $result );
 		self::$cachedList = $list;
 		return $list;
 	}
