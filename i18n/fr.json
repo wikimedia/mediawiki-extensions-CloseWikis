@@ -5,6 +5,7 @@
 			"Grondin",
 			"IAlex",
 			"Pols12",
+			"Verdy p",
 			"Zetud"
 		]
 	},
@@ -37,5 +38,5 @@
 	"action-editclosedwikis": "modifier des wikis clos",
 	"right-editclosedwikis": "Modifier les wikis clôturés",
 	"action-closewikis": "clore des wikis",
-	"right-closewikis": "Clôturer les wikis"
+	"right-closewikis": "Clore les wikis"
 }
