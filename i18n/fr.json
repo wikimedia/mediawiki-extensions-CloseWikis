@@ -5,7 +5,8 @@
 			"Grondin",
 			"IAlex",
 			"Pols12",
-			"Zetud"
+			"Zetud",
+			"Verdy p"
 		]
 	},
 	"closewikis-desc": "Permet de clôturer les sites wiki dans ce gestionnaire de wiki",
@@ -37,5 +38,5 @@
 	"action-editclosedwikis": "modifier des wikis clos",
 	"right-editclosedwikis": "Modifier les wikis clôturés",
 	"action-closewikis": "clore des wikis",
-	"right-closewikis": "Clôturer les wikis"
+	"right-closewikis": "Clore les wikis"
 }
