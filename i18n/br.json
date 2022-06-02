@@ -3,6 +3,7 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -13,12 +14,12 @@
 	"closewikis-page-close-dreason": "Abeg (diskouezet) :",
 	"closewikis-page-close-reason": "Abeg (enrollet) :",
 	"closewikis-page-close-submit": "Serriñ",
-	"closewikis-page-close-success": "Serret eo ar wiki",
+	"closewikis-page-close-success": "Serret eo bet ar wiki",
 	"closewikis-page-reopen": "Addigeriñ ar wiki",
 	"closewikis-page-reopen-wiki": "Wiki :",
 	"closewikis-page-reopen-reason": "Abeg :",
 	"closewikis-page-reopen-submit": "Addigeriñ",
-	"closewikis-page-reopen-success": "Addigoret eo bet ar wiki ervat",
+	"closewikis-page-reopen-success": "Addigoret eo bet ar wiki",
 	"closewikis-page-err-nowiki": "Fall eo ar wiki spisaet",
 	"closewikis-page-err-closed": "Serret eo ar wiki dija",
 	"closewikis-page-err-opened": "N'eo ket serret ar wiki",
