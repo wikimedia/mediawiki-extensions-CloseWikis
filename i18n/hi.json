@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Phoenix303"
+			"Phoenix303",
+			"Saurmandal"
 		]
 	},
-	"closewikis-page-close-wiki": "विकी:",
-	"closewikis-page-reopen-wiki": "विकी:",
+	"closewikis-page-close-wiki": "विकि:",
+	"closewikis-page-reopen-wiki": "विकि:",
 	"closewikis-list-header-wiki": "विकी"
 }
