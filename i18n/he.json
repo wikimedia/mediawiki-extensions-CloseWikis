@@ -4,7 +4,8 @@
 			"Erelon",
 			"Guycn2",
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
 	"closewikis-desc": "מתן אפשרות לסגירת אתרי ויקי בחוות־ויקי",
@@ -33,6 +34,7 @@
 	"closewikis-log-header": "להלן יומן של כל הסגירות והפתיחות מחדש של אתרי ויקי שבוצעו על ידי דיילים.",
 	"closewikis-log-close": "נסגר $2",
 	"closewikis-log-reopen": "נפתח מחדש $2",
+	"action-editclosedwikis": "לערוך אתרי ויקי סגורים",
 	"right-editclosedwikis": "עריכת אתרי ויקי סגורים",
 	"action-closewikis": "סגירת אתרי ויקי",
 	"right-closewikis": "סגירת אתרי ויקי"
