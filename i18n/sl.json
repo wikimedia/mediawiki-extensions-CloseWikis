@@ -13,11 +13,11 @@
 	"closewikis-page-close-reason": "Razlog (zabeležen):",
 	"closewikis-page-close-submit": "Zapri",
 	"closewikis-page-close-success": "Wiki je bil zaprt",
-	"closewikis-page-reopen": "Ponovno odpri wiki",
+	"closewikis-page-reopen": "Znova odpri viki",
 	"closewikis-page-reopen-wiki": "Viki:",
 	"closewikis-page-reopen-reason": "Razlog:",
-	"closewikis-page-reopen-submit": "Ponovno odpri",
-	"closewikis-page-reopen-success": "Wiki je bil ponovno odprt",
+	"closewikis-page-reopen-submit": "Znova odpri",
+	"closewikis-page-reopen-success": "Viki je znova odprt",
 	"closewikis-page-err-nowiki": "Določen je neveljaven wiki",
 	"closewikis-page-err-closed": "Wiki je že zaprt",
 	"closewikis-page-err-opened": "Wiki ni zaprt",
@@ -30,7 +30,7 @@
 	"closewikis-log": "Dnevnik zapiranja wikijev",
 	"closewikis-log-header": "Tukaj je dnevnik vseh zapiranj in ponovnih odpiranj wikijev, ki so jih naredili upravniki",
 	"closewikis-log-close": "zaprl(-a) $2",
-	"closewikis-log-reopen": "ponovno odprl(-a) $2",
+	"closewikis-log-reopen": "znova odprl(-a) $2",
 	"right-editclosedwikis": "Urejanje zaprtih wikijev",
 	"right-closewikis": "Zapiranje wikijev"
 }
