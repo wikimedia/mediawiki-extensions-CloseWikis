@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Balyozxane",
 			"George Animal",
 			"Ghybu",
 			"Guherto"
@@ -14,6 +15,6 @@
 	"closewikis-page-reopen-submit": "Dîsa veke",
 	"closewikis-list-header-wiki": "Wîkî",
 	"closewikis-list-header-by": "Hate girtin ji aliyê",
-	"right-editclosedwikis": "Wîkî'yên hatin girtin biguherîne",
+	"right-editclosedwikis": "Wîkiyên girtî biguhêre",
 	"right-closewikis": "Wîkî'yan bigre"
 }
