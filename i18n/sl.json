@@ -21,16 +21,18 @@
 	"closewikis-page-err-nowiki": "Določen je neveljaven wiki",
 	"closewikis-page-err-closed": "Wiki je že zaprt",
 	"closewikis-page-err-opened": "Wiki ni zaprt",
-	"closewikis-list": "Seznam zaprtih wikijev",
+	"closewikis-list": "Seznam zaprtih vikijev",
 	"closewikis-list-intro": "Ta seznam vsebuje wikije, ki so jih zaprli upravniki.",
 	"closewikis-list-header-wiki": "Viki",
 	"closewikis-list-header-by": "Zaprl",
 	"closewikis-list-header-timestamp": "Zaprto",
 	"closewikis-list-header-dispreason": "Prikazan razlog",
-	"closewikis-log": "Dnevnik zapiranja wikijev",
-	"closewikis-log-header": "Tukaj je dnevnik vseh zapiranj in ponovnih odpiranj wikijev, ki so jih naredili upravniki",
+	"closewikis-log": "Dnevnik zapiranja vikijev",
+	"closewikis-log-header": "Tu je prikazan dnevnik vseh zapiranj in ponovnih odpiranj vikijev, ki so jih opravili upravniki",
 	"closewikis-log-close": "zaprl(-a) $2",
 	"closewikis-log-reopen": "znova odprl(-a) $2",
-	"right-editclosedwikis": "Urejanje zaprtih wikijev",
-	"right-closewikis": "Zapiranje wikijev"
+	"action-editclosedwikis": "urejanje zaprtih vikijev",
+	"right-editclosedwikis": "Urejanje zaprtih vikijev",
+	"action-closewikis": "zapiranje vikijev",
+	"right-closewikis": "Zapiranje vikijev"
 }
