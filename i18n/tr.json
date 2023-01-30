@@ -6,7 +6,8 @@
 			"Karduelis",
 			"TmY e12",
 			"ToprakM",
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"Rapsar"
 		]
 	},
 	"closewikis-desc": "Viki çiftliklerindeki viki sitelerini kapatmaya izin verir",
@@ -35,8 +36,8 @@
 	"closewikis-log-header": "Bu, kâhyalar tarafından yapılan tüm viki kapatma ve tekrar açmalarının günlüğüdür",
 	"closewikis-log-close": "$2 vikisi kapatıldı",
 	"closewikis-log-reopen": "$2 vikisi yeniden açtı",
-	"action-editclosedwikis": "kapalı vikileri düzenle",
-	"right-editclosedwikis": "Kapalı vikileri düzenle",
+	"action-editclosedwikis": "kapalı vikileri değiştir",
+	"right-editclosedwikis": "Kapalı vikileri değiştir",
 	"action-closewikis": "vikileri kapat",
 	"right-closewikis": "Vikileri kapat"
 }
