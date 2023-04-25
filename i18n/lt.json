@@ -31,6 +31,8 @@
 	"closewikis-log-header": "Štai visų viki uždarymų ir atidarymų iš naujo, kuriuos atliko pagalbininkai, žurnalas",
 	"closewikis-log-close": "uždaryta $2",
 	"closewikis-log-reopen": "iš naujo atidaryta $2",
+	"action-editclosedwikis": "redaguoti uždarytus viki",
 	"right-editclosedwikis": "Redaguoti uždarytas wiki",
+	"action-closewikis": "uždaryti viki",
 	"right-closewikis": "Uždaryti wiki"
 }
