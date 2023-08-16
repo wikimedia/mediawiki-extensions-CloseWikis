@@ -2,8 +2,7 @@
 class CloseWikisHooks {
 
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		global $wgWikimediaJenkinsCI;
-		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
+		if ( defined( 'MW_QUIBBLE_CI' ) ) {
 			$updater->addExtensionTable( 'closedwikis', __DIR__ . '/../sql/closewikis.sql' );
 		}
 
@@ -17,9 +16,9 @@ class CloseWikisHooks {
 	}
 
 	public static function onRegistration() {
-		global $wgWikimediaJenkinsCI, $wgCloseWikisDatabase, $wgDBname;
+		global $wgCloseWikisDatabase, $wgDBname;
 
-		if ( isset( $wgWikimediaJenkinsCI ) && $wgWikimediaJenkinsCI === true ) {
+		if ( defined( 'MW_QUIBBLE_CI' ) ) {
 			$wgCloseWikisDatabase = $wgDBname;
 		}
 	}
