@@ -34,6 +34,7 @@
 	"closewikis-log-header": "Aquí teniu un registre de tots els tancaments i reobertures de wikis fetes pels stewards",
 	"closewikis-log-close": "tancat $2",
 	"closewikis-log-reopen": "reobert $2",
+	"action-editclosedwikis": "editar en wikis tancats",
 	"right-editclosedwikis": "Editar en wikis tancats",
 	"action-closewikis": "tancar wikis",
 	"right-closewikis": "Tancar wikis"
