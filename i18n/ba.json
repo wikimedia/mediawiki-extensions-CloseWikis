@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
+			"Bashkorttan",
 			"З. ӘЙЛЕ"
 		]
 	},
@@ -27,7 +28,7 @@
 	"closewikis-list-header-by": "Ябыҡ",
 	"closewikis-list-header-timestamp": "Ябылыу ваҡыты",
 	"closewikis-list-header-dispreason": "Күрһәтелгән сәбәп",
-	"closewikis-log": "Викиҙарҙы ябыу яҙмалары журналы",
+	"closewikis-log": "Викиҙарҙы ябыу журналы",
 	"closewikis-log-header": "Был — стюардтар тарафынан викиҙы барлыҡ ябыуҙыр һәм яңынан асыуҙар яҙмалары журналы",
 	"closewikis-log-close": "$2 ябылған",
 	"closewikis-log-reopen": "$2 яңынан асылған",
