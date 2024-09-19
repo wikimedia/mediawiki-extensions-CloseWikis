@@ -13,7 +13,7 @@
 	"closewikis-page-close-wiki": "Wiki:",
 	"closewikis-page-close-dreason": "Sebep (asnayen):",
 	"closewikis-page-close-reason": "Sebep (rocaneyen):",
-	"closewikis-page-close-submit": "Racnê",
+	"closewikis-page-close-submit": "Kip ke",
 	"closewikis-page-close-success": "Wiki racne yê",
 	"closewikis-page-reopen": "Wikiyer fına ake",
 	"closewikis-page-reopen-wiki": "Wiki:",
@@ -35,6 +35,6 @@
 	"closewikis-log-reopen": "$2 viki fına akerdı",
 	"action-editclosedwikis": "wikiyanê qefelnayeyan bıvurne",
 	"right-editclosedwikis": "Racnayê wiki ya bıvurnê",
-	"action-closewikis": "wikiyan bıqefelne",
-	"right-closewikis": "Wikiyan racnê"
+	"action-closewikis": "wikiyan kip ke",
+	"right-closewikis": "Wikiyan kip ke"
 }
