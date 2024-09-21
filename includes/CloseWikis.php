@@ -8,12 +8,14 @@ class CloseWikis {
 
 	private static function getReplicaDB() {
 		global $wgCloseWikisDatabase;
-		return wfGetDB( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
+		return MediaWikiServices::getInstance()->getDBLoadBalancer()
+			->getConnection( DB_REPLICA, 'closewikis', $wgCloseWikisDatabase );
 	}
 
 	private static function getPrimaryDB() {
 		global $wgCloseWikisDatabase;
-		return wfGetDB( DB_PRIMARY, 'closewikis', $wgCloseWikisDatabase );
+		return MediaWikiServices::getInstance()->getDBLoadBalancer()
+			->getConnection( DB_PRIMARY, 'closewikis', $wgCloseWikisDatabase );
 	}
 
 	/**
