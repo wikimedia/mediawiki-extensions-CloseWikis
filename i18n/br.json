@@ -31,8 +31,8 @@
 	"closewikis-list-header-dispreason": "Abeg diskwelet",
 	"closewikis-log": "Marilh ar wikioù serret",
 	"closewikis-log-header": "Amañ emañ marilh ar serriñ hag an addigeriñ wikioù graet gant stewarded",
-	"closewikis-log-close": "{{Gender:.|en|he}} deus serret $2",
-	"closewikis-log-reopen": "{{Gender:.|en|he}} deus addigoret $2",
+	"closewikis-log-close": "serret $2",
+	"closewikis-log-reopen": "addigoret $2",
 	"right-editclosedwikis": "Aozañ ar wikioù serret",
 	"right-closewikis": "Serriñ ar wikioù"
 }
