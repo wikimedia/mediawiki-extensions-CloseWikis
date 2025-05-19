@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"closewikis-desc": "Erlaabt et Wiki-Sitten a Wiki-Farmen zouzemaachen",
@@ -18,7 +19,7 @@
 	"closewikis-page-reopen-reason": "Grond:",
 	"closewikis-page-reopen-submit": "Nees opmaachen",
 	"closewikis-page-reopen-success": "D'Wiki gouf nees opgemaach",
-	"closewikis-page-err-nowiki": "Ongëlteg Wiki uginn",
+	"closewikis-page-err-nowiki": "Ongülteg Wiki uginn",
 	"closewikis-page-err-closed": "Wiki ass schonn zougemaach",
 	"closewikis-page-err-opened": "Wiki ass net zougemaach",
 	"closewikis-list": "Lëscht vun de Wikien déi zou sinn",
