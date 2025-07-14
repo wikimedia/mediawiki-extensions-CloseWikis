@@ -349,12 +349,20 @@ $specialPageAliases['vi'] = [
 	'CloseWiki' => [ 'Đóng_cửa', 'Đóng_cửa_wiki' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'CloseWiki' => [ '关闭Wiki', '关闭维基' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'CloseWiki' => [ 'CloseWiki' ],
+	'ListClosedWikis' => [ 'ListClosedWikis' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'CloseWiki' => [ '关闭wiki', '关闭维基' ],
+	'ListClosedWikis' => [ '列出已关闭wiki' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'CloseWiki' => [ '關閉Wiki' ],
+	'CloseWiki' => [ '關閉wiki' ],
+	'ListClosedWikis' => [ '列出已關閉wiki' ],
 ];
