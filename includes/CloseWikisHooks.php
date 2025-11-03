@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\WikiMap\WikiMap;
+
 class CloseWikisHooks {
 
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
