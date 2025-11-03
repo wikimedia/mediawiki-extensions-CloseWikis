@@ -18,6 +18,8 @@
  * MA 02110-1301, USA.
  */
 
+use MediaWiki\Html\Html;
+
 class SpecialCloseWiki extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'CloseWiki', 'closewikis' );
