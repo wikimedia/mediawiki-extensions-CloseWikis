@@ -5,7 +5,8 @@
 			"Liuxinyu970226",
 			"PhiLiP",
 			"Xiaomingyan",
-			"佛壁灯"
+			"佛壁灯",
+			"Peterxy12"
 		]
 	},
 	"closewikis-desc": "允许关闭在维基农场的维基网站",
@@ -36,6 +37,6 @@
 	"closewikis-log-reopen": "已重启$2",
 	"action-editclosedwikis": "编辑已关闭的Wiki",
 	"right-editclosedwikis": "编辑已关闭的wiki",
-	"action-closewikis": "已关闭的Wiki",
+	"action-closewikis": "关闭wiki",
 	"right-closewikis": "关闭维基"
 }
