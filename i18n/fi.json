@@ -7,7 +7,8 @@
 			"Pyscowicz",
 			"Silvonen",
 			"Str4nd",
-			"Vililikku"
+			"Vililikku",
+			"Samoasambia"
 		]
 	},
 	"closewikis-desc": "Mahdollistaa wiki-farmien wikien sulkemisen",
@@ -18,7 +19,7 @@
 	"closewikis-page-close-reason": "Syy (kirjattu):",
 	"closewikis-page-close-submit": "Sulje",
 	"closewikis-page-close-success": "Wiki suljettiin",
-	"closewikis-page-reopen": "Avaa wiki uudestaan",
+	"closewikis-page-reopen": "Avaa wiki uudelleen",
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Syy:",
 	"closewikis-page-reopen-submit": "Avaa uudelleen",
