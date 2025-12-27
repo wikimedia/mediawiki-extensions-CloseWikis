@@ -93,7 +93,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$defaultWiki = $statusOK ? '' : $request->getVal( 'wpcWiki' );
 		$defaultDisplayReason = $statusOK ? '' : $request->getVal( 'wpcDisplayReason' );
 		$defaultReason = $statusOK ? '' : $request->getVal( 'wpcReason' );
-		// For some reason Xml::textarea( 'blabla', null ) produces an unclosed tag
+		// Html::textarea does not support null as value
 		if ( !$defaultDisplayReason ) {
 			$defaultDisplayReason = '';
 		}
@@ -106,8 +106,8 @@ class SpecialCloseWiki extends SpecialPage {
 		$output->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
 		$form = [];
 		$form['closewikis-page-close-wiki'] = $this->buildSelect( CloseWikis::getUnclosedList(), 'wpcWiki', $defaultWiki );
-		$form['closewikis-page-close-dreason'] = Xml::textarea( 'wpcDisplayReason', $defaultDisplayReason );
-		$form['closewikis-page-close-reason'] = Xml::input( 'wpcReason', false, $defaultReason );
+		$form['closewikis-page-close-dreason'] = Html::textarea( 'wpcDisplayReason', $defaultDisplayReason, [ 'id' => 'wpcDisplayReason' ] );
+		$form['closewikis-page-close-reason'] = Html::input( 'wpcReason', $defaultReason );
 		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-close-submit' ) );
 		$output->addHTML( Html::hidden( 'wpcEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
@@ -157,7 +157,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$output->addHTML( '<form method="post" action="' . htmlspecialchars( $this->getPageTitle()->getLocalURL() ) . '">' );
 		$form = [];
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
-		$form['closewikis-page-reopen-reason'] = Xml::input( 'wprReason', false, $defaultReason );
+		$form['closewikis-page-reopen-reason'] = Html::input( 'wprReason', $defaultReason );
 		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );
 		$output->addHTML( Html::hidden( 'wprEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
