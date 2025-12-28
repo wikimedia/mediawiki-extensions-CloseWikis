@@ -108,7 +108,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-close-wiki'] = $this->buildSelect( CloseWikis::getUnclosedList(), 'wpcWiki', $defaultWiki );
 		$form['closewikis-page-close-dreason'] = Html::textarea( 'wpcDisplayReason', $defaultDisplayReason, [ 'id' => 'wpcDisplayReason' ] );
 		$form['closewikis-page-close-reason'] = Html::input( 'wpcReason', $defaultReason );
-		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-close-submit' ) );
+		$output->addHTML( self::buildForm( $form, 'closewikis-page-close-submit' ) );
 		$output->addHTML( Html::hidden( 'wpcEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
 	}
@@ -158,8 +158,38 @@ class SpecialCloseWiki extends SpecialPage {
 		$form = [];
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Html::input( 'wprReason', $defaultReason );
-		$output->addHTML( Xml::buildForm( $form, 'closewikis-page-reopen-submit' ) );
+		$output->addHTML( self::buildForm( $form, 'closewikis-page-reopen-submit' ) );
 		$output->addHTML( Html::hidden( 'wprEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
+	}
+
+	private static function buildForm( array $fields, string $submitLabel ): string {
+		$form = '';
+		$form .= "<table><tbody>";
+
+		foreach ( $fields as $labelmsg => $input ) {
+			$id = "mw-$labelmsg";
+			$form .= Html::openElement( 'tr', [ 'id' => $id ] );
+			$form .= Html::rawElement( 'td', [ 'class' => 'mw-label' ], wfMessage( $labelmsg )->parse() );
+			$form .= Html::openElement( 'td', [ 'class' => 'mw-input' ] ) . $input . Html::closeElement( 'td' );
+			$form .= Html::closeElement( 'tr' );
+		}
+
+		$form .= Html::openElement( 'tr' );
+		$form .= Html::element( 'td' );
+		$form .= Html::openElement( 'td', [ 'class' => 'mw-submit' ] )
+			. Html::element(
+				'input',
+				[
+					'type' => 'submit',
+					'value' => wfMessage( $submitLabel )->text(),
+				]
+			)
+			. Html::closeElement( 'td' );
+		$form .= Html::closeElement( 'tr' );
+
+		$form .= "</tbody></table>";
+
+		return $form;
 	}
 }
