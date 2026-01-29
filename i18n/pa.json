@@ -4,5 +4,31 @@
 			"Cabal"
 		]
 	},
-	"closewikis-list-header-by": "ਵੱਲੋਂ ਬੰਦ ਕੀਤਾ ਗਿਆ"
+	"closewikis-page": "ਵਿਕੀ ਬੰਦ ਕਰੋ",
+	"closewikis-page-close": "ਵਿਕੀ ਬੰਦ ਕਰੋ",
+	"closewikis-page-close-wiki": "ਵਿਕੀ:",
+	"closewikis-page-close-dreason": "ਕਾਰਨ (ਵਿਖਾਇਆ ਗਿਆ):",
+	"closewikis-page-close-reason": "ਕਾਰਨ (ਦਾਖ਼ਲ ਕੀਤਾ ਗਿਆ):",
+	"closewikis-page-close-submit": "ਬੰਦ",
+	"closewikis-page-close-success": "ਵਿਕੀ ਬੰਦ ਸੀ",
+	"closewikis-page-reopen": "ਵਿਕੀ ਨੂੰ ਮੁੜ ਖੋਲ੍ਹੋ",
+	"closewikis-page-reopen-wiki": "ਵਿਕੀ:",
+	"closewikis-page-reopen-reason": "ਕਾਰਨ:",
+	"closewikis-page-reopen-submit": "ਮੁੜ ਖੋਲ੍ਹੋ",
+	"closewikis-page-reopen-success": "ਵਿਕੀ ਮੁੜ ਖੋਲ੍ਹੀ ਗਈ ਸੀ",
+	"closewikis-page-err-nowiki": "ਗਲਤ ਵਿਕੀ ਦਿੱਤੀ ਗਈ ਏ",
+	"closewikis-page-err-closed": "ਵਿਕੀ ਪਹਿਲਾਂ ਹੀ ਬੰਦ ਏ",
+	"closewikis-page-err-opened": "ਵਿਕੀ ਬੰਦ ਨਹੀਂ ਏ",
+	"closewikis-list": "ਬੰਦ ਵਿਕੀਆਂ ਦੀ ਸੂਚੀ",
+	"closewikis-list-header-wiki": "ਵਿਕੀ",
+	"closewikis-list-header-by": "ਵੱਲੋਂ ਬੰਦ ਕੀਤਾ ਗਿਆ",
+	"closewikis-list-header-timestamp": "ਮਿਤੀ ਨੂੰ ਬੰਦ ਕੀਤਾ/ਕੀਤੀ",
+	"closewikis-list-header-dispreason": "ਵਿਖਾਇਆ ਗਿਆ ਕਾਰਨ",
+	"closewikis-log": "ਵਿਕੀ ਬੰਦ ਕਰਨ ਦੇ ਇੰਦਰਾਜ",
+	"closewikis-log-close": "$2 ਬੰਦ ਕੀਤੀ",
+	"closewikis-log-reopen": "$2 ਮੁੜ ਖੋਲ੍ਹੀ ਗਈ",
+	"action-editclosedwikis": "ਬੰਦ ਵਿਕੀਆਂ ਨੂੰ ਸੋਧੋ",
+	"right-editclosedwikis": "ਬੰਦ ਵਿਕੀਆਂ ਨੂੰ ਸੋਧੋ",
+	"action-closewikis": "ਵਿਕੀਆਂ ਬੰਦ ਕਰੋ",
+	"right-closewikis": "ਵਿਕੀਆਂ ਬੰਦ ਕਰੋ"
 }
