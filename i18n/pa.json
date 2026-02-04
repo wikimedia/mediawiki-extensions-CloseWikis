@@ -28,5 +28,7 @@
 	"closewikis-log-close": "$2 ਬੰਦ ਕੀਤੀ",
 	"closewikis-log-reopen": "$2 ਮੁੜ ਖੋਲ੍ਹੀ ਗਈ",
 	"action-editclosedwikis": "ਬੰਦ ਵਿਕੀਆਂ ਨੂੰ ਸੋਧੋ",
-	"right-editclosedwikis": "ਬੰਦ ਵਿਕੀਆਂ ਨੂੰ ਸੋਧੋ"
+	"right-editclosedwikis": "ਬੰਦ ਵਿਕੀਆਂ ਨੂੰ ਸੋਧੋ",
+	"action-closewikis": "ਵਿਕੀਆਂ ਬੰਦ ਕਰੋ",
+	"right-closewikis": "ਵਿਕੀਆਂ ਬੰਦ ਕਰੋ"
 }
