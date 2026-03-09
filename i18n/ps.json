@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"closewikis-page": "ويکي تړل",
@@ -11,7 +12,7 @@
 	"closewikis-page-close-success": "ويکي تړل شوې وه",
 	"closewikis-page-reopen": "ويکي بيا پرانيستل",
 	"closewikis-page-reopen-wiki": "ويکي:",
-	"closewikis-page-reopen-reason": "سبب:",
+	"closewikis-page-reopen-reason": "لامل:",
 	"closewikis-page-reopen-submit": "بيا پرانيستل",
 	"closewikis-page-reopen-success": "دا ويکي بيا پرانيستل شوه",
 	"closewikis-page-err-closed": "ويکي له پخوا نه تړل شوې",
