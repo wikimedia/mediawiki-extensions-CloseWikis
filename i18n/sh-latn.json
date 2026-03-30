@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -16,20 +17,20 @@
 	"closewikis-page-reopen-wiki": "Wiki:",
 	"closewikis-page-reopen-reason": "Razlog:",
 	"closewikis-page-reopen-submit": "Otvori ponovo",
-	"closewikis-page-reopen-success": "Wiki je ponovno otvoren",
+	"closewikis-page-reopen-success": "Wiki je ponovo otvoren",
 	"closewikis-page-err-nowiki": "Naveden je pogrešan wiki",
 	"closewikis-page-err-closed": "Wiki je već zatvoren",
 	"closewikis-page-err-opened": "Wiki nije zatvoren",
-	"closewikis-list": "Spisak zatvorenih wikija",
-	"closewikis-list-intro": "Ovaj spisak sadrži wikije koje su stjuardi zatvorili.",
+	"closewikis-list": "Lista zatvorenih wikija",
+	"closewikis-list-intro": "Ova lista sadrži wikije koje su stjuardi zatvorili.",
 	"closewikis-list-header-wiki": "Wiki",
 	"closewikis-list-header-by": "Zatvorio",
 	"closewikis-list-header-timestamp": "Zatvoreno dana",
 	"closewikis-list-header-dispreason": "Razlog za prikazivanje",
 	"closewikis-log": "Evidencija zatvaranja wikija",
-	"closewikis-log-header": "Ovdje se nalazi zapisnik svih zatvaranja wikija od strane stjuarda i njihovih ponovnih otvaranja",
+	"closewikis-log-header": "Ovdje se nalazi dnevnik svih zatvaranja wikija od strane stjuarda i njihovih ponovnih otvaranja",
 	"closewikis-log-close": "zatvoreno $2",
-	"closewikis-log-reopen": "ponovno otvoreno $2",
+	"closewikis-log-reopen": "ponovo otvoreno $2",
 	"action-editclosedwikis": "uređivanje zatvorenih wikija",
 	"right-editclosedwikis": "Uređivanje zatvorenih wikija",
 	"action-closewikis": "zatvarate wikije",
