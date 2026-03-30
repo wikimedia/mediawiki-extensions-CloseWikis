@@ -28,26 +28,26 @@ class SpecialListClosedWikis extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgOut, $wgLang;
+		$output = $this->getOutput();
 
 		$this->setHeaders();
-		$wgOut->addWikiMsg( 'closewikis-list-intro' );
-		$wgOut->addHTML( '<table class="mw-datatable TablePager" style="width: 100%"><tr>' );
+		$output->addWikiMsg( 'closewikis-list-intro' );
+		$output->addHTML( '<table class="mw-datatable TablePager" style="width: 100%"><tr>' );
 		foreach ( [ 'wiki', 'by', 'timestamp', 'dispreason' ] as $column ) {
-			$wgOut->addHTML( '<th>' . wfMessage( "closewikis-list-header-{$column}" )->parse() . '</th>' );
+			$output->addHTML( '<th>' . wfMessage( "closewikis-list-header-{$column}" )->parse() . '</th>' );
 		}
-		$wgOut->addHTML( '</tr>' );
+		$output->addHTML( '</tr>' );
 		$list = CloseWikis::getAll();
 		foreach ( $list as $entry ) {
-			$wgOut->addHTML( '<tr>' );
-			$wgOut->addHTML( '<td>' . $entry->getWiki() . '</td>' );
-			$wgOut->addHTML( '<td>' . $entry->getBy() . '</td>' );
-			$wgOut->addHTML( '<td>' . $wgLang->timeanddate( $entry->getTimestamp() ) . '</td>' );
-			$wgOut->addHTML( '<td>' );
-			$wgOut->addWikiTextAsInterface( $entry->getReason() );
-			$wgOut->addHTML( '</td>' );
-			$wgOut->addHTML( '</tr>' );
+			$output->addHTML( '<tr>' );
+			$output->addHTML( '<td>' . $entry->getWiki() . '</td>' );
+			$output->addHTML( '<td>' . $entry->getBy() . '</td>' );
+			$output->addHTML( '<td>' . $this->getLanguage()->timeanddate( $entry->getTimestamp() ) . '</td>' );
+			$output->addHTML( '<td>' );
+			$output->addWikiTextAsInterface( $entry->getReason() );
+			$output->addHTML( '</td>' );
+			$output->addHTML( '</tr>' );
 		}
-		$wgOut->addHTML( '</table>' );
+		$output->addHTML( '</table>' );
 	}
 }
