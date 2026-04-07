@@ -30,7 +30,7 @@ class SpecialCloseWiki extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return wfMessage( 'closewikis-page' )->text();
+		return wfMessage( 'closewikis-page' );
 	}
 
 	public function execute( $par ) {
