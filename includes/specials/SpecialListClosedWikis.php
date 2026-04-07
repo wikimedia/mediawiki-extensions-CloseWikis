@@ -24,7 +24,7 @@ class SpecialListClosedWikis extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return wfMessage( 'closewikis-list' )->text();
+		return wfMessage( 'closewikis-list' );
 	}
 
 	public function execute( $par ) {
