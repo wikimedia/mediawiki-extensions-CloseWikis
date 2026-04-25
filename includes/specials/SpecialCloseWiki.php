@@ -22,7 +22,12 @@ use MediaWiki\Html\Html;
 
 class SpecialCloseWiki extends SpecialPage {
 	public function __construct() {
-		parent::__construct( 'CloseWiki', 'closewikis' );
+		parent::__construct( 'CloseWiki' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'closewikis';
 	}
 
 	public function doesWrites() {
