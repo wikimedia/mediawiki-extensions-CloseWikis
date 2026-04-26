@@ -35,7 +35,7 @@ class SpecialCloseWiki extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return wfMessage( 'closewikis-page' );
+		return $this->msg( 'closewikis-page' );
 	}
 
 	public function execute( $par ) {
@@ -73,11 +73,11 @@ class SpecialCloseWiki extends SpecialPage {
 			$dreason = $request->getVal( 'wpcDisplayReason' );
 			$lreason = $request->getVal( 'wpcReason' );
 			if ( !in_array( $wiki, $wgLocalDatabases ) ) {
-				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
+				$status = $this->msg( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::close( $wiki, $dreason, $user );
 				if ( $statusOK ) {
-					$status = wfMessage( 'closewikis-page-close-success' )->parse();
+					$status = $this->msg( 'closewikis-page-close-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry(
 						'close',
@@ -87,12 +87,12 @@ class SpecialCloseWiki extends SpecialPage {
 						$user
 					);
 				} else {
-					$status = wfMessage( 'closewikis-page-err-closed' )->parse();
+					$status = $this->msg( 'closewikis-page-err-closed' )->parse();
 				}
 			}
 		}
 
-		$legend = wfMessage( 'closewikis-page-close' )->escaped();
+		$legend = $this->msg( 'closewikis-page-close' )->escaped();
 
 		// If operation was successful, empty all fields
 		$defaultWiki = $statusOK ? '' : $request->getVal( 'wpcWiki' );
@@ -113,7 +113,7 @@ class SpecialCloseWiki extends SpecialPage {
 		$form['closewikis-page-close-wiki'] = $this->buildSelect( CloseWikis::getUnclosedList(), 'wpcWiki', $defaultWiki );
 		$form['closewikis-page-close-dreason'] = Html::textarea( 'wpcDisplayReason', $defaultDisplayReason, [ 'id' => 'wpcDisplayReason' ] );
 		$form['closewikis-page-close-reason'] = Html::input( 'wpcReason', $defaultReason );
-		$output->addHTML( self::buildForm( $form, 'closewikis-page-close-submit' ) );
+		$output->addHTML( $this->buildForm( $form, 'closewikis-page-close-submit' ) );
 		$output->addHTML( Html::hidden( 'wpcEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
 	}
@@ -129,11 +129,11 @@ class SpecialCloseWiki extends SpecialPage {
 			$wiki = $request->getVal( 'wprWiki' );
 			$lreason = $request->getVal( 'wprReason' );
 			if ( !in_array( $wiki, $wgLocalDatabases ) ) {
-				$status = wfMessage( 'closewikis-page-err-nowiki' )->parse();
+				$status = $this->msg( 'closewikis-page-err-nowiki' )->parse();
 			} else {
 				$statusOK = CloseWikis::reopen( $wiki );
 				if ( $statusOK ) {
-					$status = wfMessage( 'closewikis-page-reopen-success' )->parse();
+					$status = $this->msg( 'closewikis-page-reopen-success' )->parse();
 					$logpage = new LogPage( 'closewiki' );
 					$logpage->addEntry(
 						'reopen',
@@ -143,12 +143,12 @@ class SpecialCloseWiki extends SpecialPage {
 						$user
 					);
 				} else {
-					$status = wfMessage( 'closewikis-page-err-opened' )->parse();
+					$status = $this->msg( 'closewikis-page-err-opened' )->parse();
 				}
 			}
 		}
 
-		$legend = wfMessage( 'closewikis-page-reopen' )->escaped();
+		$legend = $this->msg( 'closewikis-page-reopen' )->escaped();
 
 		// If operation was successful, empty all fields
 		$defaultWiki = $statusOK ? '' : $request->getVal( 'wprWiki' );
@@ -163,19 +163,19 @@ class SpecialCloseWiki extends SpecialPage {
 		$form = [];
 		$form['closewikis-page-reopen-wiki'] = $this->buildSelect( CloseWikis::getList(), 'wprWiki', $defaultWiki );
 		$form['closewikis-page-reopen-reason'] = Html::input( 'wprReason', $defaultReason );
-		$output->addHTML( self::buildForm( $form, 'closewikis-page-reopen-submit' ) );
+		$output->addHTML( $this->buildForm( $form, 'closewikis-page-reopen-submit' ) );
 		$output->addHTML( Html::hidden( 'wprEdittoken', $user->getEditToken() ) );
 		$output->addHTML( "</form></fieldset>" );
 	}
 
-	private static function buildForm( array $fields, string $submitLabel ): string {
+	private function buildForm( array $fields, string $submitLabel ): string {
 		$form = '';
 		$form .= "<table><tbody>";
 
 		foreach ( $fields as $labelmsg => $input ) {
 			$id = "mw-$labelmsg";
 			$form .= Html::openElement( 'tr', [ 'id' => $id ] );
-			$form .= Html::rawElement( 'td', [ 'class' => 'mw-label' ], wfMessage( $labelmsg )->parse() );
+			$form .= Html::rawElement( 'td', [ 'class' => 'mw-label' ], $this->msg( $labelmsg )->parse() );
 			$form .= Html::openElement( 'td', [ 'class' => 'mw-input' ] ) . $input . Html::closeElement( 'td' );
 			$form .= Html::closeElement( 'tr' );
 		}
@@ -187,7 +187,7 @@ class SpecialCloseWiki extends SpecialPage {
 				'input',
 				[
 					'type' => 'submit',
-					'value' => wfMessage( $submitLabel )->text(),
+					'value' => $this->msg( $submitLabel )->text(),
 				]
 			)
 			. Html::closeElement( 'td' );
