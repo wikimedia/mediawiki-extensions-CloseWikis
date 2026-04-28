@@ -3,7 +3,8 @@
 		"authors": [
 			"Kwj2772",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Tensama0415"
 		]
 	},
 	"closewikis-desc": "위키 팜에서 위키를 폐쇄할 수 있게 합니다",
@@ -32,6 +33,8 @@
 	"closewikis-log-header": "사무장이 폐쇄하고 다시 열은 모든 위키의 기록입니다",
 	"closewikis-log-close": "$2을(를) 폐쇄했습니다",
 	"closewikis-log-reopen": "$2을(를) 다시 열었습니다",
+	"action-editclosedwikis": "폐쇄된 위키를 편집할",
 	"right-editclosedwikis": "폐쇄된 위키 편집",
+	"action-closewikis": "위키를 폐쇄할",
 	"right-closewikis": "위키 폐쇄"
 }
