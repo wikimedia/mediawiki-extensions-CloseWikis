@@ -5,9 +5,12 @@
 			"شاه زمان پټان"
 		]
 	},
+	"closewikis-desc": "په ويکي فارم کې د ويکي وېبپاڼو تړلو ته اجازه ورکوي",
 	"closewikis-page": "ويکي تړل",
 	"closewikis-page-close": "ويکي تړل",
 	"closewikis-page-close-wiki": "ويکي:",
+	"closewikis-page-close-dreason": "لامل (ښکاره شوی):",
+	"closewikis-page-close-reason": "لامل (يادښت شوی):",
 	"closewikis-page-close-submit": "تړل",
 	"closewikis-page-close-success": "ويکي تړل شوې وه",
 	"closewikis-page-reopen": "ويکي بيا پرانيستل",
@@ -15,8 +18,21 @@
 	"closewikis-page-reopen-reason": "لامل:",
 	"closewikis-page-reopen-submit": "بيا پرانيستل",
 	"closewikis-page-reopen-success": "دا ويکي بيا پرانيستل شوه",
+	"closewikis-page-err-nowiki": "ناسمه ويکي مشخص شوې ده",
 	"closewikis-page-err-closed": "ويکي له پخوا نه تړل شوې",
 	"closewikis-page-err-opened": "ويکي نه ده تړل شوې",
+	"closewikis-list": "د تړل شويو ويکي‌گانو نوملړ",
+	"closewikis-list-intro": "دې لړليک کې هغه ويکي‌گانې رانغاړل شوي چې د کوربنو له خوا تړل شوې دي.",
 	"closewikis-list-header-wiki": "ويکي",
-	"right-closewikis": "ويکي تړل"
+	"closewikis-list-header-by": "تړونکی",
+	"closewikis-list-header-timestamp": "تړل شوې په",
+	"closewikis-list-header-dispreason": "ښودل شوی لامل",
+	"closewikis-log": "د ويکي‌گانو د تړلو يادښت",
+	"closewikis-log-header": "دلته د ټولو هغه ويکي‌گانو د تړلو او بياپرانېستلو يادښت دی چې کوربنو ترسره کړي",
+	"closewikis-log-close": "$2 تړل شوې",
+	"closewikis-log-reopen": "$2 بياپرانېستل شوې",
+	"action-editclosedwikis": "تړل شوې ويکي‌گانې سمول",
+	"right-editclosedwikis": "تړل شوې ويکي‌گانې سمول",
+	"action-closewikis": "ويکي‌گانې تړل",
+	"right-closewikis": "ويکي‌گانې تړل"
 }
